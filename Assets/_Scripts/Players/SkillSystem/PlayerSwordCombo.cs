@@ -26,6 +26,7 @@ namespace _Scripts.Players.SkillSystem
         private VfxModule _vfxModule;
         private AbstractDamageCaster _damageCaster;
         private INavAgentRenderer _navAgentRenderer;
+        private CharacterMovementManager _movementManager;
         
         public float AttackSpeed { get; private set; }
         public int ComboCounter { get; private set; } = 0;
@@ -39,17 +40,30 @@ namespace _Scripts.Players.SkillSystem
             _navAgentRenderer = _player.GetModule<INavAgentRenderer>();
             _damageCaster = GetComponentInChildren<AbstractDamageCaster>();
             Debug.Assert(_damageCaster != null, $"데미지 캐스터가 있어야 정상적으로 데미지를 줄 수 있습니다. : {gameObject}");
+            _movementManager = _player.GetModule<CharacterMovementManager>();
+            Debug.Assert(_movementManager != null, "플레이어 소드 콤보는 무브먼트 매니저를 필요로 합니다.");
             _damageCaster.InitCaster(skillModule.Owner); //해당 오너로 캐스터를 초기화(오너를 넣어줘야 차후에 딜러가 누군지 알 수 있다.)
         }
 
         public override bool CanUseSkill(GameObject target = null)
         {
-            return NormalizedCooldown >= 1f && !IsUsing;
+            bool cooldownReady = NormalizedCooldown >= 1f;
+            bool notUsing = !IsUsing;
+            bool canUse = cooldownReady && notUsing;
+
+            Debug.Log(
+                $"SwordCombo.CanUseSkill time:{Time.time}, " +
+                $"cooldown:{NormalizedCooldown}, " +
+                $"isUsing:{IsUsing}, " +
+                $"cooldownReady:{cooldownReady}, notUsing:{notUsing}, result:{canUse}");
+
+            return canUse;
+            
         }
 
         public override void UseSkill(GameObject target = null)
         {
-            Physics.SyncTransforms();
+            _movementManager.SwitchMode(CharacterMovementManager.MoveMode.CharacterController);
             base.UseSkill(target);
             /*navMeshAgent.enabled = false; // Agent가 Transform 놓아줌
             characterController.enabled = true;*/
@@ -116,9 +130,9 @@ namespace _Scripts.Players.SkillSystem
 
         public override void StopSkill()
         {
-            Debug.Log($"End cur Combo : {ComboCounter}");
             ComboCounter++;
             // _agentTrigger.OnAnimationEnd -= HandleAnimationEnd;
+            _movementManager.SwitchMode(CharacterMovementManager.MoveMode.NavMesh);
             base.StopSkill();
         }
     }

@@ -1,19 +1,22 @@
+using _Scripts.Players;
 using _Scripts.Players.FSM;
 using Agents;
-using Agents.FSM;
 using UnityEngine;
 
 namespace Players.FSM
 {
     public class PlayerIdleState : AbstractPlayerState
     {
+        private CharacterMovementManager _movementManager;
         public PlayerIdleState(Agent agent, int stateClipHash) : base(agent, stateClipHash)
         {
+            _movementManager = agent.GetModule<CharacterMovementManager>();
         }
 
         public override void Enter(float transitionDuration, int layerIndex = 0)
         {
             base.Enter(transitionDuration, layerIndex);
+            _movementManager.SwitchMode(CharacterMovementManager.MoveMode.NavMesh);      
             _player.PlayerInput.OnMovementChange += HandleMovementChange;
             _navMovement.StopImmediately();
             _controlMovement.SetMovementDirection(Vector2.zero);

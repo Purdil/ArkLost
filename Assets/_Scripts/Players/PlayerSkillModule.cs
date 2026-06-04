@@ -77,8 +77,14 @@ namespace _Scripts.Players
 
         public bool CanUseSkill(int skillIndex, GameObject target = null)
         {
+            Debug.Log($"InputTime : {Time.time}");
             if (_currentSkill is { IsUsing: true })
+            {
+                Debug.Log($"Is Using : {Time.time}");
                 return false;
+            }
+            
+            Debug.Log($"Reach skill.CanUseSkill : {Time.time}");
 
             if (_skillDict.TryGetValue(skillIndex, out ISkill skill))
             {

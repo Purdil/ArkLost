@@ -106,7 +106,8 @@ namespace Players
 
         private void MoveCharacter()
         {
-            controller.Move(_velocity);   
+            if(controller.enabled)
+                controller.Move(_velocity);   
         }
 
         

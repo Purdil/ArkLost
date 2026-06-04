@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 417f9b508a1b492bbe5e71144229e59e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Players.SkillSystem.PlayerSwordCombo
-  <SkillData>k__BackingField: {fileID: 11400000, guid: 1321d6c7998578f4da2324ebcdd1dfbe, type: 2}
+  <SkillData>k__BackingField: {fileID: 11400000, guid: e3dd890da328224429e6d12df9087af0, type: 2}
   slashVfxItem: {fileID: 0}
   impactVfxItem: {fileID: 0}
   comboClips:
@@ -246,7 +246,7 @@ MonoBehaviour:
   - 0.2
   - 0.4
   comboEffects: []
-  comboWindow: 0.8
+  comboWindow: 0.4
 --- !u!1 &209534477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1209,6 +1209,50 @@ MonoBehaviour:
     Time: 0
     Smoothing: 0
     IgnoreY: 0
+--- !u!1 &1199978867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199978868}
+  - component: {fileID: 1199978869}
+  m_Layer: 0
+  m_Name: MovementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1199978868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199978867}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1603944276}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199978869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199978867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c044c7af6a947d0909b1d4ee399fc37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Scripts.Players.CharacterMovementManager
 --- !u!1001 &1288472007
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1543,6 +1587,7 @@ Transform:
   - {fileID: 1865109120}
   - {fileID: 627615859}
   - {fileID: 1522971078}
+  - {fileID: 1199978868}
   m_Father: {fileID: 209534478}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1641360916

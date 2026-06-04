@@ -15,3 +15,6 @@ MonoBehaviour:
   skillIndex: 0
   skillName: Sword Combo
   cooldown: 0
+  skillRange: 1
+  damageMultiplier: 1
+  damage: 5

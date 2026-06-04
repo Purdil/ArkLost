@@ -72,8 +72,12 @@ namespace Enemies
 
         private void Update()
         {
-            SynchronizeAnimatorAndNavAgent();
-            ForceRotationControl();
+            if (_navAgent.enabled)
+            {
+                SynchronizeAnimatorAndNavAgent();
+                ForceRotationControl();
+            }
+                
         }
 
         public void SetSyncNavPos(bool isSync)
