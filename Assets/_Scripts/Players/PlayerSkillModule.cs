@@ -41,7 +41,7 @@ namespace _Scripts.Players
             }
 
             Player.PlayerInput.OnAttackKeyPressed += HandleAttackKeyPress; //기본공격은 이걸로 바인딩
-            Player.PlayerInput.OnSlideKeyPressed += HandleSlideKeyPress;
+            Player.PlayerInput.OnDashKeyPressed += HandleDashKeyPress;
         }
 
         private void OnDestroy()
@@ -49,11 +49,11 @@ namespace _Scripts.Players
             if (Player != null && Player.PlayerInput != null)
             {
                 Player.PlayerInput.OnAttackKeyPressed -= HandleAttackKeyPress; //기본공격은 이걸로 바인딩
-                Player.PlayerInput.OnSlideKeyPressed -= HandleSlideKeyPress;                
+                Player.PlayerInput.OnDashKeyPressed -= HandleDashKeyPress;                
             }
         }
 
-        private void HandleSlideKeyPress()
+        private void HandleDashKeyPress()
         {
             if (CanUseSkill(1))
             {

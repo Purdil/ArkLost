@@ -18,6 +18,7 @@ namespace Enemies
         [SerializeField] private bool updatePosition;
 
         [Header("Force rotation settings")]
+        [SerializeField] private float rootMotionSpeedMultiplier = 1f;
         [SerializeField] private bool forceRotation;
         [SerializeField] private float forceRotationSpeed;
         
@@ -54,11 +55,15 @@ namespace Enemies
             _navAgent.updateRotation = updateRotation;
         }
 
+
         private void OnAnimatorMove()
         {
-            if(_navAgent == null || !_isSyncNavPos) return;
+            if (_navAgent == null || !_isSyncNavPos) return;
 
-            Vector3 rootPosition = Animator.rootPosition;
+            Vector3 delta = Animator.deltaPosition * rootMotionSpeedMultiplier;
+            delta.y = 0f;
+
+            Vector3 rootPosition = _owner.transform.position + delta;
             rootPosition.y = _navAgent.nextPosition.y;
 
             if (NavMesh.SamplePosition(rootPosition, out NavMeshHit hit, 0.4f, NavMesh.AllAreas))
@@ -66,8 +71,9 @@ namespace Enemies
                 _owner.transform.position = rootPosition;
                 _navAgent.nextPosition = hit.position;
             }
-            if(IsUpdateRotationByAnimator)
-                _owner.transform.rotation = Animator.rootRotation;
+
+            if (IsUpdateRotationByAnimator)
+                _owner.transform.rotation *= Animator.deltaRotation;
         }
 
         private void Update()

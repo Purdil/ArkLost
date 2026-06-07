@@ -1,0 +1,13 @@
+Assets/ASTROFISH_GAMES/**/*.FBX filter=lfs diff=lfs merge=lfs -text
+Assets/ASTROFISH_GAMES/**/*.exr filter=lfs diff=lfs merge=lfs -text
+Assets/ASTROFISH_GAMES/**/*.tif filter=lfs diff=lfs merge=lfs -text
+Assets/DeskDragons/**/*.png filter=lfs diff=lfs merge=lfs -text
+Assets/DeskDragons/**/*.tga filter=lfs diff=lfs merge=lfs -text
+"Assets/Fajrul FN/**/*.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Fajrul FN/**/*.png" filter=lfs diff=lfs merge=lfs -text
+Assets/GameModules/AnimationClip/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+"Assets/SwordAnimationPack/**/*.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/SwordAnimationPack/**/*.FBX" filter=lfs diff=lfs merge=lfs -text
+"Assets/SwordAnimationPack/**/*.png" filter=lfs diff=lfs merge=lfs -text
+"Assets/Protection Suit 1/**/*.fbx" filter=lfs diff=lfs merge=lfs -text
+"Assets/Protection Suit 1/**/*.tga" filter=lfs diff=lfs merge=lfs -text

@@ -9,7 +9,7 @@ namespace _Scripts.Players
     {
         public event Action<Vector2> OnMovementChange;
         public event Action OnAttackKeyPressed;
-        public event Action OnSlideKeyPressed;
+        public event Action OnDashKeyPressed;
         
         public delegate void SkillKeyPress(int keyIndex, bool isPressed);
         public event SkillKeyPress OnSkillKeyPressed;
@@ -58,18 +58,17 @@ namespace _Scripts.Players
                 
         }
 
+        public void OnDash(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+                OnDashKeyPressed?.Invoke();
+        }
+
         public void OnAttack(InputAction.CallbackContext context)
         {
             if(context.performed)
                 OnAttackKeyPressed?.Invoke();
         }
-
-        public void OnSlide(InputAction.CallbackContext context)
-        {
-            if(context.performed)
-                OnSlideKeyPressed?.Invoke();
-        }
-
         public void OnSkill(InputAction.CallbackContext context)
         {
             int keyIndex = context.action.GetBindingIndexForControl(context.control);
