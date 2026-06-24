@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="InnerImage" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_Graphics/Character/MainCharacter/Texture/Base.png?fileID=2800000&amp;guid=484e26ceffbc14543a4bf0a01906025a&amp;type=3#Base&quot;);">
+        <ui:Label text="테스트 텍스트" name="" style="-unity-font-style: bold; font-size: 25px; color: rgb(255, 255, 255); text-shadow: 2px 2px 5px rgb(0, 0, 0);"/>
+    </ui:VisualElement>
+</ui:UXML>

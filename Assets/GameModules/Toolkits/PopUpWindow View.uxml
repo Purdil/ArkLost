@@ -1,0 +1,19 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/GameModules/Toolkits/PopUpWindow%20View.uss?fileID=7433441132597879392&amp;guid=640158cd8f0f6a04baff7b7da8b4dfd1&amp;type=3#PopUpWindow View"/>
+    <ui:VisualElement name="TopContainer" style="background-color: rgb(125, 125, 125); flex-basis: 200px; flex-direction: row; justify-content: flex-start; align-items: center;">
+        <Test.DataButton button-index="1" text="버튼1" class="blue-btn"/>
+        <Test.DataButton button-index="2" text="버튼2" class="blue-btn"/>
+        <Test.DataButton button-index="3" text="버튼3" class="blue-btn"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="PopUpWindow" class="pop-up-window">
+        <ui:VisualElement name="InnerPopUp" class="inner-pop-up">
+            <ui:VisualElement name="Header" style="flex-basis: 80px; justify-content: center; padding-right: 20px; padding-left: 20px;">
+                <ui:Label text="헤더입니다." style="font-size: 28px; -unity-font-style: bold;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Content" style="flex-grow: 1; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);"/>
+            <ui:VisualElement name="Footer" style="flex-basis: 80px; align-items: flex-end; justify-content: center;">
+                <ui:Button text="Button" name="CloseBtn" class="blue-btn"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

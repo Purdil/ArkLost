@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:VisualElement name="NameRow" style="flex-direction: row;">
+            <ui:TextField label="Item Name" placeholder-text="Pool name here" name="PoolingName" binding-path="itemName" style="flex-grow: 1;"/>
+            <ui:Button text="Change" name="ChangeBtn"/>
+        </ui:VisualElement>
+        <uie:ObjectField label="Prefab" name="PrefabField" binding-path="prefab" type="UnityEngine.GameObject, UnityEngine.CoreModule"/>
+        <ui:IntegerField label="Count" name="CountField" binding-path="initCount"/>
+    </ui:VisualElement>
+</ui:UXML>
