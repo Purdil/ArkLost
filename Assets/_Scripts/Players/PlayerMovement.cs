@@ -1,9 +1,11 @@
+using _Scripts.Agents;
 using Agents;
 using CoreSystem;
 using GGMLib.ModuleSystem;
+using Players;
 using UnityEngine;
 
-namespace Players
+namespace _Scripts.Players
 {
     public class PlayerMovement : MonoBehaviour, IModule, IControlMovement, IAfterInitModule
     {

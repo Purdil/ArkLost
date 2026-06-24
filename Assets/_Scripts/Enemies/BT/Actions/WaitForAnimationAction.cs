@@ -1,4 +1,5 @@
 using System;
+using _Scripts.Agents;
 using _Scripts.Enemies;
 using Agents;
 using Unity.Behavior;

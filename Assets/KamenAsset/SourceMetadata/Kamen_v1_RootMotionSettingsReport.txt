@@ -1,0 +1,14 @@
+﻿Kamen v1 Root Motion Settings Report
+FBX: Assets/KamenAsset/Models/v1/Kamen_v1.fbx
+Scene: Assets/_Scenes/GameScene.unity
+Previous hasTranslationDoF: True
+Previous motionNodeName: bip001
+Previous rootMotionBoneName: bip001
+Current hasTranslationDoF: True
+Current motionNodeName: bip001
+Current rootMotionBoneName: bip001
+Visual_v1 Animator.applyRootMotion: True
+Clip count: 492
+Clips with root curves: 492
+Clips with motion curves: 0
+Clips with generic root transform: 0

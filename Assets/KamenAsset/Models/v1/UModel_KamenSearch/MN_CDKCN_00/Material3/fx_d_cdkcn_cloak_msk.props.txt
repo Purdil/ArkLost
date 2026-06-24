@@ -1,0 +1,376 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = true
+ReferencedTextures[10] =
+{
+    ReferencedTextures[0] = Texture2D'fx_d_normal_085'
+    ReferencedTextures[1] = Texture2D'tex.mn_cdkcn_00-4_n'
+    ReferencedTextures[2] = Texture2D'tex.mn_cdkcn_00-4_patten_n'
+    ReferencedTextures[3] = Texture2D'tex.fx_d_noise_033_ta'
+    ReferencedTextures[4] = Texture2D'fx_d_atypical_045'
+    ReferencedTextures[5] = Texture2D'tex.mn_cdkcn_00-4_d'
+    ReferencedTextures[6] = Texture2D'tex.mn_cdkcn_00-4_patten_d'
+    ReferencedTextures[7] = Texture2D'tex.statefx_default'
+    ReferencedTextures[8] = Texture2D'tex.fx_a_noise_018'
+    ReferencedTextures[9] = Texture2D'tex.mn_cdkcn_00-4_s'
+}
+Expressions[212] =
+{
+    Expressions[27] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_20'
+    Expressions[29] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_4'
+    Expressions[31] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_24'
+    Expressions[32] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_23'
+    Expressions[33] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_22'
+    Expressions[34] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_21'
+    Expressions[65] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_17'
+    Expressions[79] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_15'
+    Expressions[106] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_13'
+    Expressions[116] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_11'
+    Expressions[132] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_0'
+    Expressions[134] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_2'
+    Expressions[136] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_7'
+    Expressions[137] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_8'
+    Expressions[138] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_9'
+    Expressions[139] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_8'
+    Expressions[144] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_16'
+    Expressions[145] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_25'
+    Expressions[146] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_17'
+    Expressions[147] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_26'
+    Expressions[149] = MaterialExpressionVectorParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionvectorparameter_1'
+    Expressions[155] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_0'
+    Expressions[156] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_1'
+    Expressions[157] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_2'
+    Expressions[158] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_3'
+    Expressions[159] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_4'
+    Expressions[160] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_5'
+    Expressions[161] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_6'
+    Expressions[162] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_7'
+    Expressions[163] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_0'
+    Expressions[164] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_1'
+    Expressions[165] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_2'
+    Expressions[166] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_3'
+    Expressions[167] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_5'
+    Expressions[168] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_10'
+    Expressions[169] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_11'
+    Expressions[174] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_12'
+    Expressions[175] = MaterialExpressionStaticSwitchParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionstaticswitchparameter_3'
+    Expressions[176] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_13'
+    Expressions[177] = MaterialExpressionStaticSwitchParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionstaticswitchparameter_4'
+    Expressions[180] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_14'
+    Expressions[181] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_16'
+    Expressions[183] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_18'
+    Expressions[184] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_19'
+    Expressions[187] = MaterialExpressionStaticSwitchParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionstaticswitchparameter_5'
+    Expressions[196] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_27'
+    Expressions[197] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_28'
+    Expressions[198] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_29'
+    Expressions[199] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_6'
+    Expressions[200] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_8'
+    Expressions[202] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_9'
+    Expressions[204] = MaterialExpressionTextureSampleParameter2D'mat.fx_d_cdkcn_cloak_msk.materialexpressiontexturesampleparameter2d_11'
+    Expressions[205] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_30'
+    Expressions[208] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_31'
+    Expressions[209] = MaterialExpressionScalarParameter'mat.fx_d_cdkcn_cloak_msk.materialexpressionscalarparameter_32'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.01
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'fx_d_normal_085'
+        Name = 06.map
+        Group = 08_uvdistort
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'tex.mn_cdkcn_00-4_d'
+        Name = tex_d
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'tex.mn_cdkcn_00-4_patten_d'
+        Name = tex_d_seamless
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'tex.mn_cdkcn_00-4_s'
+        Name = tex_s
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'tex.mn_cdkcn_00-4_n'
+        Name = tex_n
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'tex.mn_cdkcn_00-4_patten_n'
+        Name = tex_n_seamless
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'tex.fx_d_noise_033_ta'
+        Name = tex_map_phase
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'tex.fx_d_noise_033_ta'
+        Name = tex_map_phase
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'fx_d_atypical_045'
+        Name = tex_noise
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'fx_d_atypical_045'
+        Name = tex_noise
+        Group = None
+    }
+}
+CollectedScalarParameters[33] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0.02
+        Name = 05.distort_str
+        Group = 08_uvdistort
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 2
+        Name = 08.map_d_uvscale_g
+        Group = 08_uvdistort
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 3
+        Name = 07.map_d_uvscale_r
+        Group = 08_uvdistort
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 0.15
+        Name = 10.map_d_panning_y
+        Group = 08_uvdistort
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = -0.1
+        Name = 09.map_d_panning_x
+        Group = 08_uvdistort
+    }
+    CollectedScalarParameters[5] = { Value=0, Name=dead2, Group=you_do_not_touch_this }
+    CollectedScalarParameters[6] = { Value=0, Name=dead, Group=you_do_not_touch_this }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.01
+        Name = 09.map_phasea_panning_x
+        Group = 03_phase
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = -0.09
+        Name = 10.map_phasea_panning_y
+        Group = 03_phase
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 1.5
+        Name = 07.map_phasea_uvscale_r
+        Group = 03_phase
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.7
+        Name = 08.map_phasea_uvscale_g
+        Group = 03_phase
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = -0.02
+        Name = 19.map_phaseb_panning_x
+        Group = 03_phase
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = -0.07
+        Name = 20.map_phaseb_panning_y
+        Group = 03_phase
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 1.1
+        Name = 17.map_phaseb_uvscale_r
+        Group = 03_phase
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 1
+        Name = 18.map_phaseb_uvscale_g
+        Group = 03_phase
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = 20
+        Name = 51.trapezoiduppersidescale
+        Group = 05_uv
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.03
+        Name = 52.trapezoiduppersideratio
+        Group = 05_uv
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0
+        Name = occlusionbasecolor_blend_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[22] = { Value=0.5, Name=pbr_specular, Group=parameters }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0.1
+        Name = auto_pbr_specular_min
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0.5
+        Name = auto_pbr_specular_max
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = 0.3
+        Name = auto_pbr_oc_min
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[26] =
+    {
+        Value = 1
+        Name = auto_pbr_oc_max
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[27] = { Value=1, Name=occlusion_power, Group=parameters }
+    CollectedScalarParameters[28] = { Value=1, Name=roughness_power, Group=parameters }
+    CollectedScalarParameters[29] = { Value=1, Name=metallic_power, Group=parameters }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0.3
+        Name = pbr_add_basecolor_to_emissive
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 1
+        Name = roughness_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 1
+        Name = metallic_intensity
+        Group = parameters
+    }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = transcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = buffcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.1, G=0.5, B=3, A=2 }
+        Name = emissivecolor
+        Group = 02_emissiove
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = state
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = hit_color
+        Group = you_do_not_touch_this
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

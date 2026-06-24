@@ -1,0 +1,5 @@
+Diffuse=bg_rad_kamen_floor07e_d_ksr
+Normal=bg_rad_kamen_floor07_n_ksr
+Other[0]=noise03
+Other[1]=normal
+Other[2]=diffuse

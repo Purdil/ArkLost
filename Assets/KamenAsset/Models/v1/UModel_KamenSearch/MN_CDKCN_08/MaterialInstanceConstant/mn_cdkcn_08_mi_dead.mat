@@ -1,0 +1,10 @@
+Diffuse=wp_mn_cdkcn_01_d
+Normal=wp_mn_cdkcn_01_n
+Emissive=wp_mn_cdkcn_01_e
+Other[0]=wp_mn_cdkcn_01_s
+Other[1]=fx_a_ice_003
+Other[2]=normal
+Other[3]=diffuse
+Other[4]=flat_gray
+Other[5]=flat_black
+Other[6]=statefx_default

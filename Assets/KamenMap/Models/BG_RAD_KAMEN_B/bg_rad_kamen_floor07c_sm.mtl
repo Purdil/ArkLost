@@ -1,0 +1,26 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_SHADS_20260612_164004\RawUModel\GltfMeshes_PngTextures\BG_RAD_KAMEN_B\StaticMesh3\bg_rad_kamen_floor07c_sm.gltf
+newmtl BG_RAD_KAMEN_B__bg_rad_kamen_floor07_mi_ksr
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_d_ksr.png
+map_Bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+
+newmtl BG_RAD_KAMEN_B__bg_rad_kamen_floor07a_mi_ksr
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_d_ksr.png
+map_Bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+
+newmtl BG_RAD_KAMEN_B__bg_rad_kamen_floor07b_mi_ksr
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_d_ksr.png
+map_Bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_floor07_n_ksr.png
+
+newmtl BG_RAD_KAMEN_B__bg_atm_etc_bridge06a_mi
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+

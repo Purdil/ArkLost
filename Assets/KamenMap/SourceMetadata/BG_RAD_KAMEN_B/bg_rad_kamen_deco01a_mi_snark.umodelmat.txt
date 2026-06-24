@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_deco01a_d_snark
+Normal=bg_rad_kamen_deco01a_n_snark
+Specular=bg_rad_kamen_deco01a_s_snark
+Other[0]=diffuse

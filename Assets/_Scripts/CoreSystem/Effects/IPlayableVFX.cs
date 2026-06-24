@@ -1,6 +1,7 @@
+using CoreSystem;
 using UnityEngine;
 
-namespace CoreSystem.Effects
+namespace _Scripts.CoreSystem.Effects
 {
     public interface IPlayableVFX
     {

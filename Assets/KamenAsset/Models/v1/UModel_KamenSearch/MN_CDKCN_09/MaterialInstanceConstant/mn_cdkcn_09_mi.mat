@@ -1,0 +1,9 @@
+Diffuse=mn_cdkcn_09_d
+Normal=mn_cdkcn_09_n
+Emissive=mn_cdkcn_09_e
+Other[0]=mn_cdkcn_09_s
+Other[1]=normal
+Other[2]=diffuse
+Other[3]=flat_gray
+Other[4]=flat_black
+Other[5]=statefx_default

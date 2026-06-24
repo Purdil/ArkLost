@@ -7,6 +7,8 @@ namespace _Scripts.Players.FSM
     public class PlayerRunState : AbstractPlayerState
     {
         private CharacterMovementManager _movementManager;
+        private bool _shouldReturnToIdle;
+
         public PlayerRunState(Agent agent, int stateClipHash) : base(agent, stateClipHash)
         {
             _movementManager = agent.GetModule<CharacterMovementManager>();
@@ -16,19 +18,25 @@ namespace _Scripts.Players.FSM
         public override void Enter(float transitionDuration, int layerIndex = 0)
         {
             base.Enter(transitionDuration, layerIndex);
-            Debug.Log("RunState Enter");
+            _shouldReturnToIdle = false;
             _movementManager.SwitchMode(CharacterMovementManager.MoveMode.NavMesh);
-            _navMovement.SetDestination(_player.PlayerInput.GetWorldMousePosition());
-            Physics.SyncTransforms();
+            
+            TrySetDestination(_player.PlayerInput.GetWorldMousePosition());
+            
             _player.PlayerInput.OnMovementChange += HandleMovementChange;
         }
 
         public override void Update()
         {
             base.Update();
+            if (_shouldReturnToIdle)
+            {
+                _player.ChangeState(PlayerState.IDLE, 0.1f);
+                return;
+            }
+
             if (_navMovement.IsArrived)
             {
-                _movementManager.SwitchMode(CharacterMovementManager.MoveMode.CharacterController);
                 _player.ChangeState(PlayerState.IDLE, 0.1f); 
             }
         }
@@ -39,9 +47,21 @@ namespace _Scripts.Players.FSM
             base.Exit();
         }
 
-        private void HandleMovementChange(Vector2 movementPosition)
+        private void HandleMovementChange()
         {
-            _navMovement.SetDestination(_player.PlayerInput.GetWorldMousePosition());
+            TrySetDestination(_player.PlayerInput.GetWorldMousePosition());
+        }
+
+        private void TrySetDestination(Vector3 destination)
+        {
+            if (_movementManager.IsDestinationNearCurrentPosition(destination))
+            {
+                _navMovement.StopImmediately();
+                _shouldReturnToIdle = true;
+                return;
+            }
+
+            _navMovement.SetDestination(destination);
         }
     }
 }

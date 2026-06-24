@@ -1,3 +1,7 @@
+using _Scripts.Agents;
+using _Scripts.CombatSystem;
+using _Scripts.Enemies.BT;
+using _Scripts.Enemies.BT.Events;
 using Agents;
 using CombatSystem;
 using Enemies.BT;
@@ -49,7 +53,7 @@ namespace _Scripts.Enemies
             }
 
             StateChannel = channelVariable.Value;
-            SetVariableValue(BtVars.Enemy, this);
+            SetVariableValue(BtVars.Boss, this);
         }
 
         protected override void HandleHitEvent()

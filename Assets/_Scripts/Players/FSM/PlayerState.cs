@@ -1,5 +1,5 @@
 
-namespace Players.FSM
+namespace _Scripts.Players.FSM
 {
     public enum PlayerState
     {

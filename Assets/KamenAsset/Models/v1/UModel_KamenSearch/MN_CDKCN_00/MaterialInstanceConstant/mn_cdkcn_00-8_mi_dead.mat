@@ -1,0 +1,13 @@
+Diffuse=mn_cdkcn_00-8_d
+Normal=mn_cdkcn_00-8_n
+Specular=mn_cdkcn_00-8_s
+SpecPower=brdf_beckmann_spec
+Emissive=mn_cdkcn_00-8_e
+Other[0]=fx_a_ice_003
+Other[1]=spec
+Other[2]=hdr07_1
+Other[3]=normal
+Other[4]=diffuse
+Other[5]=flat_red
+Other[6]=flat_black
+Other[7]=statefx_default

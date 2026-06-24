@@ -1,27 +1,34 @@
-using _Scripts.Players;
-using _Scripts.Players.FSM;
+using _Scripts.Agents;
+using _Scripts.CombatSystem;
 using Agents;
+using Players;
+using Players.FSM;
 using UnityEngine;
 
-namespace Players.FSM
+namespace _Scripts.Players.FSM
 {
     public class PlayerSkillState : AbstractPlayerState
     {
-        private readonly PlayerSkillModule _skillModule;
+        private readonly ISkillModule _skillModule;
+        private readonly AgentTrigger _trigger;
         private bool _isSkillEnd;
         
         public PlayerSkillState(Agent agent, int stateClipHash) : base(agent, stateClipHash)
         {
-            _skillModule = agent.GetModule<PlayerSkillModule>();
+            _skillModule = agent.GetModule<ISkillModule>();
             Debug.Assert(_skillModule != null, "플레이어 스킬 모듈을 찾을 수 없습니다.");
+            _trigger = agent.GetModule<AgentTrigger>();
+            Debug.Assert(_trigger != null, "트리거를 찾을 수 없습니다.");
         }
 
         public override void Enter(float transitionDuration, int layerIndex = 0)
         {
             // base.Enter(transitionDuration, layerIndex); 부모껄 실행하면 안된다.
             _isSkillEnd = false;
+            _player.PlayerInput.OnMovementChange += HandleManualMovement;
             _skillModule.OnCurrentSkillEnd += HandleSkillEnd;
         }
+
 
         public override void Update()
         {
@@ -33,7 +40,19 @@ namespace Players.FSM
         public override void Exit()
         {
             _skillModule.OnCurrentSkillEnd -= HandleSkillEnd;
+            _player.PlayerInput.OnMovementChange -= HandleManualMovement;
             base.Exit();
+        }
+        private void HandleManualMovement()
+        {
+            if (_trigger.CanManualMovement)
+            {
+                _skillModule.StopSkillIfNotFinished();
+                _trigger.CanManualMovement = false;
+                
+                _player.ChangeState(PlayerState.RUN, 0.1f);
+            }
+            
         }
 
         private void HandleSkillEnd() => _isSkillEnd = true;

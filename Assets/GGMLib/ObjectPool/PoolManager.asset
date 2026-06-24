@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: PoolManager
   m_EditorClassIdentifier: ObjectPool.Runtime.Assembly::GGMLib.ObjectPool.Runtime.PoolManagerSO
   itemList:
-  - {fileID: 11400000, guid: b22b57978ad624648853d5838be999a0, type: 2}
-  - {fileID: 11400000, guid: 4f9484a3cdce444498ef23a39cb85bc8, type: 2}
+  - {fileID: 11400000, guid: 0062f2bdc5ebc964baca3a239e38d453, type: 2}

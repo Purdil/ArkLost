@@ -1,0 +1,217 @@
+.skill-root {
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #202124;
+    color: #d7dbe0;
+}
+
+.skill-toolbar {
+    min-height: 42px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: #343840;
+    background-color: #25272c;
+}
+
+.skill-source-field {
+    width: 320px;
+    margin-right: 8px;
+}
+
+.skill-status-label {
+    flex-grow: 1;
+    margin-left: 12px;
+    color: #aeb6c2;
+    unity-text-align: middle-left;
+}
+
+.skill-body {
+    flex-grow: 1;
+    flex-direction: row;
+    min-height: 0;
+}
+
+.skill-left-column {
+    width: 330px;
+    min-width: 300px;
+    max-width: 380px;
+    flex-shrink: 0;
+    padding: 8px;
+    border-right-width: 1px;
+    border-right-color: #343840;
+}
+
+.skill-center-column {
+    flex-grow: 1;
+    min-width: 420px;
+    padding: 8px;
+}
+
+.skill-right-column {
+    width: 390px;
+    min-width: 340px;
+    flex-shrink: 0;
+    padding: 8px;
+    border-left-width: 1px;
+    border-left-color: #343840;
+}
+
+.skill-panel {
+    margin-bottom: 8px;
+    padding: 8px;
+    border-width: 1px;
+    border-color: #343840;
+    border-radius: 4px;
+    background-color: #292c32;
+}
+
+.skill-panel > Toggle {
+    margin-bottom: 6px;
+    -unity-font-style: bold;
+}
+
+.skill-panel-title {
+    font-size: 13px;
+    -unity-font-style: bold;
+    margin-bottom: 6px;
+    color: #eef1f5;
+}
+
+.skill-section-label {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: #cdd3da;
+}
+
+.skill-preview-viewport {
+    flex-grow: 1;
+    min-height: 430px;
+    border-width: 1px;
+    border-color: #3d434d;
+    background-color: #16181c;
+}
+
+.skill-preview-foldout {
+    flex-grow: 1;
+    min-height: 470px;
+}
+
+.skill-timeline-panel {
+    flex-shrink: 0;
+}
+
+.skill-time-slider {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.skill-row {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.skill-row > Button {
+    margin-right: 5px;
+}
+
+.skill-hierarchy {
+    height: 170px;
+    min-height: 150px;
+    margin-bottom: 8px;
+    border-width: 1px;
+    border-color: #373c44;
+    background-color: #202226;
+}
+
+.skill-hierarchy-row {
+    height: 24px;
+    flex-direction: row;
+    align-items: center;
+    unity-text-align: middle-left;
+    color: #d7dbe0;
+}
+
+.skill-hierarchy-row:hover {
+    background-color: #343a44;
+}
+
+.skill-hierarchy-row-selected {
+    background-color: #2d5c88;
+    color: #ffffff;
+}
+
+.skill-hierarchy-foldout {
+    width: 18px;
+    min-width: 18px;
+    unity-text-align: middle-center;
+    color: #bcc5d0;
+}
+
+.skill-hierarchy-name {
+    flex-grow: 1;
+    unity-text-align: middle-left;
+}
+
+.skill-list {
+    height: 150px;
+    min-height: 120px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+    border-width: 1px;
+    border-color: #373c44;
+    background-color: #202226;
+}
+
+.skill-event-list {
+    flex-grow: 1;
+    min-height: 220px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    border-width: 1px;
+    border-color: #373c44;
+    background-color: #202226;
+}
+
+.skill-search-field {
+    margin-bottom: 4px;
+}
+
+.skill-info-label {
+    color: #aeb6c2;
+    white-space: normal;
+}
+
+.skill-world-label {
+    margin-top: 4px;
+    color: #9fa7b2;
+    white-space: normal;
+}
+
+.skill-warning-label {
+    color: #f2c166;
+    white-space: normal;
+    margin-bottom: 4px;
+}
+
+.skill-dirty-indicator {
+    color: #ffcc66;
+    font-size: 18px;
+    -unity-font-style: bold;
+    margin-left: 4px;
+}
+
+.skill-event-key-label {
+    color: #9fd3ff;
+    margin-bottom: 6px;
+    white-space: normal;
+}
+
+.skill-inspector-container {
+    height: 420px;
+    min-height: 240px;
+    max-height: 420px;
+}

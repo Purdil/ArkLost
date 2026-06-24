@@ -1,20 +1,38 @@
 using System.Collections.Generic;
 using System.Linq;
-using CoreSystem.Effects;
+using _Scripts.CoreSystem.Effects;
+using CoreSystem;
 using GGMLib.ModuleSystem;
 using UnityEngine;
 
-namespace Agents
+namespace _Scripts.Agents
 {
-    public class VfxModule : MonoBehaviour, IModule
+    public class VfxModule : MonoBehaviour, IModule, IAfterInitModule
     {
         private ModuleOwner _owner;
         private Dictionary<int, IPlayableVFX> _playableDict;
+        private AgentTrigger _trigger;
         public void Initialize(ModuleOwner owner)
         {
             _owner = owner;
             _playableDict = GetComponentsInChildren<IPlayableVFX>()
                 .ToDictionary(vfx => vfx.VfxName.AssetHash);
+            _trigger = owner.GetModule<AgentTrigger>();
+        }
+        
+        public void AfterInit()
+        {
+            _trigger.OnPlayVFXAction += HandlePlayVFX;
+        }
+
+        private void OnDestroy()
+        {
+            _trigger.OnPlayVFXAction -= HandlePlayVFX;
+        }
+
+        private void HandlePlayVFX(AssetNameSO so)
+        {
+            PlayVfx(Animator.StringToHash(so.AssetName));
         }
 
         public void PlayVfx(int hash, Vector3 position, Quaternion rotation)
@@ -48,5 +66,6 @@ namespace Agents
                 vfx.StopVFX();
             }
         }
+        
     }
 }

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 302f69ebb23b4d329fe80a30a3a7d93d, type: 3}
+  m_Name: Skill3Effect
+  m_EditorClassIdentifier: ObjectPool.Runtime.Assembly::GGMLib.ObjectPool.Runtime.PoolItemSO
+  itemName: Skill3Effect
+  prefab: {fileID: 158093218588450251, guid: 8d958303dae888f45870d13ad2bb3f0a, type: 3}
+  initCount: 5

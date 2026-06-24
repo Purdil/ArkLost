@@ -1,0 +1,13 @@
+Diffuse=mn_cdkcn_00-4_d
+Normal=fx_d_normal_085
+Specular=mn_cdkcn_00-4_s
+Other[0]=mn_cdkcn_04-4_d
+Other[1]=mn_cdkcn_00-4_patten_d
+Other[2]=mn_cdkcn_04-4_n
+Other[3]=mn_cdkcn_00-4_patten_n
+Other[4]=mn_cdkcn_04-4_s
+Other[5]=mn_cdkcn_00-4_n
+Other[6]=fx_d_noise_033_ta
+Other[7]=fx_d_atypical_045
+Other[8]=statefx_default
+Other[9]=fx_a_noise_018

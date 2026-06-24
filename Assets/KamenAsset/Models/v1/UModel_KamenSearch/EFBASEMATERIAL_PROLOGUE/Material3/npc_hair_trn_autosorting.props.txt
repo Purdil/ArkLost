@@ -1,0 +1,366 @@
+TwoSided = true
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] = { Texture2D'tex.normal', Texture2D'tex.diffuse' }
+Expressions[243] =
+{
+    Expressions[1] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_4'
+    Expressions[2] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_8'
+    Expressions[5] = MaterialExpressionTextureSampleParameter2D'ch.monster.hair.npc_hair_trn_autosorting.materialexpressiontexturesampleparameter2d_25'
+    Expressions[10] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_5'
+    Expressions[11] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_5'
+    Expressions[12] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_38'
+    Expressions[14] = MaterialExpressionTextureSampleParameter2D'ch.monster.hair.npc_hair_trn_autosorting.materialexpressiontexturesampleparameter2d_42'
+    Expressions[17] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_7'
+    Expressions[20] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_16'
+    Expressions[35] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_1'
+    Expressions[37] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_2'
+    Expressions[42] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_177'
+    Expressions[45] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_0'
+    Expressions[58] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_178'
+    Expressions[59] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_10'
+    Expressions[71] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_10'
+    Expressions[74] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_4'
+    Expressions[76] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_9'
+    Expressions[83] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_205'
+    Expressions[88] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_64'
+    Expressions[89] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_2'
+    Expressions[95] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_11'
+    Expressions[98] = MaterialExpressionTextureSampleParameter2D'ch.monster.hair.npc_hair_trn_autosorting.materialexpressiontexturesampleparameter2d_2'
+    Expressions[104] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_190'
+    Expressions[105] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_191'
+    Expressions[108] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_13'
+    Expressions[112] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_24'
+    Expressions[116] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_18'
+    Expressions[126] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_48'
+    Expressions[133] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_49'
+    Expressions[143] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_50'
+    Expressions[168] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_51'
+    Expressions[173] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_52'
+    Expressions[176] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_14'
+    Expressions[177] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_3'
+    Expressions[182] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_11'
+    Expressions[187] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_5'
+    Expressions[192] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_3'
+    Expressions[196] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_3'
+    Expressions[198] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_4'
+    Expressions[201] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_6'
+    Expressions[203] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_6'
+    Expressions[204] = MaterialExpressionTextureSampleParameter2D'ch.monster.hair.npc_hair_trn_autosorting.materialexpressiontexturesampleparameter2d_1'
+    Expressions[206] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_6'
+    Expressions[207] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_2'
+    Expressions[210] = MaterialExpressionTextureSampleParameter2D'ch.monster.hair.npc_hair_trn_autosorting.materialexpressiontexturesampleparameter2d_3'
+    Expressions[212] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_7'
+    Expressions[213] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_8'
+    Expressions[214] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_7'
+    Expressions[216] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_1'
+    Expressions[218] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_0'
+    Expressions[219] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_11'
+    Expressions[220] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_12'
+    Expressions[223] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_69'
+    Expressions[224] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_45'
+    Expressions[226] = MaterialExpressionVectorParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionvectorparameter_46'
+    Expressions[227] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_70'
+    Expressions[228] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_71'
+    Expressions[229] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_72'
+    Expressions[230] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_22'
+    Expressions[231] = MaterialExpressionStaticSwitchParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionstaticswitchparameter_23'
+    Expressions[235] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_86'
+    Expressions[236] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_87'
+    Expressions[238] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_88'
+    Expressions[241] = MaterialExpressionScalarParameter'ch.monster.hair.npc_hair_trn_autosorting.materialexpressionscalarparameter_89'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'tex.diffuse'
+        Name = texture_diffuse
+        Group = parameters
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = None
+        Name = texture_normal
+        Group = parameters
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'tex.flat_white'
+        Name = texture_cutting_mask
+        Group = parameters
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'tex.t_tds_specular04'
+        Name = texture_interaction
+        Group = interaction_state
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'tex.fx_a_noise_018'
+        Name = texture_dead
+        Group = you_do_not_touch_this
+    }
+}
+CollectedScalarParameters[29] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = var_base_hairtwotone_bool_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.8
+        Name = var_base_hairspecularpower_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[2] = { Value=60, Name=specular_power, Group=parameters }
+    CollectedScalarParameters[3] = { Value=0, Name=specular_offset, Group=parameters }
+    CollectedScalarParameters[4] =
+    {
+        Value = 1
+        Name = specular_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 1
+        Name = var_base_hairspecularintensity_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 1
+        Name = accessory_specular_intensity
+        Group = accessory
+    }
+    CollectedScalarParameters[7] = { Value=3, Name=rimlight_power, Group=parameters }
+    CollectedScalarParameters[8] =
+    {
+        Value = 60
+        Name = subspecular_power
+        Group = parameters
+    }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.5
+        Name = subspecular_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = var_base_hairtwotonerangehardness_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0.5
+        Name = var_base_hairtwotonerangea_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0.5
+        Name = var_base_hairtwotonerangeb_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0
+        Name = hairtwotone_color_switch
+        Group = 00_customize
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0
+        Name = var_base_hairtwotonerange_bool_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.5
+        Name = var_base_hairtwotonerangeedge_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 1
+        Name = interaction_intensity
+        Group = interaction_state
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0
+        Name = interaction
+        Group = interaction_state
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 3
+        Name = dead_texture_tiling
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[19] = { Value=0, Name=dead, Group=you_do_not_touch_this }
+    CollectedScalarParameters[20] =
+    {
+        Value = 1
+        Name = lighting_intensity
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = 1
+        Name = transcolor_rimlight 
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0
+        Name = trans_rim_inradius
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 1
+        Name = trans_rim_hard
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[28] =
+    {
+        Value = 1
+        Name = transcolor_rimlight 
+        Group = you_do_not_touch_this
+    }
+}
+CollectedVectorParameters[15] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_base_hairtwotonecolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_base_haircolor_base_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = accessory_color
+        Group = accessory
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = state
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.25, G=0.129674, B=0.117644, A=1 }
+        Name = rimlight_color
+        Group = parameters
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = cutting_mask
+        Group = parameters
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = buffcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = hit_color
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = transcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_r
+        Group = interaction_state
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_g
+        Group = interaction_state
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_b
+        Group = interaction_state
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=3, G=0.2, B=0, A=1 }
+        Name = fx_dead_edgecolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

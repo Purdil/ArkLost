@@ -1,0 +1,9 @@
+Diffuse=diffuse
+Normal=normal
+Specular=spec
+SpecPower=brdf_beckmann_spec
+Other[0]=fx_a_ice_003
+Other[1]=hdr07_1
+Other[2]=flat_red
+Other[3]=flat_black
+Other[4]=statefx_default

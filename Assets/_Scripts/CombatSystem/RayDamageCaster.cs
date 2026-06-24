@@ -9,9 +9,9 @@ namespace _Scripts.CombatSystem
 
         [SerializeField] private CastType castType = CastType.Sphere;
         [SerializeField] private Vector3 boxSize = Vector3.one;
-        [SerializeField, Range(0.5f,3f)] private float casterRadius = 1;
-        [SerializeField, Range(0f, 1f)] private float casterInterpolation = 0.5f; //보간, 뒤로 빼는 정도
-        [SerializeField, Range(0f, 3f)] private float castingRange = 1f;
+        [SerializeField, Range(0.5f,20f)] private float casterRadius = 1;
+        [SerializeField, Range(0f, 10f)] private float casterInterpolation = 0.5f; //보간, 뒤로 빼는 정도
+        [SerializeField, Range(0f, 20f)] private float castingRange = 1f;
         [SerializeField] private bool isDebugMode = false;
         
         public override bool CastDamage(Vector3 position, Vector3 direction, SkillDataSO skillData)
@@ -26,13 +26,12 @@ namespace _Scripts.CombatSystem
                 CastType.Sphere => Physics.SphereCast(startPosition, casterRadius, direction,
                     out hit, castingRange, whatIsEnemy),
                 CastType.Box => Physics.BoxCast(startPosition, boxSize * 0.5f, direction,
-                    out hit, Quaternion.identity, castingRange, whatIsEnemy),
+                    out hit,transform.rotation, castingRange, whatIsEnemy),
                 _ => false
             };
 
             if (isHit && hit.collider != null && hit.collider.TryGetComponent(out IDamageable damageable))
             {
-                Debug.Log($"<color=red>Hit. </color>: {hit.collider.name}");
                 float damageAmount = skillData.damage;
                 bool isCritical = false;
                 
@@ -49,11 +48,6 @@ namespace _Scripts.CombatSystem
                     IsCritical = LastHitIsCritical,
                 });
             }
-            else
-            {
-                //Debug.Log("Not hit");
-            }
-
             return isHit;
         }
 
@@ -74,11 +68,27 @@ namespace _Scripts.CombatSystem
                     Gizmos.DrawWireSphere(startPosition + transform.forward * castingRange, casterRadius);
                     break;
                 case CastType.Box:
+                {
+                    Matrix4x4 oldMatrix = Gizmos.matrix;
+                    
                     Gizmos.color = Color.green;
-                    Gizmos.DrawWireCube(startPosition, boxSize);
+                    Gizmos.matrix = Matrix4x4.TRS(
+                        startPosition,
+                        transform.rotation,
+                        Vector3.one
+                    );
+                    Gizmos.DrawWireCube(Vector3.zero, boxSize);
                     Gizmos.color = Color.red;
-                    Gizmos.DrawWireCube(startPosition + transform.forward * casterRadius, boxSize);
+                    Gizmos.matrix = Matrix4x4.TRS(
+                        startPosition + transform.forward * castingRange,
+                        transform.rotation,
+                        Vector3.one
+                    );
+                    Gizmos.DrawWireCube(Vector3.zero, boxSize);
+
+                    Gizmos.matrix = oldMatrix;
                     break;
+                }
             }
         }
     }

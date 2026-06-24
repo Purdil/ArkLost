@@ -1,0 +1,46 @@
+bAnimRotationOnly = false
+TrackBoneNames[14] =
+{
+    TrackBoneNames[0] = b_root
+    TrackBoneNames[1] = b_effectworldzero
+    TrackBoneNames[2] = b_body
+    TrackBoneNames[3] = b_body01
+    TrackBoneNames[4] = b_body02
+    TrackBoneNames[5] = b_piece_00
+    TrackBoneNames[6] = b_piece_01
+    TrackBoneNames[7] = b_piece_02
+    TrackBoneNames[8] = b_piece_03
+    TrackBoneNames[9] = b_piece_04
+    TrackBoneNames[10] = b_piece_05
+    TrackBoneNames[11] = b_effectroot
+    TrackBoneNames[12] = b_effectname
+    TrackBoneNames[13] = b_cameratarget
+}
+Sequences[17] =
+{
+    Sequences[0] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_108'
+    Sequences[1] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_109'
+    Sequences[2] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_110'
+    Sequences[3] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_111'
+    Sequences[4] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_112'
+    Sequences[5] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_113'
+    Sequences[6] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_114'
+    Sequences[7] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_115'
+    Sequences[8] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_116'
+    Sequences[9] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_117'
+    Sequences[10] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_118'
+    Sequences[11] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_119'
+    Sequences[12] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_120'
+    Sequences[13] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_121'
+    Sequences[14] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_122'
+    Sequences[15] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_123'
+    Sequences[16] = AnimSequence'ani.mn_cdkcn_08_ani.animsequence_124'
+}
+UseTranslationBoneNames[0] = {}
+ForceMeshTranslationBoneNames[0] = {}
+PreviewSkelMeshName = mn_cdkcn_08.mesh.mn_cdkcn_08_sk
+BulkDataBlocks[0] = {}
+KeyFrameSize = 0
+RotationChannels = 0
+TranslationChannels = 0
+m_pBioAnimSetData = None

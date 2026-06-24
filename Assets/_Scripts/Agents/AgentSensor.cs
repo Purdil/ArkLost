@@ -40,7 +40,6 @@ namespace Agents
             if (Physics.Raycast(transform.position, direction.normalized,
                     out RaycastHit hit, distance, whatIsObstacle))
             {
-                Debug.Log(hit.collider.gameObject.name);
                 return false;
             }
 

@@ -1,0 +1,278 @@
+.avfx-root {
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #1e222a;
+    color: #d8dee9;
+    padding: 10px;
+}
+
+.avfx-header {
+    height: 40px;
+    min-height: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avfx-title {
+    font-size: 18px;
+    -unity-font-style: bold;
+    color: #f5f7fb;
+}
+
+.avfx-status {
+    color: #99a3b3;
+    -unity-text-align: middle-right;
+}
+
+.avfx-topbar {
+    min-height: 42px;
+    margin-bottom: 8px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #282d36;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avfx-body {
+    flex-grow: 1;
+    min-height: 0;
+    flex-direction: row;
+}
+
+.avfx-left-panel {
+    width: 300px;
+    min-width: 300px;
+    flex-shrink: 0;
+    margin-right: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #282d36;
+    overflow: hidden;
+}
+
+.avfx-center-panel {
+    flex-grow: 1;
+    min-width: 360px;
+    min-height: 0;
+    flex-direction: column;
+}
+
+.avfx-right-panel {
+    width: 335px;
+    min-width: 335px;
+    flex-shrink: 0;
+    margin-left: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #282d36;
+}
+
+.avfx-preview {
+    flex-grow: 1;
+    min-height: 320px;
+    border-radius: 6px;
+    background-color: #191d24;
+    border-width: 1px;
+    border-color: #333a46;
+}
+
+.avfx-transport {
+    min-height: 42px;
+    margin-top: 8px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: #282d36;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avfx-transport-button {
+    width: 64px;
+    height: 28px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: #3a404b;
+    color: #f5f7fb;
+    -unity-text-align: middle-center;
+}
+
+.avfx-toggle {
+    min-width: 88px;
+    height: 28px;
+    margin-right: 8px;
+    color: #d8dee9;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avfx-time-slider {
+    flex-grow: 1;
+    min-width: 120px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.avfx-time-field {
+    width: 74px;
+}
+
+.avfx-time-field .unity-base-field__input {
+    background-color: #20252d;
+    color: #f5f7fb;
+    border-color: #4a5260;
+}
+
+.avfx-timeline {
+    height: 82px;
+    min-height: 82px;
+    margin-top: 8px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #282d36;
+    flex-direction: row;
+}
+
+.avfx-track-label {
+    width: 58px;
+    color: #aab3c2;
+    -unity-text-align: middle-left;
+}
+
+.avfx-track-host {
+    flex-grow: 1;
+    position: relative;
+}
+
+.avfx-track {
+    height: 46px;
+    margin-top: 6px;
+    border-radius: 5px;
+    background-color: #1d222a;
+    border-width: 1px;
+    border-color: #303744;
+    position: relative;
+}
+
+.avfx-playhead {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #f6c343;
+}
+
+.avfx-marker {
+    position: absolute;
+    top: 8px;
+    width: 12px;
+    height: 28px;
+    margin-left: -6px;
+    border-radius: 5px;
+}
+
+.avfx-marker-event {
+    background-color: #66a7ff;
+}
+
+.avfx-marker-vfx {
+    background-color: #38d894;
+}
+
+.avfx-marker-selected {
+    border-width: 2px;
+    border-color: #f5f7fb;
+}
+
+.avfx-section-label {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    color: #f5f7fb;
+    -unity-font-style: bold;
+    height: 20px;
+    min-height: 20px;
+    flex-shrink: 0;
+}
+
+.avfx-row {
+    flex-direction: row;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+}
+
+.avfx-action-row {
+    height: 32px;
+    min-height: 32px;
+    max-height: 32px;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+.avfx-list {
+    border-radius: 5px;
+    background-color: #20252d;
+    border-width: 1px;
+    border-color: #303744;
+    flex-shrink: 0;
+}
+
+.avfx-object-field {
+    width: 245px;
+    margin-right: 8px;
+}
+
+.avfx-button {
+    min-width: 78px;
+    height: 24px;
+    min-height: 24px;
+    max-height: 24px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background-color: #3a404b;
+    color: #f5f7fb;
+    -unity-text-align: middle-center;
+    flex-shrink: 0;
+}
+
+.avfx-button-primary {
+    min-width: 105px;
+    height: 24px;
+    margin-left: 4px;
+    border-radius: 5px;
+    background-color: #3b6fd8;
+    color: #ffffff;
+}
+
+.avfx-danger-button {
+    height: 26px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: #8a2424;
+    color: #ffffff;
+}
+
+.avfx-selection-summary {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #c8d0dd;
+    -unity-text-align: middle-left;
+}
+
+.avfx-inspector {
+    min-height: 180px;
+    margin-bottom: 8px;
+}
+
+.avfx-clip-info {
+    margin-bottom: 8px;
+    color: #c8d0dd;
+}
+
+.avfx-parent-label {
+    height: 20px;
+    min-height: 20px;
+    margin-bottom: 4px;
+    color: #aab3c2;
+}

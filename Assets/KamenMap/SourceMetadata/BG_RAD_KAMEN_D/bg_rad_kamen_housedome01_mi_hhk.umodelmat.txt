@@ -1,0 +1,5 @@
+Diffuse=bg_rad_kamen_housedome01_d_hhk
+Normal=bg_rad_kamen_housedome01_na_hhk
+Specular=bg_rad_kamen_housedome01_s_hhk
+Cube=ambientreflection_13
+Other[0]=diffuse

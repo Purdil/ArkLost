@@ -1,0 +1,62 @@
+Parent = MaterialInstanceConstant'mastermaterial_ch.monster.high.realpbr.monster_base_msk_high_realpbr'
+ScalarParameterValues[3] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = emissive_flicker_speed
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = emissive_intensity
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = emissive_intensitymin
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.wp_mn_cdkcn_01_e'
+        ParameterName = texture_emissive
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.wp_mn_cdkcn_01_d'
+        ParameterName = texture_basecolor
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.wp_mn_cdkcn_01_n'
+        ParameterName = texture_normal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.wp_mn_cdkcn_01_s'
+        ParameterName = texture_orm
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

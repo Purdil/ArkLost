@@ -1,0 +1,44 @@
+bAnimRotationOnly = false
+TrackBoneNames[12] =
+{
+    TrackBoneNames[0] = b_root
+    TrackBoneNames[1] = b_effectworldzero
+    TrackBoneNames[2] = b_body
+    TrackBoneNames[3] = b_piece_00
+    TrackBoneNames[4] = b_piece_01
+    TrackBoneNames[5] = b_piece_02
+    TrackBoneNames[6] = b_piece_03
+    TrackBoneNames[7] = b_piece_04
+    TrackBoneNames[8] = b_piece_05
+    TrackBoneNames[9] = b_effectroot
+    TrackBoneNames[10] = b_effectname
+    TrackBoneNames[11] = b_cameratarget
+}
+Sequences[17] =
+{
+    Sequences[0] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_0'
+    Sequences[1] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_1'
+    Sequences[2] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_2'
+    Sequences[3] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_3'
+    Sequences[4] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_4'
+    Sequences[5] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_5'
+    Sequences[6] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_6'
+    Sequences[7] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_7'
+    Sequences[8] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_8'
+    Sequences[9] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_9'
+    Sequences[10] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_10'
+    Sequences[11] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_11'
+    Sequences[12] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_12'
+    Sequences[13] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_13'
+    Sequences[14] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_14'
+    Sequences[15] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_15'
+    Sequences[16] = AnimSequence'ani.mn_cdkcn_09_ani.animsequence_16'
+}
+UseTranslationBoneNames[0] = {}
+ForceMeshTranslationBoneNames[0] = {}
+PreviewSkelMeshName = mn_cdkcn_09.mesh.mn_cdkcn_09_sk
+BulkDataBlocks[0] = {}
+KeyFrameSize = 0
+RotationChannels = 0
+TranslationChannels = 0
+m_pBioAnimSetData = None

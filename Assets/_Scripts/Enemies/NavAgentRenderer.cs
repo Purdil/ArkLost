@@ -51,6 +51,8 @@ namespace Enemies
         public void AfterInit()
         {
             _navAgent = _navMovement.NavMeshAgent; //이건 AfterInit에서 해야해.
+            Debug.Assert(_navAgent != null, "NavAgent가 null입니다.");
+            Animator.applyRootMotion = true;
             _navAgent.updatePosition = updatePosition;
             _navAgent.updateRotation = updateRotation;
         }

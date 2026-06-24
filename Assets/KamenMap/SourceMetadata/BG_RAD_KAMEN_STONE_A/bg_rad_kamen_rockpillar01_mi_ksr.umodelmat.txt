@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_rockpillar01_d_ksr
+Normal=bg_rad_kamen_rockpillar01_n_ksr
+Emissive=bg_rad_kamen_rockpillar01_em_ksr
+Other[0]=diffuse

@@ -1,4 +1,6 @@
-﻿using Agents;
+﻿using _Scripts.Agents;
+using _Scripts.CombatSystem;
+using Agents;
 using CombatSystem;
 using GGMLib.AnimationSystem;
 using UnityEngine;

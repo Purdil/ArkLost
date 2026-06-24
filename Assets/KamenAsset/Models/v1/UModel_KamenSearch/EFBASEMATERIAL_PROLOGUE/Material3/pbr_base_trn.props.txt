@@ -1,0 +1,1196 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'tex.normal'
+    ReferencedTextures[1] = Texture2D'tex.diffuse'
+    ReferencedTextures[2] = Texture2D'tex.flat_red'
+    ReferencedTextures[3] = Texture2D'tex.hdr07_1'
+    ReferencedTextures[4] = Texture2D'tex.flat_black'
+    ReferencedTextures[5] = Texture2D'tex.statefx_default'
+    ReferencedTextures[6] = Texture2D'tex.brdf_beckmann_spec'
+}
+Expressions[845] =
+{
+    Expressions[19] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_800'
+    Expressions[23] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_801'
+    Expressions[28] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_802'
+    Expressions[30] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_803'
+    Expressions[34] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1280'
+    Expressions[39] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_448'
+    Expressions[41] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_804'
+    Expressions[48] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_805'
+    Expressions[50] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1281'
+    Expressions[51] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_806'
+    Expressions[59] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_449'
+    Expressions[62] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_807'
+    Expressions[64] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1282'
+    Expressions[65] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1360'
+    Expressions[68] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1361'
+    Expressions[75] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_808'
+    Expressions[76] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_809'
+    Expressions[79] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_810'
+    Expressions[80] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_811'
+    Expressions[81] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1283'
+    Expressions[82] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1284'
+    Expressions[90] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_450'
+    Expressions[92] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_812'
+    Expressions[93] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_813'
+    Expressions[95] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_814'
+    Expressions[96] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1362'
+    Expressions[97] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1285'
+    Expressions[98] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1363'
+    Expressions[99] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1286'
+    Expressions[100] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_815'
+    Expressions[101] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1364'
+    Expressions[103] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_816'
+    Expressions[106] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1287'
+    Expressions[108] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1288'
+    Expressions[110] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_451'
+    Expressions[111] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1289'
+    Expressions[112] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1290'
+    Expressions[114] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1292'
+    Expressions[115] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1293'
+    Expressions[116] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_817'
+    Expressions[117] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1294'
+    Expressions[118] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_818'
+    Expressions[122] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1295'
+    Expressions[124] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1296'
+    Expressions[126] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1365'
+    Expressions[129] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_452'
+    Expressions[135] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1297'
+    Expressions[138] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1298'
+    Expressions[139] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1366'
+    Expressions[140] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_820'
+    Expressions[143] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1367'
+    Expressions[144] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1368'
+    Expressions[145] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1299'
+    Expressions[146] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1300'
+    Expressions[152] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_821'
+    Expressions[153] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1301'
+    Expressions[155] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1302'
+    Expressions[158] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1369'
+    Expressions[167] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1303'
+    Expressions[171] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1370'
+    Expressions[172] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1304'
+    Expressions[179] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1305'
+    Expressions[180] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1371'
+    Expressions[181] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_822'
+    Expressions[183] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1306'
+    Expressions[184] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_453'
+    Expressions[190] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_454'
+    Expressions[196] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1307'
+    Expressions[197] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_823'
+    Expressions[199] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1372'
+    Expressions[203] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1308'
+    Expressions[204] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1373'
+    Expressions[208] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1309'
+    Expressions[210] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1310'
+    Expressions[214] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1311'
+    Expressions[215] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1374'
+    Expressions[216] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_455'
+    Expressions[220] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1375'
+    Expressions[221] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1312'
+    Expressions[223] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1376'
+    Expressions[226] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1377'
+    Expressions[227] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1378'
+    Expressions[230] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1313'
+    Expressions[236] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1379'
+    Expressions[242] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1380'
+    Expressions[243] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1314'
+    Expressions[244] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1315'
+    Expressions[246] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_456'
+    Expressions[247] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1381'
+    Expressions[251] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_457'
+    Expressions[252] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1316'
+    Expressions[255] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1382'
+    Expressions[256] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1317'
+    Expressions[257] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1383'
+    Expressions[271] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_458'
+    Expressions[272] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1384'
+    Expressions[273] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1318'
+    Expressions[274] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1319'
+    Expressions[275] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1385'
+    Expressions[277] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1386'
+    Expressions[281] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1387'
+    Expressions[284] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_460'
+    Expressions[288] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1388'
+    Expressions[292] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_461'
+    Expressions[293] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1389'
+    Expressions[307] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1320'
+    Expressions[310] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1390'
+    Expressions[317] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1321'
+    Expressions[322] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1391'
+    Expressions[336] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1392'
+    Expressions[337] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1322'
+    Expressions[345] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1393'
+    Expressions[353] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1323'
+    Expressions[354] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1394'
+    Expressions[356] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_824'
+    Expressions[357] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1395'
+    Expressions[365] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1324'
+    Expressions[369] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1325'
+    Expressions[370] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1326'
+    Expressions[374] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_825'
+    Expressions[375] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1327'
+    Expressions[380] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_826'
+    Expressions[382] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1396'
+    Expressions[383] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1328'
+    Expressions[389] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1329'
+    Expressions[392] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1397'
+    Expressions[394] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1330'
+    Expressions[398] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1331'
+    Expressions[407] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1398'
+    Expressions[411] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_827'
+    Expressions[412] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1399'
+    Expressions[415] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1400'
+    Expressions[420] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_828'
+    Expressions[422] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1401'
+    Expressions[423] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1332'
+    Expressions[424] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1402'
+    Expressions[425] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1333'
+    Expressions[427] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1403'
+    Expressions[430] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1404'
+    Expressions[431] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1334'
+    Expressions[432] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1405'
+    Expressions[435] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_829'
+    Expressions[437] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1406'
+    Expressions[438] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1335'
+    Expressions[439] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1336'
+    Expressions[440] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_464'
+    Expressions[443] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1407'
+    Expressions[449] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1408'
+    Expressions[450] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1337'
+    Expressions[451] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1338'
+    Expressions[452] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1339'
+    Expressions[455] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1340'
+    Expressions[458] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1409'
+    Expressions[459] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1410'
+    Expressions[471] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1411'
+    Expressions[476] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1341'
+    Expressions[486] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1342'
+    Expressions[487] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1343'
+    Expressions[488] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_465'
+    Expressions[491] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1344'
+    Expressions[498] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1345'
+    Expressions[500] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1412'
+    Expressions[502] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_830'
+    Expressions[503] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1346'
+    Expressions[510] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1413'
+    Expressions[513] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1347'
+    Expressions[515] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1348'
+    Expressions[521] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1414'
+    Expressions[522] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1349'
+    Expressions[523] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1415'
+    Expressions[524] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1416'
+    Expressions[526] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1350'
+    Expressions[529] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_831'
+    Expressions[530] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1417'
+    Expressions[532] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1351'
+    Expressions[536] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1418'
+    Expressions[537] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1419'
+    Expressions[541] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_832'
+    Expressions[542] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1352'
+    Expressions[550] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1420'
+    Expressions[551] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_466'
+    Expressions[554] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_833'
+    Expressions[556] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1353'
+    Expressions[564] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_834'
+    Expressions[568] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1354'
+    Expressions[570] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1421'
+    Expressions[579] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1355'
+    Expressions[581] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1422'
+    Expressions[588] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1423'
+    Expressions[589] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1356'
+    Expressions[592] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1357'
+    Expressions[594] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1424'
+    Expressions[595] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_835'
+    Expressions[596] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1425'
+    Expressions[597] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1358'
+    Expressions[600] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1426'
+    Expressions[601] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_836'
+    Expressions[608] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_467'
+    Expressions[609] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_837'
+    Expressions[610] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1427'
+    Expressions[611] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1428'
+    Expressions[615] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_1359'
+    Expressions[620] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_838'
+    Expressions[622] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_839'
+    Expressions[625] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_840'
+    Expressions[628] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_468'
+    Expressions[633] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1429'
+    Expressions[637] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_469'
+    Expressions[640] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_841'
+    Expressions[643] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_842'
+    Expressions[656] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_843'
+    Expressions[660] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1430'
+    Expressions[668] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_470'
+    Expressions[679] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1431'
+    Expressions[680] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_844'
+    Expressions[682] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_471'
+    Expressions[688] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_845'
+    Expressions[695] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1432'
+    Expressions[706] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_472'
+    Expressions[708] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_846'
+    Expressions[713] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1433'
+    Expressions[717] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_473'
+    Expressions[721] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_847'
+    Expressions[725] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1434'
+    Expressions[732] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1435'
+    Expressions[733] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_474'
+    Expressions[735] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_848'
+    Expressions[742] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_849'
+    Expressions[744] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1436'
+    Expressions[753] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1437'
+    Expressions[755] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1438'
+    Expressions[766] = MaterialExpressionTextureSampleParameter2D'pbr.pbr_base_trn.materialexpressiontexturesampleparameter2d_475'
+    Expressions[769] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1439'
+    Expressions[773] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1440'
+    Expressions[774] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1441'
+    Expressions[781] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1442'
+    Expressions[788] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1443'
+    Expressions[791] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_1444'
+    Expressions[799] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_10'
+    Expressions[800] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_11'
+    Expressions[802] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_6'
+    Expressions[814] = MaterialExpressionVectorParameter'pbr.pbr_base_trn.materialexpressionvectorparameter_7'
+    Expressions[832] = MaterialExpressionStaticSwitchParameter'pbr.pbr_base_trn.materialexpressionstaticswitchparameter_54'
+    Expressions[836] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_9'
+    Expressions[837] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_10'
+    Expressions[839] = MaterialExpressionScalarParameter'pbr.pbr_base_trn.materialexpressionscalarparameter_11'
+}
+CachedExpressionData = 
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[25] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'tex.flat_black'
+        Name = pattern_texture
+        Group = pattern
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'tex.flat_black'
+        Name = pattern_texture
+        Group = pattern
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'tex.flat_black'
+        Name = pattern_texture
+        Group = pattern
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = texture_mask_variation
+        Group = parameters
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'tex.fx_a_noise_018'
+        Name = texture_dead
+        Group = you_do_not_touch_this
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'tex.flat_red'
+        Name = var_headbase_speculartexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'tex.brdf_beckmann_spec'
+        Name = texture_brdf
+        Group = you_do_not_touch_this
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'tex.brdf_beckmann_spec'
+        Name = texture_brdf
+        Group = you_do_not_touch_this
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'tex.diffuse'
+        Name = texture_diffuse
+        Group = parameters
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'tex.flat_black'
+        Name = texture_color_fx_skin
+        Group = parameters
+    }
+    CollectedTextureParameters[10] =
+    {
+        Texture = Texture2D'tex.flat_white'
+        Name = texture_ao
+        Group = skin
+    }
+    CollectedTextureParameters[11] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_headbase_diffusetexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[12] =
+    {
+        Texture = Texture2D'tex.flat_red'
+        Name = texture_specular
+        Group = parameters
+    }
+    CollectedTextureParameters[13] =
+    {
+        Texture = Texture2D'tex.t_tds_specular04'
+        Name = texture_interaction
+        Group = interaction_state
+    }
+    CollectedTextureParameters[14] =
+    {
+        Texture = Texture2D'tex.fx_a_fire_007'
+        Name = texture_fx_panning
+        Group = emissive
+    }
+    CollectedTextureParameters[15] =
+    {
+        Texture = Texture2D'tex.fx_a_fire_007'
+        Name = texture_fx_panning
+        Group = emissive
+    }
+    CollectedTextureParameters[16] =
+    {
+        Texture = Texture2D'tex.t_tds_specular04'
+        Name = texture_emissive
+        Group = emissive
+    }
+    CollectedTextureParameters[17] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_liptexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[18] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_eyetexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[19] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_cheektexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[20] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_cheektexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[21] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_cheektexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[22] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_makeup_cheektexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[23] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_headdeco_decaltexture_ui
+        Group = 00_customize
+    }
+    CollectedTextureParameters[24] =
+    {
+        Texture = Texture2D'tex.null'
+        Name = var_headdeco_decaltexture_ui
+        Group = 00_customize
+    }
+}
+CollectedScalarParameters[88] =
+{
+    CollectedScalarParameters[0] = { Value=0, Name=transition, Group=fx_transition }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = transition_shadow_intensity
+        Group = fx_transition
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = transition_texture_tiling
+        Group = fx_transition
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[5] = { Value=1, Name=opacity_intensity, Group=opacity }
+    CollectedScalarParameters[6] =
+    {
+        Value = 3
+        Name = dead_texture_tiling
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[7] = { Value=0, Name=dead, Group=you_do_not_touch_this }
+    CollectedScalarParameters[8] = { Value=1, Name=opacity_falloff, Group=opacity }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.9
+        Name = orennayar_brightness
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.1
+        Name = shadowfactor
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 20
+        Name = orennayar
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.92
+        Name = specular_power_limit
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 10
+        Name = pbr_specular_intensity
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0
+        Name = skin_specular_intensity_min
+        Group = skin
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.5
+        Name = var_base_skinspecularintensity_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[18] = { Value=1, Name=skin_normal_intensity, Group=skin }
+    CollectedScalarParameters[19] =
+    {
+        Value = 3.5
+        Name = beckmannspecular_constant_max
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0.15
+        Name = skin_specular_intensity
+        Group = skin
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 1
+        Name = var_base_skinnormalintensity_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[22] =
+    {
+        Value = 6
+        Name = pbr_specular_power
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 5
+        Name = skin_specular_power_min
+        Group = skin
+    }
+    CollectedScalarParameters[24] = { Value=15, Name=skin_specular_power, Group=skin }
+    CollectedScalarParameters[25] = { Value=120, Name=specular_power, Group=parameters }
+    CollectedScalarParameters[26] =
+    {
+        Value = 2
+        Name = specular_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[27] = { Value=0, Name=1.use_dyeing_sp, Group=parameters }
+    CollectedScalarParameters[28] =
+    {
+        Value = 0.2
+        Name = var_base_skinspecularpower_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[29] =
+    {
+        Value = 1
+        Name = normaltex_intensity
+        Group = parameters
+    }
+    CollectedScalarParameters[30] =
+    {
+        Value = 1
+        Name = fresnel_rimlightintensity
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 1
+        Name = var_headbase_overlaynormalintensity_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0.5
+        Name = ibl_normal_smooth
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 1
+        Name = ibl_intensity
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[34] = { Value=5, Name=constantfx_tiling, Group=emissive }
+    CollectedScalarParameters[35] =
+    {
+        Value = 0.8
+        Name = ibl_skinlodscale
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = 5
+        Name = ibl_exposer
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = 0.98
+        Name = fresnel_radius
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = 1
+        Name = constantfx_tiling_y_ratio
+        Group = emissive
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 80
+        Name = ibl_reflect_lodbias
+        Group = parameters
+    }
+    CollectedScalarParameters[40] =
+    {
+        Value = 1
+        Name = interaction_intensity
+        Group = interaction_state
+    }
+    CollectedScalarParameters[41] = { Value=3, Name=roughness_power, Group=parameters }
+    CollectedScalarParameters[42] = { Value=1, Name=skin_roughness_power, Group=skin }
+    CollectedScalarParameters[43] =
+    {
+        Value = 80
+        Name = ibl_reflect_lodbias_a
+        Group = parameters
+    }
+    CollectedScalarParameters[44] =
+    {
+        Value = 0
+        Name = interaction
+        Group = interaction_state
+    }
+    CollectedScalarParameters[45] = { Value=1, Name=constantfx_speed, Group=emissive }
+    CollectedScalarParameters[46] =
+    {
+        Value = 3
+        Name = roughness_power_a
+        Group = parameters
+    }
+    CollectedScalarParameters[47] =
+    {
+        Value = 80
+        Name = ibl_reflect_lodbias_b
+        Group = parameters
+    }
+    CollectedScalarParameters[48] =
+    {
+        Value = 1
+        Name = constantfx_distortion
+        Group = emissive
+    }
+    CollectedScalarParameters[49] =
+    {
+        Value = 3
+        Name = roughness_power_b
+        Group = parameters
+    }
+    CollectedScalarParameters[50] =
+    {
+        Value = 80
+        Name = ibl_reflect_lodbias_c
+        Group = parameters
+    }
+    CollectedScalarParameters[51] =
+    {
+        Value = 3
+        Name = roughness_power_c
+        Group = parameters
+    }
+    CollectedScalarParameters[52] =
+    {
+        Value = 1
+        Name = metalicness_power
+        Group = parameters
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = fx_panning_intensity
+        Group = emissive
+    }
+    CollectedScalarParameters[54] = { Value=1, Name=skin_metalicness_power, Group=skin }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[56] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[57] =
+    {
+        Value = 0
+        Name = target_x
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[58] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[60] =
+    {
+        Value = 0
+        Name = target_y
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0.05
+        Name = fx_distortion_intensity
+        Group = emissive
+    }
+    CollectedScalarParameters[62] =
+    {
+        Value = 0
+        Name = constantoutline
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[63] =
+    {
+        Value = 0
+        Name = emissive_intensitymin
+        Group = emissive
+    }
+    CollectedScalarParameters[64] =
+    {
+        Value = 1
+        Name = emissive_flicker_speed
+        Group = emissive
+    }
+    CollectedScalarParameters[65] =
+    {
+        Value = 0.5
+        Name = constantoutline_blink
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[66] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[67] =
+    {
+        Value = 0
+        Name = fx_color_desaturation_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[68] = { Value=1, Name=emissive_intensity, Group=emissive }
+    CollectedScalarParameters[69] =
+    {
+        Value = 0.5
+        Name = var_makeup_lipspecular_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[70] =
+    {
+        Value = 0
+        Name = var_headdeco_fixedcheek_bool_private_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[71] =
+    {
+        Value = 0
+        Name = var_makeup_cheekside_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[72] =
+    {
+        Value = 0
+        Name = var_makeup_cheekupdown_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[73] =
+    {
+        Value = 0
+        Name = var_makeup_cheekscale_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[74] =
+    {
+        Value = 1
+        Name = var_headdeco_fixeddecal_bool_private_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[75] =
+    {
+        Value = 0
+        Name = var_headdeco_decalscale_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[76] =
+    {
+        Value = 0
+        Name = var_headdeco_decalrotate_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[77] =
+    {
+        Value = 1
+        Name = var_headdeco_usedecalcolor_bool_private_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[78] =
+    {
+        Value = 0
+        Name = var_headdeco_decalside_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[79] =
+    {
+        Value = 1
+        Name = var_headdeco_fixeddecal_bool_private_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[80] =
+    {
+        Value = 1
+        Name = var_headdeco_decalmirror_bool_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[81] =
+    {
+        Value = 0
+        Name = var_headdeco_decalupdown_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[82] =
+    {
+        Value = 0
+        Name = var_headdeco_decalinverse_bool_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[83] =
+    {
+        Value = 0
+        Name = var_headdeco_decalrotate_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[84] =
+    {
+        Value = 1
+        Name = var_headdeco_fixeddecal_bool_private_ui
+        Group = 00_customize
+    }
+    CollectedScalarParameters[85] =
+    {
+        Value = 1
+        Name = transcolor_rimlight 
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[86] =
+    {
+        Value = 0
+        Name = trans_rim_inradius
+        Group = you_do_not_touch_this
+    }
+    CollectedScalarParameters[87] =
+    {
+        Value = 1
+        Name = trans_rim_hard
+        Group = you_do_not_touch_this
+    }
+}
+CollectedVectorParameters[51] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffusecolor
+        Group = parameters
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = pattern_bool
+        Group = pattern
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = pattern_choice_a
+        Group = pattern
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffuse_pattern_a_color
+        Group = pattern
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffusecolor_a
+        Group = parameters
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = pattern_choice_b
+        Group = pattern
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffuse_pattern_b_color
+        Group = pattern
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffusecolor_b
+        Group = parameters
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = pattern_choice_c
+        Group = pattern
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffuse_pattern_c_color
+        Group = pattern
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_base_skincolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.7, G=0.7, B=5, A=1 }
+        Name = transition_color
+        Group = fx_transition
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = diffusecolor_c
+        Group = parameters
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = transition_diffusecolor
+        Group = fx_transition
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = mask_variation_visible
+        Group = parameters
+    }
+    CollectedVectorParameters[17] =
+    {
+        Value = { R=3, G=0.2, B=0, A=1 }
+        Name = fx_dead_edgecolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[18] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = parts_visibleflag
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[19] =
+    {
+        Value = { R=1.17105, G=0.665338, B=0.546053, A=1 }
+        Name = half_lambert_skin
+        Group = skin
+    }
+    CollectedVectorParameters[20] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = fx_dead_worldoffset
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[21] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[22] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[23] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_r
+        Group = interaction_state
+    }
+    CollectedVectorParameters[24] =
+    {
+        Value = { R=5, G=1, B=0.2, A=20 }
+        Name = constantfx_color
+        Group = emissive
+    }
+    CollectedVectorParameters[25] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_g
+        Group = interaction_state
+    }
+    CollectedVectorParameters[26] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = color_interaction_b
+        Group = interaction_state
+    }
+    CollectedVectorParameters[27] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ibl_color_bottom
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[28] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = ibl_color_top
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[29] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = transcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[30] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = fx_panning_color
+        Group = emissive
+    }
+    CollectedVectorParameters[31] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = buffcolor
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[32] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = fx_panningspeed_tiling
+        Group = emissive
+    }
+    CollectedVectorParameters[33] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = hit_color
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[34] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = constantoutline_color
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[35] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_actiontool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[36] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = fx_color_intensity_buffsettool
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[37] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = emissive_color
+        Group = emissive
+    }
+    CollectedVectorParameters[38] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_makeup_lipcolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[39] =
+    {
+        Value = { R=230, G=100, B=512, A=816 }
+        Name = makeup_lip_region
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[40] =
+    {
+        Value = { R=544, G=136, B=512, A=623 }
+        Name = makeup_eye_region
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[41] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = var_makeup_eyelinecolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[42] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = var_makeup_eyeshadowcolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[43] =
+    {
+        Value = { R=615, G=308, B=512, A=705 }
+        Name = makeup_cheek_region
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[44] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_makeup_cheekcolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[45] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = var_base_skinfrecklecolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[46] =
+    {
+        Value = { R=1, G=1, B=1, A=0 }
+        Name = var_eye_browcolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[47] =
+    {
+        Value = { R=652, G=652, B=512, A=683 }
+        Name = decal_region
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[48] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = var_headdeco_decalcolor_ui
+        Group = 00_customize
+    }
+    CollectedVectorParameters[49] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = state
+        Group = you_do_not_touch_this
+    }
+    CollectedVectorParameters[50] =
+    {
+        Value = { R=1, G=0, B=0, A=1 }
+        Name = state_noise
+        Group = you_do_not_touch_this
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

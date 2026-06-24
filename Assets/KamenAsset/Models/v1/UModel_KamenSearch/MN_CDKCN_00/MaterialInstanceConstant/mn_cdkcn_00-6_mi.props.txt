@@ -1,0 +1,112 @@
+Parent = MaterialInstanceConstant'mastermaterial_ch.monster.high.monster_base_msk_high'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = emissive_flicker_speed
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = -1
+        ParameterName = emissive_intensity
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = emissive_intensitymin
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.2
+        ParameterName = fx_panning_intensity
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 30
+        ParameterName = ibl_reflect_lodbias_b
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = roughness_power_b
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_e'
+        ParameterName = texture_emissive
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_panning'
+        ParameterName = texture_fx_panning
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_cm'
+        ParameterName = texture_color_fx_skin
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_d'
+        ParameterName = texture_diffuse
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_n'
+        ParameterName = texture_normal
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-6_s'
+        ParameterName = texture_specular
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=0.619015, B=0.342757, A=0 }
+        ParameterName = emissive_color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=0.193667, B=1, A=0 }
+        ParameterName = fx_panning_color
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0, G=0.05, B=3, A=1 }
+        ParameterName = fx_panningspeed_tiling
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

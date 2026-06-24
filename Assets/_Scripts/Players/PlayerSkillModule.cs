@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using _Scripts.Agents;
+using _Scripts.CombatSystem;
 using _Scripts.Enemies;
-using CombatSystem;
+using _Scripts.Players.FSM;
+using CoreSystem.Events;
 using Enemies;
 using GGMLib.EventChannelSystem;
 using GGMLib.ModuleSystem;
@@ -11,13 +14,14 @@ using UnityEngine;
 
 namespace _Scripts.Players
 {
-    public class PlayerSkillModule : MonoBehaviour, ISkillModule, IModule
+    public class PlayerSkillModule : MonoBehaviour, ISkillModule, IModule, IAfterInitModule
     {
         [field: SerializeField] public GameEventChannelSO CreateChannel {get; private set;}
         public ModuleOwner Owner { get; private set; }
         public PlayerController Player { get; private set; }
         private INavMovement _navMovement;
         private INavAgentRenderer _navAgentRenderer;
+        private AgentTrigger _agentTrigger;
         public event Action OnCurrentSkillEnd;
 
         private Dictionary<int, ISkill> _skillDict;
@@ -31,6 +35,7 @@ namespace _Scripts.Players
             _navMovement = owner.GetModule<INavMovement>();
             _navAgentRenderer = owner.GetModule<INavAgentRenderer>();
             Debug.Assert(_navAgentRenderer != null, "PlayerSkillModule requires INavAgentRenderer.");
+            _agentTrigger =  Owner.GetModule<AgentTrigger>();
 
             _skillDict = GetComponentsInChildren<ISkill>()
                 .ToDictionary(skill => skill.SkillData.skillIndex);
@@ -42,6 +47,19 @@ namespace _Scripts.Players
 
             Player.PlayerInput.OnAttackKeyPressed += HandleAttackKeyPress; //기본공격은 이걸로 바인딩
             Player.PlayerInput.OnDashKeyPressed += HandleDashKeyPress;
+            Player.PlayerInput.OnSkill1Pressed += HandleSkill1KeyPress;
+            Player.PlayerInput.OnSkill2Pressed += HandleSkill2KeyPress;
+            Player.PlayerInput.OnSkill3Pressed += HandleSkill3KeyPress;
+            Player.PlayerInput.OnSkill4Pressed += HandleSkill4KeyPress;
+        }
+        public void AfterInit()
+        {
+            _agentTrigger.OnShowPoolingVfx += HandlePoolingVfx;
+        }
+
+        private void HandlePoolingVfx(ShowPoolingVfx obj)
+        {
+            CreateChannel.RaiseEvent(obj);
         }
 
         private void OnDestroy()
@@ -49,9 +67,47 @@ namespace _Scripts.Players
             if (Player != null && Player.PlayerInput != null)
             {
                 Player.PlayerInput.OnAttackKeyPressed -= HandleAttackKeyPress; //기본공격은 이걸로 바인딩
-                Player.PlayerInput.OnDashKeyPressed -= HandleDashKeyPress;                
+                Player.PlayerInput.OnDashKeyPressed -= HandleDashKeyPress;
+                Player.PlayerInput.OnSkill1Pressed -= HandleSkill1KeyPress;
+                Player.PlayerInput.OnSkill2Pressed -= HandleSkill2KeyPress;
+                Player.PlayerInput.OnSkill3Pressed -= HandleSkill3KeyPress;
+                Player.PlayerInput.OnSkill4Pressed -= HandleSkill4KeyPress;
             }
         }
+        private void HandleSkill1KeyPress()
+        {
+            if (CanUseSkill(2))
+            {
+                Player.ChangeState(PlayerState.SKILL, 0);
+                UseSkill(2);
+            }
+        }
+        private void HandleSkill2KeyPress()
+        {
+            if (CanUseSkill(3))
+            {
+                Player.ChangeState(PlayerState.SKILL, 0);
+                UseSkill(3);
+            }
+        }
+        private void HandleSkill3KeyPress()
+        {
+            if (CanUseSkill(4))
+            {
+                Player.ChangeState(PlayerState.SKILL, 0);
+                UseSkill(4);
+            }
+        }
+        private void HandleSkill4KeyPress()
+        {
+            if (CanUseSkill(5))
+            {
+                Player.ChangeState(PlayerState.SKILL, 0);
+                UseSkill(5);
+            }
+        }
+
+
 
         private void HandleDashKeyPress()
         {
@@ -77,19 +133,21 @@ namespace _Scripts.Players
 
         public bool CanUseSkill(int skillIndex, GameObject target = null)
         {
-            Debug.Log($"InputTime : {Time.time}");
-            if (_currentSkill is { IsUsing: true })
+            if (_currentSkill is ILinkSkill { CanLink: true } && _currentSkill.SkillData.skillIndex == skillIndex)
             {
-                Debug.Log($"Is Using : {Time.time}");
+                return true;
+            }
+            
+            if (_currentSkill is { IsUsing: true } )
+            {
                 return false;
             }
             
-            Debug.Log($"Reach skill.CanUseSkill : {Time.time}");
-
             if (_skillDict.TryGetValue(skillIndex, out ISkill skill))
             {
                 return skill.CanUseSkill(target);
             }
+            
 
             return false;
         }
@@ -98,12 +156,10 @@ namespace _Scripts.Players
         {
             if (_skillDict.TryGetValue(skillIndex, out ISkill skill))
             {
-                //아직은 기존스킬 캔슬하고 쏘는건 안만든다.
                 if (_currentSkill != null)
                     _currentSkill.OnSkillEnd -= HandleCurrentSkillEnd;
                 _currentSkill = skill;
                 _currentSkill.OnSkillEnd += HandleCurrentSkillEnd;
-                //이 시점에서도 위치가 튐.
                 skill.UseSkill(target);
             }
         }
@@ -124,5 +180,6 @@ namespace _Scripts.Players
                 _currentSkill = null;
             }
         }
+
     }
 }

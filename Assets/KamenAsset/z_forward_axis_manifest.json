@@ -1,0 +1,61 @@
+﻿{
+  "generated_at": "2026-06-11T04:18:19",
+  "axis_fix": "Rotated mesh vertex data and armature rest bones by -90 degrees around Blender Z so Unity visual forward maps to +Z. Reprocessed each FBX in a fresh Blender process to prevent action accumulation.",
+  "backup_root": "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_z_forward_backup_20260611",
+  "results": [
+    {
+      "name": "Kamen_v1",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v1\\Kamen_v1.fbx",
+      "status": "converted",
+      "action_count": 492,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 550114940
+    },
+    {
+      "name": "Kamen_with_a_horse",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v1\\Kamen_with_a_horse.fbx",
+      "status": "converted",
+      "action_count": 52,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 158582556
+    },
+    {
+      "name": "Kamen_v2",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\Kamen_v2.fbx",
+      "status": "converted",
+      "action_count": 188,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 233718220
+    },
+    {
+      "name": "Kamen_v2_Infernas_Kamen",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\Kamen v2+Infernas\\Kamen.fbx",
+      "status": "converted",
+      "action_count": 207,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 405261436
+    },
+    {
+      "name": "Kamen_without_a_helmet",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\without a helmet\\Kamen_without_a_helmet.fbx",
+      "status": "converted",
+      "action_count": 6,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 67025340
+    },
+    {
+      "name": "Kamen_v3",
+      "path": "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v3\\Kamen_v3.fbx",
+      "status": "converted",
+      "action_count": 42,
+      "mesh_count": 1,
+      "armature_count": 1,
+      "size_bytes": 37449996
+    }
+  ]
+}

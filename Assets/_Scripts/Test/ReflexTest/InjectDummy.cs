@@ -13,7 +13,6 @@ namespace Test.ReflexTest
 
         private void Start()
         {
-            Debug.Log(string.Join(" ", _injectString));
             sceneInstaller.TestConsoleScene("TTT");
         }
     }

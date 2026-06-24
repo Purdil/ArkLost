@@ -1,8 +1,7 @@
-﻿using _Scripts.CombatSystem;
-using GGMLib.ModuleSystem;
+﻿using GGMLib.ModuleSystem;
 using UnityEngine;
 
-namespace CombatSystem
+namespace _Scripts.CombatSystem
 {
     public abstract class AbstractDamageCaster : MonoBehaviour
     {

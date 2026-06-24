@@ -1,0 +1,88 @@
+Parent = MaterialInstanceConstant'mastermaterial_ch.npc.hair.npc_hair_dead_trn_autosorting'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = var_base_hairtwotone_bool_ui
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.5
+        ParameterName = rimlight_power
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = specular_intensity
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 50
+        ParameterName = specular_power
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.75
+        ParameterName = subspecular_intensity
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 50
+        ParameterName = subspecular_power
+    }
+}
+TextureParameterValues[2] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-7a_d'
+        ParameterName = texture_diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.mn_cdkcn_00-7_n'
+        ParameterName = texture_normal
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.675781, G=0.700775, B=0.745829, A=1 }
+        ParameterName = var_base_haircolor_base_ui
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.769114, G=0.793147, B=0.850797, A=0 }
+        ParameterName = var_base_hairtwotonecolor_ui
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.216226, G=0.234685, B=0.254134, A=1 }
+        ParameterName = rimlight_color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

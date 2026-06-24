@@ -1,0 +1,5 @@
+Diffuse=atm_matt_d
+Other[0]=atm_matt_height
+Other[1]=test_matt_depth
+Other[2]=test_matt_flow
+Other[3]=fx_a_noise_010

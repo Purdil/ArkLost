@@ -11,6 +11,8 @@ namespace Test.ReflexTest
             containerBuilder.RegisterValue(this);
         }
 
-        public void TestConsoleScene(string msg) => Debug.Log($"Scene installer : {msg}");
+        public void TestConsoleScene(string msg)
+        {
+        }
     }
 }

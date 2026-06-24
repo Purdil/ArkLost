@@ -15,7 +15,7 @@ namespace _Scripts.CombatSystem
         #if UNITY_EDITOR
         [SerializeField] private GameObject user;
         #endif
-        
+#if UNITY_EDITOR
         private void OnDrawGizmos()
         {
             if (!IsDebugMode) return;
@@ -40,5 +40,6 @@ namespace _Scripts.CombatSystem
                     break;
             }
         }
+#endif
     }
 }

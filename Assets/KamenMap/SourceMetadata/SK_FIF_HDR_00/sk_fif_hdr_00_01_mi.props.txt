@@ -1,0 +1,106 @@
+Parent = MaterialInstanceConstant'mastermaterial_ch.monster.high.realpbr.monster_base_msk_high_realpbr'
+ScalarParameterValues[6] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.4
+        ParameterName = emissive_flicker_speed
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = emissive_intensity
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_intensitymin
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.05
+        ParameterName = fx_distortion_intensity
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = fx_panning_intensity
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = pbr_add_basecolor_to_emissive
+    }
+}
+TextureParameterValues[5] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.sk_fif_hdr_00_01_e'
+        ParameterName = texture_emissive
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.space_02_d_bur'
+        ParameterName = texture_fx_panning
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.sk_fif_hdr_00_01_d'
+        ParameterName = texture_basecolor
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.sk_fif_hdr_00_01_n'
+        ParameterName = texture_normal
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.sk_fif_hdr_00_01_s'
+        ParameterName = texture_orm
+    }
+}
+VectorParameterValues[3] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=1, B=1, A=0.4 }
+        ParameterName = fx_panning_color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.01, G=0.02, B=1, A=1 }
+        ParameterName = fx_panningspeed_tiling
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=0.819964, B=0.722672, A=1 }
+        ParameterName = occlusion_color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

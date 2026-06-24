@@ -1,4 +1,6 @@
 using System.Collections;
+using _Scripts.Agents;
+using _Scripts.CombatSystem;
 using Agents;
 using CombatSystem;
 using CoreSystem;
@@ -10,24 +12,25 @@ using UnityEngine;
 
 namespace _Scripts.Players.SkillSystem
 {
-    public class PlayerSwordCombo : AbstractPlayerSkill
+    public class PlayerSwordCombo : AbstractPlayerSkill , ILinkSkill
     {
         [SerializeField] private PoolItemSO slashVfxItem;
         [SerializeField] private PoolItemSO impactVfxItem;
-        
+
         [SerializeField] private AnimParamSO[] comboClips;
         [SerializeField] private AnimationCurve[] comboCurves; //움직이는 양을 조절
         [SerializeField] private float[] comboDurations; //콤보 지속시간
         [SerializeField] private AssetNameSO[] comboEffects;
-        
+
         [SerializeField] private float comboWindow = 0.4f; //콤보가 이어지는 시간
-        
+
         private AgentTrigger _agentTrigger;
-        private VfxModule _vfxModule;
         private AbstractDamageCaster _damageCaster;
         private INavAgentRenderer _navAgentRenderer;
         private CharacterMovementManager _movementManager;
+        private IEnumerator _curCoroutine;
         
+        public bool CanLink { get; private set; }
         public float AttackSpeed { get; private set; }
         public int ComboCounter { get; private set; } = 0;
 
@@ -36,7 +39,7 @@ namespace _Scripts.Players.SkillSystem
             base.InitializeSkill(skillModule);
             _agentTrigger = _player.GetModule<AgentTrigger>();
             Debug.Assert(_agentTrigger != null, "Sword combo 공격은 애니메이션 트리거가 필요합니다.");
-            _vfxModule = _player.GetModule<VfxModule>();
+            _player.GetModule<VfxModule>();
             _navAgentRenderer = _player.GetModule<INavAgentRenderer>();
             _damageCaster = GetComponentInChildren<AbstractDamageCaster>();
             Debug.Assert(_damageCaster != null, $"데미지 캐스터가 있어야 정상적으로 데미지를 줄 수 있습니다. : {gameObject}");
@@ -50,44 +53,47 @@ namespace _Scripts.Players.SkillSystem
             bool cooldownReady = NormalizedCooldown >= 1f;
             bool notUsing = !IsUsing;
             bool canUse = cooldownReady && notUsing;
-
-            Debug.Log(
-                $"SwordCombo.CanUseSkill time:{Time.time}, " +
-                $"cooldown:{NormalizedCooldown}, " +
-                $"isUsing:{IsUsing}, " +
-                $"cooldownReady:{cooldownReady}, notUsing:{notUsing}, result:{canUse}");
-
-            return canUse;
             
+            return canUse;
         }
 
         public override void UseSkill(GameObject target = null)
         {
+            if (CanLink)
+            {
+                _lastUsingTime = Time.time;
+                ComboCounter++;
+                CanLink = false;
+                if (_curCoroutine != null)
+                {
+                    StopCoroutine(_curCoroutine);
+                    _curCoroutine = null;
+                }
+                UnsubscribeTriggerEvents();
+            }
             _movementManager.SwitchMode(CharacterMovementManager.MoveMode.CharacterController);
             base.UseSkill(target);
-            /*navMeshAgent.enabled = false; // Agent가 Transform 놓아줌
-            characterController.enabled = true;*/
-            //before도 동일하게 튐.
             bool comboCounterOver = ComboCounter >= comboClips.Length;
             bool comboWindowExhaust = Time.time >= _lastUsingTime + comboWindow;
             if (comboCounterOver || comboWindowExhaust)
             {
                 ComboCounter = 0;
             }
-            _vfxModule?.PlayVfx(comboEffects[ComboCounter].AssetHash);
             _renderer.PlayClip(comboClips[ComboCounter].ParamHash, 0f, 0.05f);
             Vector3 mousePosition = _player.PlayerInput.GetWorldMousePosition();
             mousePosition.y = _player.transform.position.y;
             Vector3 direction = (mousePosition - _player.transform.position).normalized;
             
             _movement.RotateTo(direction);
-            StartCoroutine(SwordComboCoroutine());
+            _curCoroutine = SwordComboCoroutine();
+            StartCoroutine(_curCoroutine);
         }
 
         private IEnumerator SwordComboCoroutine()
         {
             _agentTrigger.OnAnimationEnd += HandleAnimationEnd;
             _agentTrigger.OnDamageCast += HandleDamageCast;
+            _agentTrigger.OnLinkTimeEnd += HandleLinkCombo;
             AnimationCurve comboCurve = comboCurves[ComboCounter];
             float comboDuration = comboDurations[ComboCounter];
             float currentDuration = 0;
@@ -101,11 +107,17 @@ namespace _Scripts.Players.SkillSystem
                 _movement.SetMovementVelocity(forward * force);
                 yield return null;
             }
+
             _movement.CanManualMove = true; //수동 조작모드로 변경.
             _movement.SetMovementVelocity(Vector3.zero);
             _navAgentRenderer.EndManualControl();
-            _agentTrigger.OnDamageCast -= HandleDamageCast;
-            _agentTrigger.OnAnimationEnd -= HandleAnimationEnd;
+            UnsubscribeTriggerEvents();
+            _curCoroutine = null;
+        }
+
+        private void HandleLinkCombo()
+        {
+            CanLink = true;
         }
 
         private void HandleDamageCast()
@@ -114,13 +126,13 @@ namespace _Scripts.Players.SkillSystem
             bool isHit = _damageCaster.CastDamage(position, transform.forward, SkillData);
             if (isHit)
             {
-                var evt = CreateEvents.ShowPoolingVfx.InitData(
+                /*var evt = CreateEvents.ShowPoolingVfx.InitData(
                     slashVfxItem, _damageCaster.LastHitPosition, Quaternion.identity);
                 _skillModule.CreateChannel.RaiseEvent(evt);
                 
                evt = CreateEvents.ShowPoolingVfx.InitData(
                     impactVfxItem, _damageCaster.LastHitPosition, Quaternion.identity);
-                _skillModule.CreateChannel.RaiseEvent(evt);
+                _skillModule.CreateChannel.RaiseEvent(evt);*/
             }
         }
 
@@ -130,10 +142,30 @@ namespace _Scripts.Players.SkillSystem
 
         public override void StopSkill()
         {
+            if (!IsUsing && _curCoroutine == null)
+                return;
+
             ComboCounter++;
-            // _agentTrigger.OnAnimationEnd -= HandleAnimationEnd;
+            UnsubscribeTriggerEvents();
+
+            if (_curCoroutine != null)
+            {
+                StopCoroutine(_curCoroutine);
+                _curCoroutine = null;
+            }
+
+            CanLink = false;
+            _navAgentRenderer.EndManualControl();
             _movementManager.SwitchMode(CharacterMovementManager.MoveMode.NavMesh);
             base.StopSkill();
         }
+
+        private void UnsubscribeTriggerEvents()
+        {
+            _agentTrigger.OnDamageCast -= HandleDamageCast;
+            _agentTrigger.OnLinkTimeEnd -= HandleLinkCombo;
+            _agentTrigger.OnAnimationEnd -= HandleAnimationEnd;
+        }
+
     }
 }

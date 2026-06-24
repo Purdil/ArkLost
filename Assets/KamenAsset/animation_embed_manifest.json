@@ -1,0 +1,88 @@
+﻿{
+    "generated_at":  "2026-06-11T10:17:17",
+    "source_root":  "D:\\Dwonloads\\Kamen",
+    "asset_root":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset",
+    "backup_root":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611",
+    "converted":  [
+                      {
+                          "name":  "Kamen_v1",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v1\\Kamen_v1.fbx",
+                          "action_count":  492,
+                          "sequence_count":  492,
+                          "source_psas":  [
+                                              "mn_cdkcn_00-2_ani.psa",
+                                              "mn_cdkcn_00_ani.psa",
+                                              "mn_cdkcn_00_evt2_ani.psa",
+                                              "mn_cdkcn_02_ani.psa"
+                                          ],
+                          "size_bytes":  489454044,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v1\\Kamen_v1.fbx"
+                      },
+                      {
+                          "name":  "Kamen_with_a_horse",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v1\\Kamen_with_a_horse.fbx",
+                          "action_count":  52,
+                          "sequence_count":  52,
+                          "source_psas":  [
+                                              "for_Kamen_with_a_horse.psa"
+                                          ],
+                          "size_bytes":  75585788,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v1\\Kamen_with_a_horse.fbx"
+                      },
+                      {
+                          "name":  "Kamen_v2",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\Kamen_v2.fbx",
+                          "action_count":  188,
+                          "sequence_count":  188,
+                          "source_psas":  [
+                                              "for_Kamen_v2.psa",
+                                              "for_Kamen_v2_evt2.psa"
+                                          ],
+                          "size_bytes":  174701212,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v2\\Kamen_v2.fbx"
+                      },
+                      {
+                          "name":  "Kamen_v2_Infernas_Kamen",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\Kamen v2+Infernas\\Kamen.fbx",
+                          "action_count":  207,
+                          "sequence_count":  207,
+                          "source_psas":  [
+                                              "for_Kamen_v2+Infernas.psa",
+                                              "for_Kamen_v2+Infernas_evt.psa"
+                                          ],
+                          "size_bytes":  324932476,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v2\\Kamen v2+Infernas\\Kamen.fbx"
+                      },
+                      {
+                          "name":  "Kamen_without_a_helmet",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v2\\without a helmet\\Kamen_without_a_helmet.fbx",
+                          "action_count":  6,
+                          "sequence_count":  6,
+                          "source_psas":  [
+                                              "for_Kamen_without_a_helmet.psa",
+                                              "for_Kamen_without_a_helmet_evt.psa"
+                                          ],
+                          "size_bytes":  11016252,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v2\\without a helmet\\Kamen_without_a_helmet.fbx"
+                      },
+                      {
+                          "name":  "Kamen_v3",
+                          "output":  "C:\\Users\\ydowo\\OneDrive\\ArkLost\\Assets\\KamenAsset\\Models\\v3\\Kamen_v3.fbx",
+                          "action_count":  42,
+                          "sequence_count":  42,
+                          "source_psas":  [
+                                              "for_Kamen_v3.psa",
+                                              "for_Kamen_v3_2.psa",
+                                              "for_Kamen_v3_evt.psa"
+                                          ],
+                          "size_bytes":  28858492,
+                          "backup":  "D:\\SteamLibrary\\steamapps\\common\\Blender\\Kamen_animation_embed_backup_20260611\\Models\\v3\\Kamen_v3.fbx"
+                      }
+                  ],
+    "converted_count":  6,
+    "total_action_count":  987,
+    "failed":  [
+
+               ],
+    "failed_count":  0
+}

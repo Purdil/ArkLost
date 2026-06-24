@@ -7,7 +7,6 @@ namespace _Scripts.Enemies
     public class NavMovement : MonoBehaviour, IModule, INavMovement
     {
         public NavMeshAgent NavMeshAgent { get; private set; }
-
         public Vector3 Velocity
         {
             get => NavMeshAgent != null ? NavMeshAgent.velocity : Vector3.zero;
@@ -57,12 +56,16 @@ namespace _Scripts.Enemies
         public void StopImmediately()
         {
             NavMeshAgent.velocity = Vector3.zero;
-            NavMeshAgent.ResetPath();
+            if (NavMeshAgent.enabled)
+            {
+                NavMeshAgent.ResetPath();
+                
+            }
         }
 
         public void Initialize(ModuleOwner owner)
         {
-            NavMeshAgent = owner.GetComponent<NavMeshAgent>();
+            NavMeshAgent = owner.GetComponent<NavMeshAgent>(); 
             Debug.Assert(NavMeshAgent != null, "NavMeshAgent Owner should have a NavMeshAgent");
             NavMeshAgent.SetDestination(owner.transform.position);
             NavMeshAgent.ResetPath();

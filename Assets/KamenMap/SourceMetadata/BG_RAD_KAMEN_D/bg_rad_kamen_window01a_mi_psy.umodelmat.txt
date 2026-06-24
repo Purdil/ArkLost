@@ -1,0 +1,3 @@
+Diffuse=bg_rad_kamen_window01a_d_psy
+Normal=bg_rad_kamen_window01a_n_psy
+Other[0]=diffuse

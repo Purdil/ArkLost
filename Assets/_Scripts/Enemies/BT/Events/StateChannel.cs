@@ -1,9 +1,10 @@
 using System;
+using _Scripts.Boss;
 using Unity.Behavior;
 using Unity.Properties;
 using UnityEngine;
 
-namespace Enemies.BT.Events
+namespace _Scripts.Enemies.BT.Events
 {
 #if UNITY_EDITOR
     [CreateAssetMenu(menuName = "Behavior/Event Channels/StateChannel")]

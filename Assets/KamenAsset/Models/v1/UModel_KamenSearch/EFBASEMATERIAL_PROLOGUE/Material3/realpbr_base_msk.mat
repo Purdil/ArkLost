@@ -1,0 +1,5 @@
+Diffuse=diffuse
+Normal=normal
+Other[0]=flat_gray
+Other[1]=flat_black
+Other[2]=statefx_default

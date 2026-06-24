@@ -1,0 +1,11 @@
+Diffuse=sk_fif_hdr_00_03_d
+Normal=sk_fif_hdr_00_03_n
+Emissive=sk_fif_hdr_00_03_e
+Other[0]=space_02_d_bur
+Other[1]=sk_fif_hdr_00_03_s
+Other[2]=fx_a_ice_003
+Other[3]=normal
+Other[4]=diffuse
+Other[5]=flat_gray
+Other[6]=flat_black
+Other[7]=statefx_default

@@ -1,0 +1,4 @@
+Diffuse=mn_cdkcn_00_d
+Normal=mn_cdkcn_00_n
+Emissive=mn_cdkcn_00_e
+Other[0]=diffuse

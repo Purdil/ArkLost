@@ -1,0 +1,15 @@
+Diffuse=mn_cdkcn_00-4_d
+Normal=mn_cdkcn_00-4_n
+Emissive=mn_cdkcn_00-2_e
+Other[0]=mn_cdkcn_00-4_s
+Other[1]=mn_cdkcn_00_e
+Other[2]=fx_d_atypical_011
+Other[3]=mn_cdkcn_00_d
+Other[4]=mn_cdkcn_00_m
+Other[5]=mn_cdkcn_00_n
+Other[6]=mn_cdkcn_00_s
+Other[7]=normal
+Other[8]=diffuse
+Other[9]=flat_gray
+Other[10]=flat_black
+Other[11]=statefx_default

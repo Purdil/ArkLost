@@ -28,12 +28,9 @@ namespace Players.FSM
             base.Exit();
         }
 
-        private void HandleMovementChange(Vector2 movementPosition)
+        private void HandleMovementChange()
         {
-            if (movementPosition.magnitude > INPUT_DEADZONE)
-            {
-                _player.ChangeState(PlayerState.RUN, 0.1f); //RUN상태로 전환
-            }
+            _player.ChangeState(PlayerState.RUN, 0.1f); //RUN상태로 전환
         }
     }
 }

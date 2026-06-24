@@ -1,6 +1,6 @@
 using Unity.Behavior;
 
-namespace Enemies.BT
+namespace _Scripts.Enemies.BT
 {
     [BlackboardEnum]
     public enum EnemyState

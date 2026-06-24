@@ -2,7 +2,7 @@ using System;
 using GGMLib.ModuleSystem;
 using UnityEngine;
 
-namespace CombatSystem
+namespace _Scripts.CombatSystem
 {
     public interface ISkillModule
     {

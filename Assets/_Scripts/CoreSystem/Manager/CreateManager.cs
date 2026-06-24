@@ -1,4 +1,5 @@
 ﻿using System;
+using _Scripts.CoreSystem.Effects;
 using CoreSystem.Effects;
 using CoreSystem.Events;
 using GGMLib.EventChannelSystem;

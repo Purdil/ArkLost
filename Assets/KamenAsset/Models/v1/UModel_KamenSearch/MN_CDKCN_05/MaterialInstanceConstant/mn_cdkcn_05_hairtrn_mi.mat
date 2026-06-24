@@ -1,0 +1,5 @@
+Diffuse=mn_cdkcn_05_hair_d
+Normal=mn_cdkcn_05_hair_n
+Other[0]=normal
+Other[1]=diffuse
+Other[2]=statefx_default

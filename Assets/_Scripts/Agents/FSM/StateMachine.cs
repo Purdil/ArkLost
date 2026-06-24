@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
+using Agents;
+using Agents.FSM;
 using UnityEngine;
 
-namespace Agents.FSM
+namespace _Scripts.Agents.FSM
 {
     public class StateMachine
     {

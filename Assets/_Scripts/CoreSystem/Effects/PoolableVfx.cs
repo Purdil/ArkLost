@@ -3,7 +3,7 @@ using System.Collections;
 using GGMLib.ObjectPool.Runtime;
 using UnityEngine;
 
-namespace CoreSystem.Effects
+namespace _Scripts.CoreSystem.Effects
 {
     public class PoolableVfx : AbstractMonoPoolable
     {

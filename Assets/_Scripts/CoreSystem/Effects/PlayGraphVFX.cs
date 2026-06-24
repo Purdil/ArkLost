@@ -1,3 +1,4 @@
+using _Scripts.CoreSystem.Effects;
 using UnityEngine;
 using UnityEngine.VFX;
 
@@ -7,6 +8,7 @@ namespace CoreSystem.Effects
     {
         [field: SerializeField] public AssetNameSO VfxName { get; private set; }
         [field: SerializeField] public float VfxDuration { get; private set; }
+        public bool AutoSetParent { get; }
         [SerializeField] private VisualEffect[] effects;
         
         public void PlayVFX(Vector3 position, Quaternion rotation)

@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_floor08a_da_ksr
+Normal=bg_rad_kamen_floor08a_n_ksr
+Emissive=bg_rad_kamen_floor08a_em_ksr
+Other[0]=diffuse

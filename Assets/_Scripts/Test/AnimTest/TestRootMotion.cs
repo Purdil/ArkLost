@@ -16,9 +16,6 @@ namespace Test.AnimTest
 
         private void OnAnimatorMove()
         {
-            Debug.Log($"root position : {_animator.rootPosition}, " +
-                      $"delta position : {_animator.deltaPosition}," +
-                      $" delta rotation : {_animator.deltaRotation}");
             if (parentTrm != null)
             {
                 parentTrm.Translate(_animator.deltaPosition);

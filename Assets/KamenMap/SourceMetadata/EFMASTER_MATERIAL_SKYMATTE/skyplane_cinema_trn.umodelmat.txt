@@ -1,0 +1,5 @@
+Diffuse=plane_cloudtex_01_d
+Normal=floorsky_03_n
+Specular=t_tds_specular04
+SpecPower=t_tds_specular04
+Other[0]=floorsky_02

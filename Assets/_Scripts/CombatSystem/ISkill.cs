@@ -1,15 +1,14 @@
 using System;
-using _Scripts.CombatSystem;
+using CombatSystem;
 using UnityEngine;
 
-namespace CombatSystem
+namespace _Scripts.CombatSystem
 {
     public interface ISkill
     {
         event Action OnSkillEnd;
         SkillDataSO SkillData { get; }
         bool IsUsing { get; }
-        
         float NormalizedCooldown { get; } // 0~ 1로 표현되는 쿨다운 값. 1일때 사용가능
         
         void InitializeSkill(ISkillModule skillModule);

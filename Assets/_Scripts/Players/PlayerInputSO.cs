@@ -7,13 +7,17 @@ namespace _Scripts.Players
     [CreateAssetMenu(fileName = "Player input", menuName = "SO/Player Input", order = 0)]
     public class PlayerInputSO : ScriptableObject, Controls.IPlayerActions
     {
-        public event Action<Vector2> OnMovementChange;
+        public event Action OnMovementChange;
         public event Action OnAttackKeyPressed;
         public event Action OnDashKeyPressed;
+        public event Action OnSkill1Pressed;
+        public event Action OnSkill2Pressed;
+        public event Action OnSkill3Pressed;
+        public event Action OnSkill4Pressed;
         
         public delegate void SkillKeyPress(int keyIndex, bool isPressed);
-        public event SkillKeyPress OnSkillKeyPressed;
 
+        [SerializeField] private LayerMask whatIsBoss;
         [SerializeField] private LayerMask whatIsGround;
 
         private Controls _controls;
@@ -50,10 +54,9 @@ namespace _Scripts.Players
 
         public void OnMove(InputAction.CallbackContext context)
         {
-            if (context.started)
+            if (context.performed)
             {
-                Vector3 pos = GetWorldMousePosition();
-                OnMovementChange?.Invoke(new Vector2(pos.x, pos.z));
+                OnMovementChange?.Invoke();
             }
                 
         }
@@ -64,27 +67,57 @@ namespace _Scripts.Players
                 OnDashKeyPressed?.Invoke();
         }
 
+        public void OnSkill1(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+                OnSkill1Pressed?.Invoke();
+        }
+
+        public void OnSkill2(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+                OnSkill2Pressed?.Invoke();
+        }
+
+        public void OnSkill3(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+                OnSkill3Pressed?.Invoke();
+        }
+
+        public void OnSkill4(InputAction.CallbackContext context)
+        {
+            if(context.performed)
+                OnSkill4Pressed?.Invoke();
+        }
+
         public void OnAttack(InputAction.CallbackContext context)
         {
             if(context.performed)
                 OnAttackKeyPressed?.Invoke();
         }
-        public void OnSkill(InputAction.CallbackContext context)
-        {
-            int keyIndex = context.action.GetBindingIndexForControl(context.control);
-            if (context.performed)
-            {
-                OnSkillKeyPressed?.Invoke(keyIndex, true);
-            }
-            else if (context.canceled)
-            {
-                OnSkillKeyPressed?.Invoke(keyIndex, false);
-            }
-        }
 
         public void OnPointer(InputAction.CallbackContext context)
         {
             _screenMousePosition = context.ReadValue<Vector2>();
+        }
+
+        public bool CheckPosIsBoss(Vector3 worldPosition, out Collider boss)
+        {
+            Collider[] hits =
+                Physics.OverlapSphere(
+                    worldPosition,
+                    1.0f,
+                    whatIsBoss);
+
+            if (hits.Length > 0)
+            {
+                boss = hits[0];
+                return true;
+            }
+
+            boss = null;
+            return false;
         }
 
         public Vector3 GetWorldMousePosition()

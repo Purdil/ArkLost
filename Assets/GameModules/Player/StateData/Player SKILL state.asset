@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Player SKILL state
   m_EditorClassIdentifier: Assembly-CSharp::Agents.FSM.StateSO
   stateName: SKILL
-  className: Players.FSM.PlayerSkillState
+  className: _Scripts.Players.FSM.PlayerSkillState
   assetIndex: 2
   stateParam: {fileID: 0}

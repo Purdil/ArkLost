@@ -1,6 +1,8 @@
 using System;
+using _Scripts.CombatSystem;
 using CombatSystem;
 using GGMLib.ModuleSystem;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Agents
@@ -51,7 +53,7 @@ namespace Agents
                 ActionData.HitNormal = damageData.HitNormal;
                 ActionData.Attacker = damageData.Attacker;
             }
-            
+          
             OnHit?.Invoke();
             
             if (Health != null)

@@ -13,7 +13,6 @@ namespace Test.ReflexTest
 
         public static void TestConsole(string msg)
         {
-            Debug.Log($"Root installer test : {msg}");
         }
     }
 }

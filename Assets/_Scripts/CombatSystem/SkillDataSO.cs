@@ -1,3 +1,4 @@
+using _Scripts.Boss;
 using UnityEngine;
 
 namespace _Scripts.CombatSystem
@@ -8,6 +9,7 @@ namespace _Scripts.CombatSystem
         public int skillIndex;
         public string skillName;
         public float cooldown;
+        public SkillType skillType;
         //나중에 데미지 계수 등 여러가지 요소가 들어간다.
         public float skillRange = 1f;
         public float damageMultiplier = 1f;

@@ -1,0 +1,257 @@
+LODInfo[3] =
+{
+    LODInfo[0] =
+    {
+        DisplayFactor = 1
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[10] =
+        {
+            bEnableShadowCasting[0] = true
+            bEnableShadowCasting[1] = true
+            bEnableShadowCasting[2] = true
+            bEnableShadowCasting[3] = true
+            bEnableShadowCasting[4] = true
+            bEnableShadowCasting[5] = true
+            bEnableShadowCasting[6] = true
+            bEnableShadowCasting[7] = true
+            bEnableShadowCasting[8] = true
+            bEnableShadowCasting[9] = true
+        }
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[1] =
+    {
+        DisplayFactor = 0.333333
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[10] =
+        {
+            bEnableShadowCasting[0] = true
+            bEnableShadowCasting[1] = true
+            bEnableShadowCasting[2] = true
+            bEnableShadowCasting[3] = true
+            bEnableShadowCasting[4] = true
+            bEnableShadowCasting[5] = true
+            bEnableShadowCasting[6] = true
+            bEnableShadowCasting[7] = true
+            bEnableShadowCasting[8] = true
+            bEnableShadowCasting[9] = true
+        }
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+    LODInfo[2] =
+    {
+        DisplayFactor = 0.166667
+        LODHysteresis = 0.02
+        LODMaterialMap[0] = {}
+        bEnableShadowCasting[10] =
+        {
+            bEnableShadowCasting[0] = true
+            bEnableShadowCasting[1] = true
+            bEnableShadowCasting[2] = true
+            bEnableShadowCasting[3] = true
+            bEnableShadowCasting[4] = true
+            bEnableShadowCasting[5] = true
+            bEnableShadowCasting[6] = true
+            bEnableShadowCasting[7] = true
+            bEnableShadowCasting[8] = true
+            bEnableShadowCasting[9] = true
+        }
+        BonesToRemove[0] = {}
+        BonesToPrioritize[0] = {}
+        SourceImportFilename = ""
+    }
+}
+Sockets[21] =
+{
+    Sockets[0] =
+    {
+        SocketName = interactionkey
+        BoneName = b_effectname
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[1] =
+    {
+        SocketName = wpn_01
+        BoneName = b_wpn_01
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[2] =
+    {
+        SocketName = wpn_02
+        BoneName = b_wpn_02
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[3] =
+    {
+        SocketName = wpn_03
+        BoneName = b_wpn_03
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[4] =
+    {
+        SocketName = fx_down_01
+        BoneName = b_effectroot
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[5] =
+    {
+        SocketName = fx_mark_01
+        BoneName = b_effectname
+        RelativeLocation = { X=0, Y=0, Z=-60 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[6] =
+    {
+        SocketName = fx_mark_02
+        BoneName = b_effectname
+        RelativeLocation = { X=0, Y=0, Z=-60 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[7] =
+    {
+        SocketName = fx_state_01
+        BoneName = bip001-spine1
+        RelativeLocation = { X=19.2491, Y=0, Z=0 }
+        RelativeRotation = { Yaw=-18204, Pitch=0, Roll=16384 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[8] =
+    {
+        SocketName = fx_buff_01
+        BoneName = b_root
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[9] =
+    {
+        SocketName = fx_mark_03
+        BoneName = b_effectname
+        RelativeLocation = { X=0, Y=0, Z=25 }
+        RelativeRotation = { Yaw=16384, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[10] =
+    {
+        SocketName = fx_death_01
+        BoneName = bip001-spine1
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=-16384, Pitch=0, Roll=16384 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[11] =
+    {
+        SocketName = fx_hit_01
+        BoneName = bip001-spine
+        RelativeLocation = { X=-15, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[12] =
+    {
+        SocketName = fx_hit_02
+        BoneName = bip001-spine1
+        RelativeLocation = { X=20, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[13] =
+    {
+        SocketName = fx_mark_04
+        BoneName = b_head
+        RelativeLocation = { X=55, Y=0, Z=0 }
+        RelativeRotation = { Yaw=-16384, Pitch=0, Roll=16384 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[14] =
+    {
+        SocketName = fx_state_02
+        BoneName = b_head
+        RelativeLocation = { X=10, Y=0, Z=0 }
+        RelativeRotation = { Yaw=-16384, Pitch=0, Roll=16384 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[15] =
+    {
+        SocketName = endcontrol
+        BoneName = b_wpn_02
+        RelativeLocation = { X=80, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[16] =
+    {
+        SocketName = startcontrol
+        BoneName = b_wpn_02
+        RelativeLocation = { X=240, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[17] =
+    {
+        SocketName = midcontrol
+        BoneName = b_wpn_02
+        RelativeLocation = { X=160, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[18] =
+    {
+        SocketName = grab_socket_etc_1
+        BoneName = b_wpn_02
+        RelativeLocation = { X=128.843, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[19] =
+    {
+        SocketName = wpn_04
+        BoneName = bip001-spine2
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=0, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+    Sockets[20] =
+    {
+        SocketName = grab_socket_etc_2
+        BoneName = b_effectworldzero
+        RelativeLocation = { X=0, Y=0, Z=0 }
+        RelativeRotation = { Yaw=16384, Pitch=0, Roll=0 }
+        RelativeScale = { X=1, Y=1, Z=1 }
+    }
+}
+bHasVertexColors = true
+EnableTwistBoneFixers = true
+EnableClavicleFixer = true
+Skeleton = None
+Materials[10] =
+{
+    Materials[0] = MaterialInstanceConstant'mat.mn_cdkcn_00_mi'
+    Materials[1] = MaterialInstanceConstant'mat.mn_cdkcn_00-1_mi'
+    Materials[2] = MaterialInstanceConstant'mat.mn_cdkcn_00-2_mi'
+    Materials[3] = MaterialInstanceConstant'mat.mn_cdkcn_00-3_mi'
+    Materials[4] = MaterialInstanceConstant'mat.mn_cdkcn_00-4_mi'
+    Materials[5] = MaterialInstanceConstant'mat.mn_cdkcn_00-5_mi'
+    Materials[6] = MaterialInstanceConstant'mat.mn_cdkcn_00-6_mi'
+    Materials[7] = MaterialInstanceConstant'mat.mn_cdkcn_00-7a_mi'
+    Materials[8] = MaterialInstanceConstant'mat.mn_cdkcn_00-8_mi'
+    Materials[9] = MaterialInstanceConstant'mat.mn_cdkcn_00-9_mi'
+}

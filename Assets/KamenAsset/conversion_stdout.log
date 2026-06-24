@@ -1,0 +1,552 @@
+Reloading external rigs...
+Reloading external metarigs...
+[1/30] D:\Dwonloads\Kamen\v1\psk\half a face\Kamen_half_a_face.pskx
+Warning: PSK imported as "Kamen_half_a_face" with 1 warning(s)
+Discarded 50 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\half a face\\Kamen_half_a_face.fbx'
+(bpy.data.armatures['Kamen_half_a_face'], 'POSE')
+export finished in 2.1909 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\half a face\Kamen_half_a_face.fbx
+[2/30] D:\Dwonloads\Kamen\v1\psk\half a face\parts1.psk
+Info: PSK imported as "parts1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\half a face\\parts1.fbx'
+(bpy.data.armatures['parts1'], 'POSE')
+export finished in 0.2852 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\half a face\parts1.fbx
+[3/30] D:\Dwonloads\Kamen\v1\psk\half a face\parts2.psk
+Info: PSK imported as "parts2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\half a face\\parts2.fbx'
+(bpy.data.armatures['parts2'], 'POSE')
+export finished in 0.0942 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\half a face\parts2.fbx
+[4/30] D:\Dwonloads\Kamen\v1\psk\half a face\parts3.psk
+Info: PSK imported as "parts3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\half a face\\parts3.fbx'
+(bpy.data.armatures['parts3'], 'POSE')
+export finished in 0.2717 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\half a face\parts3.fbx
+[5/30] D:\Dwonloads\Kamen\v1\psk\half a face\parts4.psk
+Info: PSK imported as "parts4"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\half a face\\parts4.fbx'
+(bpy.data.armatures['parts4'], 'POSE')
+export finished in 0.3244 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\half a face\parts4.fbx
+[6/30] D:\Dwonloads\Kamen\v1\psk\Kamen_v1.pskx
+Warning: PSK imported as "Kamen_v1" with 1 warning(s)
+Discarded 50 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\Kamen_v1.fbx'
+(bpy.data.armatures['Kamen_v1'], 'POSE')
+export finished in 1.7108 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\Kamen_v1.fbx
+[7/30] D:\Dwonloads\Kamen\v1\psk\Kamen_with_a_horse.pskx
+Warning: PSK imported as "Kamen_with_a_horse" with 1 warning(s)
+Discarded 174 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v1\\Kamen_with_a_horse.fbx'
+(bpy.data.armatures['Kamen_with_a_horse'], 'POSE')
+export finished in 2.9475 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v1\Kamen_with_a_horse.fbx
+[8/30] D:\Dwonloads\Kamen\v2\psk\Kamen v2+Infernas\Infernas.pskx
+Warning: PSK imported as "Infernas" with 1 warning(s)
+Discarded 5 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v2\\Kamen v2+Infernas\\Infernas.fbx'
+(bpy.data.armatures['Infernas'], 'POSE')
+export finished in 1.7546 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v2\Kamen v2+Infernas\Infernas.fbx
+[9/30] D:\Dwonloads\Kamen\v2\psk\Kamen v2+Infernas\Kamen.psk
+Warning: PSK imported as "Kamen" with 1 warning(s)
+Discarded 1 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v2\\Kamen v2+Infernas\\Kamen.fbx'
+(bpy.data.armatures['Kamen'], 'POSE')
+export finished in 1.1281 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v2\Kamen v2+Infernas\Kamen.fbx
+[10/30] D:\Dwonloads\Kamen\v2\psk\Kamen_v2.psk
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v2\\Kamen_v2.fbx'
+(bpy.data.armatures['Kamen_v2'], 'POSE')
+export finished in 1.4458 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v2\Kamen_v2.fbx
+[11/30] D:\Dwonloads\Kamen\v2\psk\without a helmet\helmet.psk
+Info: PSK imported as "helmet"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v2\\without a helmet\\helmet.fbx'
+(bpy.data.armatures['helmet'], 'POSE')
+export finished in 0.4017 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v2\without a helmet\helmet.fbx
+[12/30] D:\Dwonloads\Kamen\v2\psk\without a helmet\Kamen_without_a_helmet.psk
+Warning: PSK imported as "Kamen_without_a_helmet" with 1 warning(s)
+Discarded 72 invalid face(s).
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v2\\without a helmet\\Kamen_without_a_helmet.fbx'
+(bpy.data.armatures['Kamen_without_a_helmet'], 'POSE')
+export finished in 1.4123 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v2\without a helmet\Kamen_without_a_helmet.fbx
+[13/30] D:\Dwonloads\Kamen\v3\psk\Kamen_v3.psk
+Info: PSK imported as "Kamen_v3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\v3\\Kamen_v3.fbx'
+(bpy.data.armatures['Kamen_v3'], 'POSE')
+export finished in 0.3905 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\v3\Kamen_v3.fbx
+[14/30] D:\Dwonloads\Kamen\weapons\hands\psk\wp_mn_cdkcn_03_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_03_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\hands\\wp_mn_cdkcn_03_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_03_sk'], 'POSE')
+export finished in 0.3009 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\hands\wp_mn_cdkcn_03_sk.fbx
+[15/30] D:\Dwonloads\Kamen\weapons\hands\psk\wp_mn_cdkcn_03al_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_03al_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\hands\\wp_mn_cdkcn_03al_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_03al_sk'], 'POSE')
+export finished in 0.2976 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\hands\wp_mn_cdkcn_03al_sk.fbx
+[16/30] D:\Dwonloads\Kamen\weapons\hands\psk\wp_mn_cdkcn_03ar_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_03ar_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\hands\\wp_mn_cdkcn_03ar_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_03ar_sk'], 'POSE')
+export finished in 0.3107 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\hands\wp_mn_cdkcn_03ar_sk.fbx
+[17/30] D:\Dwonloads\Kamen\weapons\hands\psk\wp_mn_cdkcn_03l_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_03l_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\hands\\wp_mn_cdkcn_03l_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_03l_sk'], 'POSE')
+export finished in 0.1933 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\hands\wp_mn_cdkcn_03l_sk.fbx
+[18/30] D:\Dwonloads\Kamen\weapons\hands\psk\wp_mn_cdkcn_03r_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_03r_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\hands\\wp_mn_cdkcn_03r_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_03r_sk'], 'POSE')
+export finished in 0.1875 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\hands\wp_mn_cdkcn_03r_sk.fbx
+[19/30] D:\Dwonloads\Kamen\weapons\other\v1\psk\wp_mn_cdkcn_00_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\other\\v1\\wp_mn_cdkcn_00_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_00_sk'], 'POSE')
+export finished in 0.0598 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\other\v1\wp_mn_cdkcn_00_sk.fbx
+[20/30] D:\Dwonloads\Kamen\weapons\other\v2\psk\wp_mn_cdkcn_02_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_02_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\other\\v2\\wp_mn_cdkcn_02_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_02_sk'], 'POSE')
+export finished in 0.0921 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\other\v2\wp_mn_cdkcn_02_sk.fbx
+[21/30] D:\Dwonloads\Kamen\weapons\other\v3\psk\wp_mn_cdkcn_05_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_05_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\other\\v3\\wp_mn_cdkcn_05_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_05_sk'], 'POSE')
+export finished in 0.0625 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\other\v3\wp_mn_cdkcn_05_sk.fbx
+[22/30] D:\Dwonloads\Kamen\weapons\other\v4\psk\wp_mn_cdkcn_06_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_06_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\other\\v4\\wp_mn_cdkcn_06_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_06_sk'], 'POSE')
+export finished in 0.0402 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\other\v4\wp_mn_cdkcn_06_sk.fbx
+[23/30] D:\Dwonloads\Kamen\weapons\other\v5\psk\wp_mn_cdkcn_01_sk.psk
+Info: PSK imported as "wp_mn_cdkcn_01_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\other\\v5\\wp_mn_cdkcn_01_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcn_01_sk'], 'POSE')
+export finished in 0.0829 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\other\v5\wp_mn_cdkcn_01_sk.fbx
+[24/30] D:\Dwonloads\Kamen\weapons\sword v1\psk\mn_cdkcs_00_sk.psk
+Info: PSK imported as "mn_cdkcs_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v1\\mn_cdkcs_00_sk.fbx'
+(bpy.data.armatures['mn_cdkcs_00_sk'], 'POSE')
+export finished in 0.1180 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v1\mn_cdkcs_00_sk.fbx
+[25/30] D:\Dwonloads\Kamen\weapons\sword v1\psk\wp_mn_cdkcs_00_sk.psk
+Info: PSK imported as "wp_mn_cdkcs_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v1\\wp_mn_cdkcs_00_sk.fbx'
+(bpy.data.armatures['wp_mn_cdkcs_00_sk'], 'POSE')
+export finished in 0.1057 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v1\wp_mn_cdkcs_00_sk.fbx
+[26/30] D:\Dwonloads\Kamen\weapons\sword v2\psk\mn_cdkcn_08_sk.psk
+Info: PSK imported as "mn_cdkcn_08_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v2\\mn_cdkcn_08_sk.fbx'
+(bpy.data.armatures['mn_cdkcn_08_sk'], 'POSE')
+export finished in 0.0917 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v2\mn_cdkcn_08_sk.fbx
+[27/30] D:\Dwonloads\Kamen\weapons\sword v2\psk\mn_cdkcn_11_sk.psk
+Info: PSK imported as "mn_cdkcn_11_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v2\\mn_cdkcn_11_sk.fbx'
+(bpy.data.armatures['mn_cdkcn_11_sk'], 'POSE')
+export finished in 0.0499 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v2\mn_cdkcn_11_sk.fbx
+[28/30] D:\Dwonloads\Kamen\weapons\sword v3\psk\mn_cdkcn_09-2_sk.psk
+Info: PSK imported as "mn_cdkcn_09-2_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v3\\mn_cdkcn_09-2_sk.fbx'
+(bpy.data.armatures['mn_cdkcn_09-2_sk'], 'POSE')
+export finished in 0.0948 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v3\mn_cdkcn_09-2_sk.fbx
+[29/30] D:\Dwonloads\Kamen\weapons\sword v3\psk\mn_cdkcn_09_sk.psk
+Info: PSK imported as "mn_cdkcn_09_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v3\\mn_cdkcn_09_sk.fbx'
+(bpy.data.armatures['mn_cdkcn_09_sk'], 'POSE')
+export finished in 0.1262 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v3\mn_cdkcn_09_sk.fbx
+[30/30] D:\Dwonloads\Kamen\weapons\sword v3\psk\mn_cdkcn_12_sk.psk
+Info: PSK imported as "mn_cdkcn_12_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Models\\weapons\\sword v3\\mn_cdkcn_12_sk.fbx'
+(bpy.data.armatures['mn_cdkcn_12_sk'], 'POSE')
+export finished in 0.0945 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Models\weapons\sword v3\mn_cdkcn_12_sk.fbx
+[anim 1/18 1/3] D:\Dwonloads\Kamen\v1\animations\for_Kamen_with_a_horse.psa
+Info: PSK imported as "Kamen_with_a_horse"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\for_Kamen_with_a_horse\\for_Kamen_with_a_horse_part_01_of_03.fbx'
+export finished in 62.5251 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\for_Kamen_with_a_horse\for_Kamen_with_a_horse_part_01_of_03.fbx (25 actions)
+[anim 1/18 2/3] D:\Dwonloads\Kamen\v1\animations\for_Kamen_with_a_horse.psa
+Info: PSK imported as "Kamen_with_a_horse"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\for_Kamen_with_a_horse\\for_Kamen_with_a_horse_part_02_of_03.fbx'
+export finished in 64.4871 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\for_Kamen_with_a_horse\for_Kamen_with_a_horse_part_02_of_03.fbx (25 actions)
+[anim 1/18 3/3] D:\Dwonloads\Kamen\v1\animations\for_Kamen_with_a_horse.psa
+Info: PSK imported as "Kamen_with_a_horse"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\for_Kamen_with_a_horse\\for_Kamen_with_a_horse_part_03_of_03.fbx'
+export finished in 4.5481 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\for_Kamen_with_a_horse\for_Kamen_with_a_horse_part_03_of_03.fbx (2 actions)
+[anim 2/18 1/3] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00-2_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00-2_ani\\mn_cdkcn_00-2_ani_part_01_of_03.fbx'
+export finished in 52.7380 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00-2_ani\mn_cdkcn_00-2_ani_part_01_of_03.fbx (25 actions)
+[anim 2/18 2/3] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00-2_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00-2_ani\\mn_cdkcn_00-2_ani_part_02_of_03.fbx'
+export finished in 48.5184 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00-2_ani\mn_cdkcn_00-2_ani_part_02_of_03.fbx (25 actions)
+[anim 2/18 3/3] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00-2_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00-2_ani\\mn_cdkcn_00-2_ani_part_03_of_03.fbx'
+export finished in 2.0176 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00-2_ani\mn_cdkcn_00-2_ani_part_03_of_03.fbx (1 actions)
+[anim 3/18 1/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_01_of_08.fbx'
+export finished in 50.7313 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_01_of_08.fbx (25 actions)
+[anim 3/18 2/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_02_of_08.fbx'
+export finished in 53.1468 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_02_of_08.fbx (25 actions)
+[anim 3/18 3/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_03_of_08.fbx'
+export finished in 50.6575 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_03_of_08.fbx (25 actions)
+[anim 3/18 4/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_04_of_08.fbx'
+export finished in 54.7415 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_04_of_08.fbx (25 actions)
+[anim 3/18 5/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_05_of_08.fbx'
+export finished in 52.2331 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_05_of_08.fbx (25 actions)
+[anim 3/18 6/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_06_of_08.fbx'
+export finished in 51.7162 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_06_of_08.fbx (25 actions)
+[anim 3/18 7/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_07_of_08.fbx'
+export finished in 12.1077 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_07_of_08.fbx (25 actions)
+[anim 3/18 8/8] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_ani\\mn_cdkcn_00_ani_part_08_of_08.fbx'
+export finished in 11.2957 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_ani\mn_cdkcn_00_ani_part_08_of_08.fbx (25 actions)
+[anim 4/18 1/2] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_evt2_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_evt2_ani\\mn_cdkcn_00_evt2_ani_part_01_of_02.fbx'
+export finished in 17.2291 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_evt2_ani\mn_cdkcn_00_evt2_ani_part_01_of_02.fbx (25 actions)
+[anim 4/18 2/2] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_00_evt2_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_00_evt2_ani\\mn_cdkcn_00_evt2_ani_part_02_of_02.fbx'
+export finished in 5.1064 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_00_evt2_ani\mn_cdkcn_00_evt2_ani_part_02_of_02.fbx (4 actions)
+[anim 5/18 1/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_01_of_09.fbx'
+export finished in 12.1977 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_01_of_09.fbx (25 actions)
+[anim 5/18 2/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_02_of_09.fbx'
+export finished in 12.7176 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_02_of_09.fbx (25 actions)
+[anim 5/18 3/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_03_of_09.fbx'
+export finished in 26.0785 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_03_of_09.fbx (25 actions)
+[anim 5/18 4/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_04_of_09.fbx'
+export finished in 30.5962 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_04_of_09.fbx (25 actions)
+[anim 5/18 5/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_05_of_09.fbx'
+export finished in 20.4844 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_05_of_09.fbx (25 actions)
+[anim 5/18 6/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_06_of_09.fbx'
+export finished in 12.2234 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_06_of_09.fbx (25 actions)
+[anim 5/18 7/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_07_of_09.fbx'
+export finished in 11.3964 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_07_of_09.fbx (25 actions)
+[anim 5/18 8/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_08_of_09.fbx'
+export finished in 7.4511 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_08_of_09.fbx (25 actions)
+[anim 5/18 9/9] D:\Dwonloads\Kamen\v1\animations\mn_cdkcn_02_ani.psa
+Info: PSK imported as "Kamen_v1"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v1\\mn_cdkcn_02_ani\\mn_cdkcn_02_ani_part_09_of_09.fbx'
+export finished in 4.0473 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v1\mn_cdkcn_02_ani\mn_cdkcn_02_ani_part_09_of_09.fbx (12 actions)
+[anim 6/18 1/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_01_of_09.fbx'
+export finished in 12.9822 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_01_of_09.fbx (25 actions)
+[anim 6/18 2/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_02_of_09.fbx'
+export finished in 10.8575 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_02_of_09.fbx (25 actions)
+[anim 6/18 3/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_03_of_09.fbx'
+export finished in 23.2452 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_03_of_09.fbx (25 actions)
+[anim 6/18 4/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_04_of_09.fbx'
+export finished in 16.1354 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_04_of_09.fbx (25 actions)
+[anim 6/18 5/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_05_of_09.fbx'
+export finished in 18.3498 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_05_of_09.fbx (25 actions)
+[anim 6/18 6/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_06_of_09.fbx'
+export finished in 22.1826 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_06_of_09.fbx (25 actions)
+[anim 6/18 7/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_07_of_09.fbx'
+export finished in 23.0117 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_07_of_09.fbx (25 actions)
+[anim 6/18 8/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_08_of_09.fbx'
+export finished in 18.3157 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_08_of_09.fbx (25 actions)
+[anim 6/18 9/9] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas\\for_Kamen_v2+Infernas_part_09_of_09.fbx'
+export finished in 0.8123 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas\for_Kamen_v2+Infernas_part_09_of_09.fbx (1 actions)
+[anim 7/18 1/1] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2+Infernas_evt.psa
+Info: PSK imported as "Kamen"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2+Infernas_evt\\for_Kamen_v2+Infernas_evt_part_01_of_01.fbx'
+export finished in 8.5589 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2+Infernas_evt\for_Kamen_v2+Infernas_evt_part_01_of_01.fbx (6 actions)
+[anim 8/18 1/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_01_of_07.fbx'
+export finished in 10.1160 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_01_of_07.fbx (25 actions)
+[anim 8/18 2/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_02_of_07.fbx'
+export finished in 11.0738 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_02_of_07.fbx (25 actions)
+[anim 8/18 3/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_03_of_07.fbx'
+export finished in 9.3394 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_03_of_07.fbx (25 actions)
+[anim 8/18 4/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_04_of_07.fbx'
+export finished in 7.8903 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_04_of_07.fbx (25 actions)
+[anim 8/18 5/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_05_of_07.fbx'
+export finished in 8.8125 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_05_of_07.fbx (25 actions)
+[anim 8/18 6/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_06_of_07.fbx'
+export finished in 9.8136 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_06_of_07.fbx (25 actions)
+[anim 8/18 7/7] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2\\for_Kamen_v2_part_07_of_07.fbx'
+export finished in 8.5492 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2\for_Kamen_v2_part_07_of_07.fbx (24 actions)
+[anim 9/18 1/1] D:\Dwonloads\Kamen\v2\animations\for_Kamen_v2_evt2.psa
+Info: PSK imported as "Kamen_v2"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_v2_evt2\\for_Kamen_v2_evt2_part_01_of_01.fbx'
+export finished in 9.9706 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_v2_evt2\for_Kamen_v2_evt2_part_01_of_01.fbx (14 actions)
+[anim 10/18 1/1] D:\Dwonloads\Kamen\v2\animations\for_Kamen_without_a_helmet.psa
+Info: PSK imported as "Kamen_without_a_helmet"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_without_a_helmet\\for_Kamen_without_a_helmet_part_01_of_01.fbx'
+export finished in 2.3686 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_without_a_helmet\for_Kamen_without_a_helmet_part_01_of_01.fbx (3 actions)
+[anim 11/18 1/1] D:\Dwonloads\Kamen\v2\animations\for_Kamen_without_a_helmet_evt.psa
+Info: PSK imported as "Kamen_without_a_helmet"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v2\\for_Kamen_without_a_helmet_evt\\for_Kamen_without_a_helmet_evt_part_01_of_01.fbx'
+export finished in 1.4087 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v2\for_Kamen_without_a_helmet_evt\for_Kamen_without_a_helmet_evt_part_01_of_01.fbx (3 actions)
+[anim 12/18 1/1] D:\Dwonloads\Kamen\v3\animations\for_Kamen_v3.psa
+Info: PSK imported as "Kamen_v3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v3\\for_Kamen_v3\\for_Kamen_v3_part_01_of_01.fbx'
+export finished in 0.7180 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v3\for_Kamen_v3\for_Kamen_v3_part_01_of_01.fbx (3 actions)
+[anim 13/18 1/1] D:\Dwonloads\Kamen\v3\animations\for_Kamen_v3_2.psa
+Info: PSK imported as "Kamen_v3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v3\\for_Kamen_v3_2\\for_Kamen_v3_2_part_01_of_01.fbx'
+export finished in 1.7633 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v3\for_Kamen_v3_2\for_Kamen_v3_2_part_01_of_01.fbx (5 actions)
+[anim 14/18 1/2] D:\Dwonloads\Kamen\v3\animations\for_Kamen_v3_evt.psa
+Info: PSK imported as "Kamen_v3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v3\\for_Kamen_v3_evt\\for_Kamen_v3_evt_part_01_of_02.fbx'
+export finished in 7.8261 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v3\for_Kamen_v3_evt\for_Kamen_v3_evt_part_01_of_02.fbx (25 actions)
+[anim 14/18 2/2] D:\Dwonloads\Kamen\v3\animations\for_Kamen_v3_evt.psa
+Info: PSK imported as "Kamen_v3"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\v3\\for_Kamen_v3_evt\\for_Kamen_v3_evt_part_02_of_02.fbx'
+export finished in 3.4302 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\v3\for_Kamen_v3_evt\for_Kamen_v3_evt_part_02_of_02.fbx (9 actions)
+[anim 15/18 1/1] D:\Dwonloads\Kamen\weapons\hands\animations\wp_mn_cdkcn_03_ani.psa
+Info: PSK imported as "wp_mn_cdkcn_03_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\hands\\wp_mn_cdkcn_03_ani\\wp_mn_cdkcn_03_ani_part_01_of_01.fbx'
+export finished in 0.3739 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\hands\wp_mn_cdkcn_03_ani\wp_mn_cdkcn_03_ani_part_01_of_01.fbx (3 actions)
+[anim 16/18 1/3] D:\Dwonloads\Kamen\weapons\sword v1\animations\mn_cdkcs_00_ani.psa
+Info: PSK imported as "mn_cdkcs_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\sword v1\\mn_cdkcs_00_ani\\mn_cdkcs_00_ani_part_01_of_03.fbx'
+export finished in 0.8056 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\sword v1\mn_cdkcs_00_ani\mn_cdkcs_00_ani_part_01_of_03.fbx (25 actions)
+[anim 16/18 2/3] D:\Dwonloads\Kamen\weapons\sword v1\animations\mn_cdkcs_00_ani.psa
+Info: PSK imported as "mn_cdkcs_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\sword v1\\mn_cdkcs_00_ani\\mn_cdkcs_00_ani_part_02_of_03.fbx'
+export finished in 0.9495 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\sword v1\mn_cdkcs_00_ani\mn_cdkcs_00_ani_part_02_of_03.fbx (25 actions)
+[anim 16/18 3/3] D:\Dwonloads\Kamen\weapons\sword v1\animations\mn_cdkcs_00_ani.psa
+Info: PSK imported as "mn_cdkcs_00_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\sword v1\\mn_cdkcs_00_ani\\mn_cdkcs_00_ani_part_03_of_03.fbx'
+export finished in 0.1494 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\sword v1\mn_cdkcs_00_ani\mn_cdkcs_00_ani_part_03_of_03.fbx (6 actions)
+[anim 17/18 1/1] D:\Dwonloads\Kamen\weapons\sword v2\animations\mn_cdkcn_08_ani.psa
+Info: PSK imported as "mn_cdkcn_08_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\sword v2\\mn_cdkcn_08_ani\\mn_cdkcn_08_ani_part_01_of_01.fbx'
+export finished in 0.5219 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\sword v2\mn_cdkcn_08_ani\mn_cdkcn_08_ani_part_01_of_01.fbx (17 actions)
+[anim 18/18 1/1] D:\Dwonloads\Kamen\weapons\sword v3\animations\mn_cdkcn_09_ani.psa
+Info: PSK imported as "mn_cdkcn_09_sk"
+
+FBX export starting... 'C:\\Users\\ydowo\\OneDrive\\바탕 화면\\KamenAsset\\Animations\\weapons\\sword v3\\mn_cdkcn_09_ani\\mn_cdkcn_09_ani_part_01_of_01.fbx'
+export finished in 0.5612 sec.
+  -> C:\Users\ydowo\OneDrive\바탕 화면\KamenAsset\Animations\weapons\sword v3\mn_cdkcn_09_ani\mn_cdkcn_09_ani_part_01_of_01.fbx (17 actions)
+DONE models=30 model_failed=0 animations=55 animation_failed=0
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit
