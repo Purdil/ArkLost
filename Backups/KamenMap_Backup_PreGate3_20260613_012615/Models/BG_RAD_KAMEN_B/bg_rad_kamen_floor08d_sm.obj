@@ -1,0 +1,18 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\BG_RAD_KAMEN_B\StaticMesh3\bg_rad_kamen_floor08d_sm.gltf
+mtllib bg_rad_kamen_floor08d_sm.mtl
+o bg_rad_kamen_floor08d_sm_0
+usemtl BG_RAD_KAMEN_B__bg_rad_kamen_floor08c_mi_ksr
+v 5.239911 0.03158022 -5.250091
+v -5.260272 0.03158022 5.250092
+v 5.239911 0.03158022 5.250092
+v -5.260272 0.03158022 -5.250091
+vt 1 0
+vt 3.051758e-05 0.9999695
+vt 3.051758e-05 0
+vt 1 0.9999695
+vn -0.007873528 0.999938 -0.007873528
+vn -0.007873528 0.999938 -0.007873528
+vn -0.007873528 0.999938 -0.007873528
+vn -0.007873528 0.999938 -0.007873528
+f 1/1/1 2/2/2 3/3/3
+f 2/2/2 1/1/1 4/4/4

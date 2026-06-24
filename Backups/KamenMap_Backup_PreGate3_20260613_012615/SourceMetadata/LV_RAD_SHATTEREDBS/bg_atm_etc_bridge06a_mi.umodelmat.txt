@@ -1,0 +1,7 @@
+Diffuse=bg_atm_etc_bridge06_d_ljd
+Normal=bg_atm_etc_bridge06_n_ljd
+Other[0]=lv_common_ground_55_n
+Other[1]=lv_common_ground_100_d
+Other[2]=lv_common_ground_100_n
+Other[3]=diffuse
+Other[4]=orm

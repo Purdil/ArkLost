@@ -1,0 +1,4 @@
+Diffuse=bg_kur_tree_dry01a_da_ksy
+Normal=bg_kur_tree_dry01a_n_ksy
+Other[0]=diffuse
+Other[1]=flat_white

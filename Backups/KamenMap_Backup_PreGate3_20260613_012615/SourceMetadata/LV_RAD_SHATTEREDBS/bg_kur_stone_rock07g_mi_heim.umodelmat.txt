@@ -1,0 +1,7 @@
+Diffuse=bg_kur_stone_rock07g_d_heim
+Normal=bg_kur_stone_rock07g_n_heim
+Emissive=bg_kur_stone_rock07g_em_heim
+Other[0]=bg_kur_stone_rock07f_d_heim
+Other[1]=bg_kur_stone_rock07f_em_heim
+Other[2]=bg_kur_stone_rock07f_n_heim
+Other[3]=diffuse

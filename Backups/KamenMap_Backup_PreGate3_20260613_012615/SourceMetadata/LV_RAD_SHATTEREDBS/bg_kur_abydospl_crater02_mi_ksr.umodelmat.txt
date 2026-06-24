@@ -1,0 +1,4 @@
+Diffuse=bg_kur_stone_crater02_d_ksr
+Normal=bg_kur_stone_crater02_n_ksr
+Other[0]=diffuse
+Other[1]=masktex

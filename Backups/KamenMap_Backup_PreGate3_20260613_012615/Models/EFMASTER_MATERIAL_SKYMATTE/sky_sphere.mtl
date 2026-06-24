@@ -1,0 +1,6 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\EFMASTER_MATERIAL_SKYMATTE\StaticMesh3\sky_sphere.gltf
+newmtl EFMASTER_MATERIAL_SKYMATTE__sky_simple_trn
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/EFMASTER_MATERIAL_SKYMATTE/cloud_01_m.png
+

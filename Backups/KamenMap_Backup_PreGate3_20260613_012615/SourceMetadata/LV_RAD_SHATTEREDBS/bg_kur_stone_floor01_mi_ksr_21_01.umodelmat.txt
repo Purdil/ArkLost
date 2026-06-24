@@ -1,0 +1,4 @@
+Diffuse=bg_kur_tile_lava02_d_ksr
+Normal=bg_kur_tile_lava02_n_ksr
+Emissive=bg_kur_tile_lava02_em_ksr
+Other[0]=diffuse

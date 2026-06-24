@@ -1,0 +1,5 @@
+Diffuse=bg_shs_common_zipline01_d_old
+Normal=bg_shs_common_zipline01_n_old
+Other[0]=lv_common_ground_42_n
+Other[1]=diffuse
+Other[2]=orm

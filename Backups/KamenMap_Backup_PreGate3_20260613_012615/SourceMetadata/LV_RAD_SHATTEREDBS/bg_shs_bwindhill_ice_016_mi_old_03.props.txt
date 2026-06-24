@@ -1,0 +1,238 @@
+Parent = MaterialInstanceConstant'mastermaterial_bg_preset.preset_pbr_overlay_snowice_opa'
+ScalarParameterValues[21] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = diffuse_bumpoffset
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 4
+        ParameterName = diffuse_uv_tiling
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = detail_normal_intensity
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = detail_normal_tiling
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3.5
+        ParameterName = normal_intensity
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = normal_tiling
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = overlay_amount
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = overlay_normal_intensity
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.19
+        ParameterName = overlay_sharpeness
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = overlay_specular_intensity
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = 20
+        ParameterName = overlay_uv_tiling
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = ice_blending
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.4
+        ParameterName = ice_emissiveboost
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = 6
+        ParameterName = icemask_tiling
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = icereflection_intensity
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = ao_intensity
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = ao_power
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = metallic_intensity
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = metallic_power
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = roughness_intensity
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = roughness_power
+    }
+}
+TextureParameterValues[9] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_kur_etc_crystal04_d_ksr'
+        ParameterName = texture_diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_kur_etc_crystal04a_n_ksr'
+        ParameterName = texture_detail_normal
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_atm_etc_bridge06_n_ljd'
+        ParameterName = texture_normal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_rock_29_d'
+        ParameterName = texture_overlay
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_rock_23_n'
+        ParameterName = texture_overlay_normal
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_shs_stone_icebarrier05a_env_ksr'
+        ParameterName = texture_iceenviroment
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_shs_mazeoi_floor01b_env_ksr'
+        ParameterName = texture_icemask
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.ambientreflection_08'
+        ParameterName = texture_icereflection
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.ambientreflection_08'
+        ParameterName = texture_orm
+    }
+}
+VectorParameterValues[6] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.837079, G=0.0162043, B=0, A=1 }
+        ParameterName = diffuse_color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=0, B=0.00275183, A=1 }
+        ParameterName = overlay_color
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.476177, G=0, B=1, A=1 }
+        ParameterName = overlay_direction
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.0494335, G=0, B=0.000120923, A=1 }
+        ParameterName = ice_corecolor
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.193363, G=0.016323, B=0.002028, A=1 }
+        ParameterName = ice_outercolor
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.149166, G=0.0148131, B=0, A=1 }
+        ParameterName = iceenviroment_color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

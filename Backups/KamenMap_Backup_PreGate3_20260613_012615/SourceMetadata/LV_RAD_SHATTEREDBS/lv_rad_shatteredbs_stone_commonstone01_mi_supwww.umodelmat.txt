@@ -1,0 +1,3 @@
+Diffuse=bg_shs_stone_commonstone01_d_sup
+Normal=bg_shs_stone_commonstone01_n_sup
+Other[0]=diffuse

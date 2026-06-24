@@ -1,0 +1,208 @@
+Parent = Material3'bfx.fx_m_pa_ribbonmaster_01_tr'
+ScalarParameterValues[26] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = alpha_rampy_power
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = alpha_tex_strength
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = mainalpha_move_u
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.1
+        ParameterName = mainalpha_move_v
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = mainalpha_rotator
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = mainalpha_tile_u
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = mainalpha_tile_v
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = emissive_background
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = emissive_core_power
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_core_strength
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = emissive_power
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = emissive_strength
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = emissive_tex_01_move_u
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.04
+        ParameterName = emissive_tex_01_move_v
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.3
+        ParameterName = emissive_tex_01_panspeed
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = emissive_tex_01_tile_u
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = emissive_tex_01_tile_v
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_tex_02_move_u
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_tex_02_move_v
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = emissive_tex_02_panspeed
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_tex_02_tile_u
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = emissive_tex_02_tile_v
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = uv_noise_panspeed
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = uv_noise_tile_u
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = uv_noise_tile_v
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = uv_noise_velue
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'fx_i_atypical_03_1'
+        ParameterName = alpha_texture
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'fx_d_noise_033'
+        ParameterName = emissive_tex_01
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'fx_d_noise_033'
+        ParameterName = emissive_tex_02
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'fx_a_cloud_022'
+        ParameterName = uv_noise_texture
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.0998074, G=0.0729708, B=0.171264, A=1 }
+        ParameterName = color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

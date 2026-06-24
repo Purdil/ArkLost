@@ -1,0 +1,5 @@
+Diffuse=bg_kurzan_miasma_poison01a_da_ksr
+Normal=bg_kurzan_miasma_poison01a_n_ksr
+Cube=cloud_nomip
+Other[0]=diffuse
+Other[1]=orm

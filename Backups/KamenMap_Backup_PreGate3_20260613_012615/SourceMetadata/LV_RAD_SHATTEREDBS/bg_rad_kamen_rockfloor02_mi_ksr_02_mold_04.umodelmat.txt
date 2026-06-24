@@ -1,0 +1,4 @@
+Diffuse=lv_common_ground_110_d
+Normal=lv_common_ground_110_n
+Other[0]=diffuse
+Other[1]=masktex

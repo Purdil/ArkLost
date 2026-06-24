@@ -1,0 +1,370 @@
+Parent = Material3'pbr.landscape.landscape_pbr_base'
+ScalarParameterValues[33] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = 10
+        ParameterName = specular_power
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.1
+        ParameterName = layer01_brightness
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.1
+        ParameterName = layer01_desaturation
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.6
+        ParameterName = layer01_rotation
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2
+        ParameterName = layer01_tiling
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.95
+        ParameterName = layer02_brightness
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = layer02_desaturation
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = layer02_normal_intensity
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.4
+        ParameterName = layer02_rotation
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.5
+        ParameterName = layer02_tiling
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.9
+        ParameterName = layer03_brightness
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = layer03_desaturation
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = layer03_normal_intensity
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = layer03_rotation
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.8
+        ParameterName = layer03_tiling
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = layer04_brightness
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = layer04_desaturation
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = layer04_rotation
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.3
+        ParameterName = layer04_tiling
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.75
+        ParameterName = layer05_brightness
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.5
+        ParameterName = layer05_desaturation
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = 
+        ParameterValue = -0.85
+        ParameterName = layer05_normal_intensity
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = layer05_rotation
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.3
+        ParameterName = layer05_tiling
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.6
+        ParameterName = layer06_brightness
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0
+        ParameterName = layer06_desaturation
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1.2
+        ParameterName = layer06_normal_intensity
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = 
+        ParameterValue = 1
+        ParameterName = layer06_rotation
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.8
+        ParameterName = layer06_tiling
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = 
+        ParameterValue = 2.8
+        ParameterName = layer07_brightness
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = 
+        ParameterValue = 3
+        ParameterName = layer07_tiling
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = 
+        ParameterValue = 0.2
+        ParameterName = reflection_brightness
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = 
+        ParameterValue = 200
+        ParameterName = specular_power_wet
+    }
+}
+TextureParameterValues[11] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_97_d'
+        ParameterName = layer01_diffuse
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.kamen_test_02'
+        ParameterName = layer02_diffuse
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.kamen_test_n_02'
+        ParameterName = layer02_normal
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_110_d'
+        ParameterName = layer03_diffuse
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_110_n'
+        ParameterName = layer03_normal
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_decal_50c_d'
+        ParameterName = layer04_diffuse
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_100_d'
+        ParameterName = layer05_diffuse
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_100_n'
+        ParameterName = layer05_normal
+    }
+    TextureParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_kur_tile_lava02_em_ksr'
+        ParameterName = layer06_diffuse
+    }
+    TextureParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.bg_kur_tile_lava02_n_ksr'
+        ParameterName = layer06_normal
+    }
+    TextureParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = Texture2D'tex.lv_common_ground_11_d'
+        ParameterName = layer07_diffuse
+    }
+}
+VectorParameterValues[14] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.983389, G=0.983389, B=0.983389, A=1 }
+        ParameterName = layer01_color
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.8, G=0.85, B=1, A=1 }
+        ParameterName = layer01_orm
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.882141, G=0.953896, B=1, A=1 }
+        ParameterName = layer02_color
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.55, G=0.65, B=1, A=1 }
+        ParameterName = layer02_orm
+    }
+    VectorParameterValues[4] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.945817, G=0.996427, B=1, A=1 }
+        ParameterName = layer03_color
+    }
+    VectorParameterValues[5] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.75, G=0.65, B=0.5, A=1 }
+        ParameterName = layer03_orm
+    }
+    VectorParameterValues[6] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.874774, G=0.883335, B=1, A=1 }
+        ParameterName = layer04_color
+    }
+    VectorParameterValues[7] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.75, G=0.8, B=1, A=1 }
+        ParameterName = layer04_orm
+    }
+    VectorParameterValues[8] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.959486, G=0.987736, B=1, A=1 }
+        ParameterName = layer05_color
+    }
+    VectorParameterValues[9] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.5, G=0.6, B=0.9, A=1 }
+        ParameterName = layer05_orm
+    }
+    VectorParameterValues[10] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=1, G=0, B=0.0647235, A=1 }
+        ParameterName = layer06_color
+    }
+    VectorParameterValues[11] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.4, G=0.32, B=0.3, A=1 }
+        ParameterName = layer06_orm
+    }
+    VectorParameterValues[12] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.219101, G=0.202783, B=0.14004, A=1 }
+        ParameterName = layer07_color
+    }
+    VectorParameterValues[13] =
+    {
+        ParameterInfo = 
+        ParameterValue = { R=0.431921, G=0.565911, B=0.668539, A=1 }
+        ParameterName = reflection_color
+    }
+}
+BasePropertyOverrides = 
+StaticParameters = 
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

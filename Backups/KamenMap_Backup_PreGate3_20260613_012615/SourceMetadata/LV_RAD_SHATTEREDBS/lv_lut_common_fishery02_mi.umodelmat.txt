@@ -1,0 +1,7 @@
+Diffuse=bg_lut_common_fishery01_d_bjh
+Normal=bg_lut_common_fishery01_n_bjh
+Other[0]=bg_common_crackwood01_n_ksr
+Other[1]=lv_common_ground_110_d
+Other[2]=lv_common_ground_110_n
+Other[3]=diffuse
+Other[4]=orm

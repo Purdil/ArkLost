@@ -1,0 +1,7 @@
+Diffuse=bg_rad_drlands_rockpillar01_d_hht
+Normal=bg_rad_drlands_rockpillar01_n_hht
+Other[0]=lv_common_ground_06_n
+Other[1]=bg_kurzan_common_tile_sulfur01_da_ksr
+Other[2]=bg_kurzan_common_tile_sulfur01_n_ksr
+Other[3]=orm
+Other[4]=diffuse

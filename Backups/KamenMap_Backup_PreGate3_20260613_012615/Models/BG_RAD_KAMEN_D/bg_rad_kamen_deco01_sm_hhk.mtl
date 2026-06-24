@@ -1,0 +1,8 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\BG_RAD_KAMEN_D\StaticMesh3\bg_rad_kamen_deco01_sm_hhk.gltf
+newmtl BG_RAD_KAMEN_D__bg_rad_kamen_housedome01c_mi_hhk
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_D/bg_rad_kamen_housedome01c_da_hhk.png
+map_Bump ../../Textures/BG_RAD_KAMEN_D/bg_rad_kamen_housedome01c_na_hhk.png
+bump ../../Textures/BG_RAD_KAMEN_D/bg_rad_kamen_housedome01c_na_hhk.png
+

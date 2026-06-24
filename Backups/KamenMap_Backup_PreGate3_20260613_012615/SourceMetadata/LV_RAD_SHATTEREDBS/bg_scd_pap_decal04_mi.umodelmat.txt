@@ -1,0 +1,2 @@
+Diffuse=lv_common_mud_08_d
+Opacity=bg_lut_common_decal02_d_kss

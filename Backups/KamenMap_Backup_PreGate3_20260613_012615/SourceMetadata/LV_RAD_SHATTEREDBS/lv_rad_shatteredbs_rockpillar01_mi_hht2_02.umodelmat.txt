@@ -1,0 +1,4 @@
+Diffuse=bg_rad_drlands_rockpillar01_d_hht
+Normal=bg_rad_drlands_rockpillar01_n_hht
+Emissive=bg_rad_drlands_rockpillar01_em_hht
+Other[0]=diffuse

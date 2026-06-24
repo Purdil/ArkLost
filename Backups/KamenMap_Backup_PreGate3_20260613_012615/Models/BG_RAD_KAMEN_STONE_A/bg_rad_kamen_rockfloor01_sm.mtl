@@ -1,0 +1,15 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\BG_RAD_KAMEN_STONE_A\StaticMesh3\bg_rad_kamen_rockfloor01_sm.gltf
+newmtl BG_RAD_KAMEN_STONE_A__bg_rad_kamen_rockfloor01_mi_ksr
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01_d_ksr.png
+map_Bump ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01_n_ksr.png
+bump ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01_n_ksr.png
+
+newmtl BG_RAD_KAMEN_STONE_A__bg_rad_kamen_rockfloor01a_mi_ksr
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01a_d_ksr.png
+map_Bump ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01a_n_ksr.png
+bump ../../Textures/BG_RAD_KAMEN_STONE_A/bg_rad_kamen_rockfloor01a_n_ksr.png
+

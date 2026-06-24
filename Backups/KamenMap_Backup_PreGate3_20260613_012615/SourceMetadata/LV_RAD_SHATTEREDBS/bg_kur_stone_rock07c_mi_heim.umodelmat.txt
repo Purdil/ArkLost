@@ -1,0 +1,8 @@
+Diffuse=bg_kur_stone_rock07c_d_heim
+Normal=bg_kur_stone_rock07c_n_heim
+Emissive=bg_kur_stone_rock07c_em_heim
+Other[0]=lv_common_ground_06_n
+Other[1]=lv_common_ground_110_d
+Other[2]=lv_common_ground_110_n
+Other[3]=diffuse
+Other[4]=orm

@@ -1,0 +1,6 @@
+Diffuse=lv_common_ground_06_d
+Normal=lv_common_ground_06_n
+Other[0]=lv_common_rock_18_d
+Other[1]=lv_common_rock_23_n
+Other[2]=orm
+Other[3]=diffuse

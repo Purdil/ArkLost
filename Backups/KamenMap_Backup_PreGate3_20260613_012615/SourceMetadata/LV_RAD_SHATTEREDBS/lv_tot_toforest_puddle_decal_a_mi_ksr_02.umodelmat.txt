@@ -1,0 +1,2 @@
+Diffuse=oceansand_test04
+Opacity=lv_lut_crstorm_mask01_d

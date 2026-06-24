@@ -1,0 +1,2 @@
+Normal=cloud_01_n
+Other[0]=cloud_01_m

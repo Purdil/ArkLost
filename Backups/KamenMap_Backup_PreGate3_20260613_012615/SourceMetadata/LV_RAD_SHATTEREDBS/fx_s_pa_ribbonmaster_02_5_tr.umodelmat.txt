@@ -1,0 +1,7 @@
+Opacity=fx_i_atypical_03_1
+Emissive=fx_d_noise_033
+Other[0]=fx_a_cloud_022
+Other[1]=fx_a_noise_008_n
+Other[2]=fx_m_trail_001_cl
+Other[3]=fx_h_atypical_01_1
+Other[4]=fx_j_mirnoise_01

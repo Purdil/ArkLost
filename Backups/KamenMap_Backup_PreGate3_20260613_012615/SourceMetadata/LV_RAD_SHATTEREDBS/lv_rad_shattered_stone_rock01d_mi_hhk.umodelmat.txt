@@ -1,0 +1,3 @@
+Diffuse=bg_kur_stone_rock01d_d_hhk
+Normal=bg_kur_stone_rock01d_n_hhk
+Other[0]=diffuse

@@ -1,0 +1,943 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ydowo" at "2026-06-18T02:35:10.2158687Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32471 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-18T02:35:10Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
+-batchmode
+-quit
+-projectPath
+C:\Users\ydowo\OneDrive\ArkLost
+-executeMethod
+KamenBossControllerAnimationSetup.ApplyRootMotionSettings
+-logFile
+C:\Users\ydowo\OneDrive\ArkLost\KamenRootMotionSettings.log
+Successfully changed project path to: C:\Users\ydowo\OneDrive\ArkLost
+C:/Users/ydowo/OneDrive/ArkLost
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2d3b92dc15e5402fb0dd7bc1b44e5ce9
+  Correlation Id:          19cc7a21e2f49d85d6d52f6525c8650c
+  External correlation Id: 8314682081219956446
+  Machine Id:              DvI4ygTYzOxY9rwGUY1lvQ0yYfc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ydowo" (connect: 0.00s, validation: 0.00s, handshake: 0.83s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ydowo-notifications" at "2026-06-18T02:35:11.0473043Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14569361315088-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.84s
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [78104]  Target information:
+
+Player connection [78104]  * "[IP] 172.31.0.245 [Port] 55504 [Flags] 2 [Guid] 2323259186 [EditorId] 2323259186 [Version] 1048832 [Id] WindowsEditor(7,Purdil) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [78104] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [78104] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-79232" after 0.0 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 4 unused hashed content files
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ydowo/OneDrive/ArkLost/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.15.9227
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004012 seconds.
+- Loaded All Assemblies, in  2.125 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 2224 ms
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.673 seconds
+Domain Reload Profiling: 4795ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (1888ms)
+		LoadAssemblies (119ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1884ms)
+			TypeCache.Refresh (1883ms)
+				TypeCache.ScanAssembly (1871ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2641ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2296ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (151ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+Package Manager log level set to [2]
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.10 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.ai.navigation@c33a115e9883)
+    com.unity.animation.rigging@1.4.1 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.animation.rigging@ae5f251e1ed4)
+    com.unity.behavior@1.0.16 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.behavior@1b9c0eccba9c)
+    com.unity.cinemachine@3.1.6 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.cinemachine@285f38545487)
+    com.unity.collab-proxy@2.11.3 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.collab-proxy@e566cd3e7623)
+    com.unity.ide.rider@3.0.39 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.ide.rider@4504839d03f7)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.18.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.inputsystem@57d0e36f6123)
+    com.unity.timeline@1.8.10 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.timeline@7f8b2fb101b6)
+    com.unity.searcher@4.9.4 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.splines@2.8.3 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.splines@56b2023b4b9f)
+    com.unity.burst@1.8.28 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.burst@07790c2d06d9)
+    com.unity.dt.app-ui@2.1.1 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.dt.app-ui@8ac7e730dd5d)
+    com.unity.collections@2.6.2 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.collections@aea9d3bd5e19)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.mathematics@1.3.3 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.settings-manager@2.1.1 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.settings-manager@0b8638c5ce86)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.2.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.test-framework.performance@0840f58e4562)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.2d.sprite@d14b9d497a24)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.3.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.render-pipelines.universal@37e0d4fc2503)
+    com.unity.shadergraph@17.3.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.shadergraph@c8830f61858d)
+    com.unity.test-framework@1.6.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d)
+    com.unity.ugui@2.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.ugui@bb329a87fcdc)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.3.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.render-pipelines.core@04ab0eefa0c3)
+    com.unity.render-pipelines.universal-config@17.0.3 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d)
+  Git packages:
+    com.gustavopsantos.reflex@https://github.com/gustavopsantos/reflex.git?path=/Assets/Reflex/#14.3.0 (location: C:\Users\ydowo\OneDrive\ArkLost\Library\PackageCache\com.gustavopsantos.reflex@3a57628be427)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/ydowo/OneDrive/ArkLost
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 4s72ms
+[ 860/1114  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1110/1114  3s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[1111/1114  0s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 135 defines and 356 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1112/1114  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1113/1114  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (4.03 seconds), 5 items updated, 1114 evaluated
+AssetDatabase: script compilation time: 4.612881s
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.833 seconds
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-ArkLost
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.891 seconds
+Domain Reload Profiling: 4719ms
+	BeginReloadAssembly (278ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (155ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (329ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3891ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (2862ms)
+			ProcessInitializeOnLoadMethodAttributes (400ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Asset Pipeline Refresh (id=38aad001d5a8ef94099e78a395f6fcca): Total: 11.134 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=5136 ms
+		Asset DB Callback time: managed=444 ms, native=46 ms
+		Scripting: domain reloads=1, domain reload time=833 ms, compile time=4614 ms, other=59 ms
+		Project Asset Count: scripts=2689, non-scripts=16461
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeCustomDependenciesCallbacks: 0.001ms
+	InvokePackagesCallback: 39.074ms
+	ApplyChangesToAssetFolders: 0.867ms
+	Scan: 688.434ms
+	OnSourceAssetsModified: 0.977ms
+	CategorizeAssetsWithTransientArtifact: 52.012ms
+	ProcessAssetsWithTransientArtifactChanges: 67.031ms
+	CategorizeAssets: 207.946ms
+	ImportOutOfDateAssets: 3911.431ms (-708.081ms without children)
+		CompileScripts: 4614.317ms
+		ReloadNativeAssets: 0.039ms
+		UnloadImportedAssets: 0.933ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 2.745ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.476ms
+	PostProcessAllAssets: 446.168ms
+	Hotreload: 6.233ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.004ms
+	UnloadStreamsBegin: 4.040ms
+	PersistCurrentRevisions: 0.711ms
+	UnloadStreamsEnd: 0.002ms
+	GenerateScriptTypeHashes: 7.392ms
+	Untracked: 5709.179ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 2.524ms
+Initializing Unity extensions:
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6564 unused Assets / (4.9 MB). Loaded Objects now: 7549.
+Memory consumption went from 375.9 MB to 371.1 MB.
+Total: 10.095700 ms (FindLiveObjects: 0.478100 ms CreateObjectMapping: 0.313800 ms MarkObjects: 7.684000 ms  DeleteObjects: 1.618900 ms)
+
+Start importing Assets/KamenAsset/Models/v1/Kamen_v1.fbx using Guid(9cdb7426c39db064983daf4a9b647d59) (FBXImporter)Keyframe reduction: Ratio: 14.389585%;
+Keyframe reduction: Ratio: 7.157895%;
+Keyframe reduction: Ratio: 14.231641%;
+Keyframe reduction: Ratio: 17.936092%;
+Keyframe reduction: Ratio: 15.553269%;
+Keyframe reduction: Ratio: 11.303020%;
+Keyframe reduction: Ratio: 24.080967%;
+Keyframe reduction: Ratio: 8.707604%;
+Keyframe reduction: Ratio: 9.840407%;
+Keyframe reduction: Ratio: 21.813335%;
+Keyframe reduction: Ratio: 7.467901%;
+Keyframe reduction: Ratio: 19.007071%;
+Keyframe reduction: Ratio: 11.121804%;
+Keyframe reduction: Ratio: 9.336199%;
+Keyframe reduction: Ratio: 16.062376%;
+Keyframe reduction: Ratio: 13.298994%;
+Keyframe reduction: Ratio: 12.744255%;
+Keyframe reduction: Ratio: 13.517430%;
+Keyframe reduction: Ratio: 5.685402%;
+Keyframe reduction: Ratio: 8.298439%;
+Keyframe reduction: Ratio: 18.069223%;
+Keyframe reduction: Ratio: 17.542284%;
+Keyframe reduction: Ratio: 9.755577%;
+Keyframe reduction: Ratio: 13.257142%;
+Keyframe reduction: Ratio: 5.170768%;
+Keyframe reduction: Ratio: 9.623089%;
+Keyframe reduction: Ratio: 9.491604%;
+Keyframe reduction: Ratio: 25.601274%;
+Keyframe reduction: Ratio: 13.769599%;
+Keyframe reduction: Ratio: 9.735247%;
+Keyframe reduction: Ratio: 8.844913%;
+Keyframe reduction: Ratio: 14.462760%;
+Keyframe reduction: Ratio: 15.471341%;
+Keyframe reduction: Ratio: 8.174035%;
+Keyframe reduction: Ratio: 22.770800%;
+Keyframe reduction: Ratio: 11.630715%;
+Keyframe reduction: Ratio: 22.655348%;
+Keyframe reduction: Ratio: 8.609121%;
+Keyframe reduction: Ratio: 20.421059%;
+Keyframe reduction: Ratio: 9.748657%;
+Keyframe reduction: Ratio: 12.579809%;
+Keyframe reduction: Ratio: 16.190992%;
+Keyframe reduction: Ratio: 13.186376%;
+Keyframe reduction: Ratio: 14.172971%;
+Keyframe reduction: Ratio: 10.180630%;
+Keyframe reduction: Ratio: 8.110803%;
+Keyframe reduction: Ratio: 10.354457%;
+Keyframe reduction: Ratio: 11.530823%;
+Keyframe reduction: Ratio: 10.354457%;
+Keyframe reduction: Ratio: 26.736841%;
+Keyframe reduction: Ratio: 14.877663%;
+Keyframe reduction: Ratio: 4.675763%;
+Keyframe reduction: Ratio: 13.084670%;
+Keyframe reduction: Ratio: 4.691358%;
+Keyframe reduction: Ratio: 10.302901%;
+Keyframe reduction: Ratio: 9.601735%;
+Keyframe reduction: Ratio: 10.783622%;
+Keyframe reduction: Ratio: 20.671682%;
+Keyframe reduction: Ratio: 11.957509%;
+Keyframe reduction: Ratio: 25.288939%;
+Keyframe reduction: Ratio: 20.674541%;
+Keyframe reduction: Ratio: 6.791201%;
+Keyframe reduction: Ratio: 12.937800%;
+Keyframe reduction: Ratio: 8.833961%;
+Keyframe reduction: Ratio: 9.429029%;
+Keyframe reduction: Ratio: 23.395298%;
+Keyframe reduction: Ratio: 13.079629%;
+Keyframe reduction: Ratio: 15.795432%;
+Keyframe reduction: Ratio: 12.325358%;
+Keyframe reduction: Ratio: 8.031359%;
+Keyframe reduction: Ratio: 8.935673%;
+Keyframe reduction: Ratio: 19.026863%;
+Keyframe reduction: Ratio: 9.473685%;
+Keyframe reduction: Ratio: 12.751068%;
+Keyframe reduction: Ratio: 16.007944%;
+Keyframe reduction: Ratio: 10.889424%;
+Keyframe reduction: Ratio: 11.866028%;
+Keyframe reduction: Ratio: 7.578948%;
+Keyframe reduction: Ratio: 13.633314%;
+Keyframe reduction: Ratio: 11.716081%;
+Keyframe reduction: Ratio: 9.494971%;
+Keyframe reduction: Ratio: 17.436672%;
+Keyframe reduction: Ratio: 7.362615%;
+Keyframe reduction: Ratio: 10.836927%;
+Keyframe reduction: Ratio: 9.780845%;
+Keyframe reduction: Ratio: 7.704125%;
+Keyframe reduction: Ratio: 5.619139%;
+Keyframe reduction: Ratio: 10.785424%;
+Keyframe reduction: Ratio: 13.224881%;
+Keyframe reduction: Ratio: 17.058777%;
+Keyframe reduction: Ratio: 7.967611%;
+Keyframe reduction: Ratio: 19.183958%;
+Keyframe reduction: Ratio: 10.779934%;
+Keyframe reduction: Ratio: 7.157894%;
+Keyframe reduction: Ratio: 24.697748%;
+Keyframe reduction: Ratio: 10.074837%;
+Keyframe reduction: Ratio: 9.701396%;
+Keyframe reduction: Ratio: 12.956938%;
+Keyframe reduction: Ratio: 7.147625%;
+Keyframe reduction: Ratio: 7.179767%;
+Keyframe reduction: Ratio: 14.804211%;
+Keyframe reduction: Ratio: 7.840823%;
+Keyframe reduction: Ratio: 6.175438%;
+Keyframe reduction: Ratio: 9.543861%;
+Keyframe reduction: Ratio: 7.011765%;
+Keyframe reduction: Ratio: 9.741440%;
+Keyframe reduction: Ratio: 8.945697%;
+Keyframe reduction: Ratio: 25.684210%;
+Keyframe reduction: Ratio: 5.523801%;
+Keyframe reduction: Ratio: 12.350878%;
+Keyframe reduction: Ratio: 14.502924%;
+Keyframe reduction: Ratio: 8.591175%;
+Keyframe reduction: Ratio: 6.255858%;
+Keyframe reduction: Ratio: 19.555815%;
+Keyframe reduction: Ratio: 14.736841%;
+Keyframe reduction: Ratio: 16.006905%;
+Keyframe reduction: Ratio: 15.271786%;
+Keyframe reduction: Ratio: 9.670290%;
+Keyframe reduction: Ratio: 7.485381%;
+Keyframe reduction: Ratio: 14.423822%;
+Keyframe reduction: Ratio: 16.470015%;
+Keyframe reduction: Ratio: 11.447081%;
+Keyframe reduction: Ratio: 8.156546%;
+Keyframe reduction: Ratio: 16.100367%;
+Keyframe reduction: Ratio: 15.968179%;
+Keyframe reduction: Ratio: 19.130136%;
+Keyframe reduction: Ratio: 27.529423%;
+Keyframe reduction: Ratio: 22.190926%;
+Keyframe reduction: Ratio: 13.029243%;
+Keyframe reduction: Ratio: 26.018587%;
+Keyframe reduction: Ratio: 15.444977%;
+Keyframe reduction: Ratio: 8.982921%;
+Keyframe reduction: Ratio: 28.049547%;
+Keyframe reduction: Ratio: 19.677767%;
+Keyframe reduction: Ratio: 8.885601%;
+Keyframe reduction: Ratio: 20.279272%;
+Keyframe reduction: Ratio: 15.611337%;
+Keyframe reduction: Ratio: 15.999999%;
+Keyframe reduction: Ratio: 21.102165%;
+Keyframe reduction: Ratio: 17.910332%;
+Keyframe reduction: Ratio: 19.451355%;
+Keyframe reduction: Ratio: 17.936090%;
+Keyframe reduction: Ratio: 14.231641%;
+Keyframe reduction: Ratio: 17.473684%;
+Keyframe reduction: Ratio: 15.470496%;
+Keyframe reduction: Ratio: 20.216909%;
+Keyframe reduction: Ratio: 14.491228%;
+Keyframe reduction: Ratio: 20.568169%;
+Keyframe reduction: Ratio: 14.389586%;
+Keyframe reduction: Ratio: 7.467901%;
+Keyframe reduction: Ratio: 10.312827%;
+Keyframe reduction: Ratio: 12.797448%;
+Keyframe reduction: Ratio: 11.093821%;
+Keyframe reduction: Ratio: 14.411901%;
+Keyframe reduction: Ratio: 7.157893%;
+Keyframe reduction: Ratio: 9.058398%;
+Keyframe reduction: Ratio: 25.858109%;
+Keyframe reduction: Ratio: 16.480635%;
+Keyframe reduction: Ratio: 24.768875%;
+Keyframe reduction: Ratio: 27.438602%;
+Keyframe reduction: Ratio: 11.206212%;
+Keyframe reduction: Ratio: 24.945122%;
+Keyframe reduction: Ratio: 18.069227%;
+Keyframe reduction: Ratio: 22.430206%;
+Keyframe reduction: Ratio: 5.170768%;
+Keyframe reduction: Ratio: 21.182964%;
+Keyframe reduction: Ratio: 12.661207%;
+Keyframe reduction: Ratio: 5.079795%;
+Keyframe reduction: Ratio: 13.154497%;
+Keyframe reduction: Ratio: 11.868892%;
+Keyframe reduction: Ratio: 15.999998%;
+Keyframe reduction: Ratio: 21.043472%;
+Keyframe reduction: Ratio: 17.741625%;
+Keyframe reduction: Ratio: 9.967212%;
+Keyframe reduction: Ratio: 14.146455%;
+Keyframe reduction: Ratio: 5.854423%;
+Keyframe reduction: Ratio: 7.157895%;
+Keyframe reduction: Ratio: 11.983611%;
+Keyframe reduction: Ratio: 11.268334%;
+Keyframe reduction: Ratio: 11.826545%;
+Keyframe reduction: Ratio: 13.702633%;
+Keyframe reduction: Ratio: 14.172971%;
+Keyframe reduction: Ratio: 9.980085%;
+Keyframe reduction: Ratio: 14.266089%;
+Keyframe reduction: Ratio: 11.623602%;
+Keyframe reduction: Ratio: 6.200957%;
+Keyframe reduction: Ratio: 11.303021%;
+Keyframe reduction: Ratio: 13.769600%;
+Keyframe reduction: Ratio: 16.153107%;
+Keyframe reduction: Ratio: 5.519617%;
+Keyframe reduction: Ratio: 11.233469%;
+Keyframe reduction: Ratio: 7.300142%;
+Keyframe reduction: Ratio: 24.080975%;
+Keyframe reduction: Ratio: 11.779120%;
+Keyframe reduction: Ratio: 16.549889%;
+Keyframe reduction: Ratio: 8.707603%;
+Keyframe reduction: Ratio: 13.517428%;
+Keyframe reduction: Ratio: 15.553269%;
+Keyframe reduction: Ratio: 9.840407%;
+Keyframe reduction: Ratio: 11.121803%;
+Keyframe reduction: Ratio: 19.007071%;
+Keyframe reduction: Ratio: 12.744252%;
+Keyframe reduction: Ratio: 9.739398%;
+Keyframe reduction: Ratio: 16.062378%;
+Keyframe reduction: Ratio: 21.813335%;
+Keyframe reduction: Ratio: 5.685402%;
+Keyframe reduction: Ratio: 8.298438%;
+Keyframe reduction: Ratio: 13.298994%;
+Keyframe reduction: Ratio: 9.623090%;
+Keyframe reduction: Ratio: 13.257143%;
+Keyframe reduction: Ratio: 9.755577%;
+Keyframe reduction: Ratio: 17.542282%;
+Keyframe reduction: Ratio: 9.672866%;
+Keyframe reduction: Ratio: 4.683561%;
+Keyframe reduction: Ratio: 9.491603%;
+Keyframe reduction: Ratio: 8.609121%;
+Keyframe reduction: Ratio: 8.844912%;
+Keyframe reduction: Ratio: 14.826153%;
+Keyframe reduction: Ratio: 14.462760%;
+Keyframe reduction: Ratio: 8.651555%;
+Keyframe reduction: Ratio: 15.471340%;
+Keyframe reduction: Ratio: 21.495560%;
+Keyframe reduction: Ratio: 9.730996%;
+Keyframe reduction: Ratio: 25.601274%;
+Keyframe reduction: Ratio: 8.110804%;
+Keyframe reduction: Ratio: 12.579809%;
+Keyframe reduction: Ratio: 9.735247%;
+Keyframe reduction: Ratio: 20.421055%;
+Keyframe reduction: Ratio: 11.630715%;
+Keyframe reduction: Ratio: 8.174035%;
+Keyframe reduction: Ratio: 22.655348%;
+Keyframe reduction: Ratio: 22.770800%;
+Keyframe reduction: Ratio: 14.877663%;
+Keyframe reduction: Ratio: 21.976229%;
+Keyframe reduction: Ratio: 10.180630%;
+Keyframe reduction: Ratio: 20.350878%;
+Keyframe reduction: Ratio: 13.186376%;
+Keyframe reduction: Ratio: 13.803204%;
+Keyframe reduction: Ratio: 21.441786%;
+Keyframe reduction: Ratio: 16.190994%;
+Keyframe reduction: Ratio: 9.601735%;
+Keyframe reduction: Ratio: 18.921848%;
+Keyframe reduction: Ratio: 19.191580%;
+Keyframe reduction: Ratio: 19.225264%;
+Keyframe reduction: Ratio: 14.671315%;
+Keyframe reduction: Ratio: 14.347683%;
+Keyframe reduction: Ratio: 4.880972%;
+Keyframe reduction: Ratio: 11.957509%;
+Keyframe reduction: Ratio: 15.228067%;
+Keyframe reduction: Ratio: 12.625197%;
+Keyframe reduction: Ratio: 14.228832%;
+Keyframe reduction: Ratio: 12.350877%;
+Keyframe reduction: Ratio: 4.691358%;
+Keyframe reduction: Ratio: 4.842106%;
+Keyframe reduction: Ratio: 11.866026%;
+Keyframe reduction: Ratio: 12.414670%;
+Keyframe reduction: Ratio: 3.448712%;
+Keyframe reduction: Ratio: 7.846890%;
+Keyframe reduction: Ratio: 3.448712%;
+Keyframe reduction: Ratio: 9.516651%;
+Keyframe reduction: Ratio: 9.814497%;
+Keyframe reduction: Ratio: 7.494736%;
+Keyframe reduction: Ratio: 10.354457%;
+Keyframe reduction: Ratio: 5.009130%;
+Keyframe reduction: Ratio: 4.165660%;
+Keyframe reduction: Ratio: 13.152093%;
+Keyframe reduction: Ratio: 3.589409%;
+Keyframe reduction: Ratio: 3.589409%;
+Keyframe reduction: Ratio: 4.223497%;
+Keyframe reduction: Ratio: 8.092427%;
+Keyframe reduction: Ratio: 4.212522%;
+Keyframe reduction: Ratio: 7.092321%;
+Keyframe reduction: Ratio: 4.250356%;
+Keyframe reduction: Ratio: 4.629991%;
+Keyframe reduction: Ratio: 4.369070%;
+Keyframe reduction: Ratio: 3.381497%;
+Keyframe reduction: Ratio: 3.093661%;
+Keyframe reduction: Ratio: 5.606801%;
+Keyframe reduction: Ratio: 4.545297%;
+Keyframe reduction: Ratio: 5.483819%;
+Keyframe reduction: Ratio: 3.789474%;
+Keyframe reduction: Ratio: 3.240659%;
+Keyframe reduction: Ratio: 13.112129%;
+Keyframe reduction: Ratio: 3.983269%;
+Keyframe reduction: Ratio: 3.713236%;
+Keyframe reduction: Ratio: 3.758069%;
+Keyframe reduction: Ratio: 3.661327%;
+Keyframe reduction: Ratio: 3.271657%;
+Keyframe reduction: Ratio: 15.592678%;
+Keyframe reduction: Ratio: 4.422792%;
+Keyframe reduction: Ratio: 24.088297%;
+Keyframe reduction: Ratio: 5.607061%;
+Keyframe reduction: Ratio: 17.684210%;
+Keyframe reduction: Ratio: 3.290126%;
+Keyframe reduction: Ratio: 22.485571%;
+Keyframe reduction: Ratio: 23.334053%;
+Keyframe reduction: Ratio: 22.322580%;
+Keyframe reduction: Ratio: 13.521234%;
+Keyframe reduction: Ratio: 14.433812%;
+Keyframe reduction: Ratio: 24.959999%;
+Keyframe reduction: Ratio: 2.517693%;
+Keyframe reduction: Ratio: 4.944099%;
+Keyframe reduction: Ratio: 23.831579%;
+Keyframe reduction: Ratio: 3.361883%;
+Keyframe reduction: Ratio: 28.421059%;
+Keyframe reduction: Ratio: 24.810911%;
+Keyframe reduction: Ratio: 19.275400%;
+Keyframe reduction: Ratio: 3.305746%;
+Keyframe reduction: Ratio: 14.690058%;
+Keyframe reduction: Ratio: 16.814035%;
+Keyframe reduction: Ratio: 15.881582%;
+Keyframe reduction: Ratio: 12.219880%;
+Keyframe reduction: Ratio: 20.243032%;
+Keyframe reduction: Ratio: 16.851898%;
+Keyframe reduction: Ratio: 12.460881%;
+Keyframe reduction: Ratio: 13.283531%;
+Keyframe reduction: Ratio: 17.497387%;
+Keyframe reduction: Ratio: 4.740741%;
+Keyframe reduction: Ratio: 10.393923%;
+Keyframe reduction: Ratio: 10.987683%;
+Keyframe reduction: Ratio: 12.971879%;
+Keyframe reduction: Ratio: 18.047844%;
+Keyframe reduction: Ratio: 9.641657%;
+Keyframe reduction: Ratio: 13.405087%;
+Keyframe reduction: Ratio: 14.446280%;
+Keyframe reduction: Ratio: 18.433880%;
+Keyframe reduction: Ratio: 14.819983%;
+Keyframe reduction: Ratio: 9.861096%;
+Keyframe reduction: Ratio: 15.461125%;
+Keyframe reduction: Ratio: 4.150837%;
+Keyframe reduction: Ratio: 31.115789%;
+Keyframe reduction: Ratio: 14.501839%;
+Keyframe reduction: Ratio: 15.219598%;
+Keyframe reduction: Ratio: 15.093118%;
+Keyframe reduction: Ratio: 2.768770%;
+Keyframe reduction: Ratio: 10.529049%;
+Keyframe reduction: Ratio: 24.224110%;
+Keyframe reduction: Ratio: 13.488508%;
+Keyframe reduction: Ratio: 22.136068%;
+Keyframe reduction: Ratio: 15.073683%;
+Keyframe reduction: Ratio: 17.251240%;
+Keyframe reduction: Ratio: 20.598825%;
+Keyframe reduction: Ratio: 26.296646%;
+Keyframe reduction: Ratio: 23.635433%;
+Keyframe reduction: Ratio: 18.083992%;
+Keyframe reduction: Ratio: 10.408329%;
+Keyframe reduction: Ratio: 18.466728%;
+Keyframe reduction: Ratio: 21.409611%;
+Keyframe reduction: Ratio: 3.914989%;
+Keyframe reduction: Ratio: 14.346543%;
+Keyframe reduction: Ratio: 17.506836%;
+Keyframe reduction: Ratio: 23.054361%;
+Keyframe reduction: Ratio: 28.867620%;
+Keyframe reduction: Ratio: 12.564340%;
+Keyframe reduction: Ratio: 11.170579%;
+Keyframe reduction: Ratio: 1.782130%;
+Keyframe reduction: Ratio: 13.219815%;
+Keyframe reduction: Ratio: 13.265523%;
+Keyframe reduction: Ratio: 13.373224%;
+Keyframe reduction: Ratio: 15.652766%;
+Keyframe reduction: Ratio: 25.246315%;
+Keyframe reduction: Ratio: 15.721945%;
+Keyframe reduction: Ratio: 23.893167%;
+Keyframe reduction: Ratio: 4.740741%;
+Keyframe reduction: Ratio: 14.045115%;
+Keyframe reduction: Ratio: 8.484848%;
+Keyframe reduction: Ratio: 12.016194%;
+Keyframe reduction: Ratio: 11.132427%;
+Keyframe reduction: Ratio: 13.345988%;
+Keyframe reduction: Ratio: 12.219582%;
+Keyframe reduction: Ratio: 12.560259%;
+Keyframe reduction: Ratio: 16.583385%;
+Keyframe reduction: Ratio: 14.390095%;
+Keyframe reduction: Ratio: 11.103563%;
+Keyframe reduction: Ratio: 31.725033%;
+Keyframe reduction: Ratio: 15.200877%;
+Keyframe reduction: Ratio: 29.799667%;
+Keyframe reduction: Ratio: 12.361672%;
+Keyframe reduction: Ratio: 10.346351%;
+Keyframe reduction: Ratio: 11.575469%;
+Keyframe reduction: Ratio: 7.068308%;
+Keyframe reduction: Ratio: 9.915444%;
+Keyframe reduction: Ratio: 13.878361%;
+Keyframe reduction: Ratio: 9.403509%;
+Keyframe reduction: Ratio: 25.599571%;
+Keyframe reduction: Ratio: 15.640066%;
+Keyframe reduction: Ratio: 25.235014%;
+Keyframe reduction: Ratio: 23.520609%;
+Keyframe reduction: Ratio: 18.417658%;
+Keyframe reduction: Ratio: 19.699245%;
+Keyframe reduction: Ratio: 10.861772%;
+Keyframe reduction: Ratio: 8.813028%;
+Keyframe reduction: Ratio: 20.689920%;
+Keyframe reduction: Ratio: 16.422724%;
+Keyframe reduction: Ratio: 11.597456%;
+Keyframe reduction: Ratio: 16.158209%;
+Keyframe reduction: Ratio: 17.061987%;
+Keyframe reduction: Ratio: 13.324607%;
+Keyframe reduction: Ratio: 19.344263%;
+Keyframe reduction: Ratio: 24.407473%;
+Keyframe reduction: Ratio: 16.082708%;
+Keyframe reduction: Ratio: 17.174870%;
+Keyframe reduction: Ratio: 20.788052%;
+Keyframe reduction: Ratio: 19.114340%;
+Keyframe reduction: Ratio: 25.025480%;
+Keyframe reduction: Ratio: 20.045113%;
+Keyframe reduction: Ratio: 14.096108%;
+Keyframe reduction: Ratio: 18.245615%;
+Keyframe reduction: Ratio: 12.088341%;
+Keyframe reduction: Ratio: 15.556617%;
+Keyframe reduction: Ratio: 15.619959%;
+Keyframe reduction: Ratio: 23.496788%;
+Keyframe reduction: Ratio: 14.489302%;
+Keyframe reduction: Ratio: 14.891847%;
+Keyframe reduction: Ratio: 10.867708%;
+Keyframe reduction: Ratio: 14.061920%;
+Keyframe reduction: Ratio: 11.140707%;
+Keyframe reduction: Ratio: 10.898450%;
+Keyframe reduction: Ratio: 11.810135%;
+Keyframe reduction: Ratio: 11.046185%;
+Keyframe reduction: Ratio: 19.769100%;
+Keyframe reduction: Ratio: 16.414738%;
+Keyframe reduction: Ratio: 6.901435%;
+Keyframe reduction: Ratio: 16.178137%;
+Keyframe reduction: Ratio: 24.595284%;
+Keyframe reduction: Ratio: 9.283532%;
+Keyframe reduction: Ratio: 11.599320%;
+Keyframe reduction: Ratio: 26.398815%;
+Keyframe reduction: Ratio: 27.326973%;
+Keyframe reduction: Ratio: 10.617670%;
+Keyframe reduction: Ratio: 15.338651%;
+Keyframe reduction: Ratio: 16.000002%;
+Keyframe reduction: Ratio: 20.348368%;
+Keyframe reduction: Ratio: 16.654339%;
+Keyframe reduction: Ratio: 15.578949%;
+Keyframe reduction: Ratio: 17.662617%;
+Keyframe reduction: Ratio: 27.380232%;
+Keyframe reduction: Ratio: 15.047774%;
+Keyframe reduction: Ratio: 14.404381%;
+Keyframe reduction: Ratio: 10.724085%;
+Keyframe reduction: Ratio: 13.236281%;
+Keyframe reduction: Ratio: 20.989922%;
+Keyframe reduction: Ratio: 29.650717%;
+Keyframe reduction: Ratio: 21.419355%;
+Keyframe reduction: Ratio: 13.571317%;
+Keyframe reduction: Ratio: 20.785971%;
+Keyframe reduction: Ratio: 11.211104%;
+Keyframe reduction: Ratio: 16.068747%;
+Keyframe reduction: Ratio: 18.304710%;
+Keyframe reduction: Ratio: 17.930887%;
+Keyframe reduction: Ratio: 20.727274%;
+Keyframe reduction: Ratio: 13.240365%;
+Keyframe reduction: Ratio: 23.524616%;
+Keyframe reduction: Ratio: 20.509420%;
+Keyframe reduction: Ratio: 17.437597%;
+Keyframe reduction: Ratio: 15.695910%;
+Keyframe reduction: Ratio: 16.176739%;
+Keyframe reduction: Ratio: 16.814646%;
+Keyframe reduction: Ratio: 19.146034%;
+Keyframe reduction: Ratio: 18.861773%;
+Keyframe reduction: Ratio: 23.192167%;
+Keyframe reduction: Ratio: 14.723404%;
+Keyframe reduction: Ratio: 12.627678%;
+Keyframe reduction: Ratio: 16.112608%;
+Keyframe reduction: Ratio: 11.283570%;
+Keyframe reduction: Ratio: 12.046786%;
+Keyframe reduction: Ratio: 10.154533%;
+Keyframe reduction: Ratio: 19.150309%;
+Keyframe reduction: Ratio: 23.069620%;
+Keyframe reduction: Ratio: 10.591857%;
+Keyframe reduction: Ratio: 15.699739%;
+Keyframe reduction: Ratio: 12.104299%;
+Keyframe reduction: Ratio: 13.444485%;
+Keyframe reduction: Ratio: 14.472943%;
+Keyframe reduction: Ratio: 15.697823%;
+Keyframe reduction: Ratio: 11.827750%;
+Keyframe reduction: Ratio: 17.633827%;
+Keyframe reduction: Ratio: 13.185824%;
+Keyframe reduction: Ratio: 13.703947%;
+Keyframe reduction: Ratio: 7.702806%;
+Keyframe reduction: Ratio: 12.436710%;
+Keyframe reduction: Ratio: 12.499784%;
+Keyframe reduction: Ratio: 17.758516%;
+Keyframe reduction: Ratio: 14.895815%;
+Keyframe reduction: Ratio: 13.022556%;
+Keyframe reduction: Ratio: 14.376990%;
+Keyframe reduction: Ratio: 12.152379%;
+Keyframe reduction: Ratio: 10.485219%;
+Keyframe reduction: Ratio: 8.745292%;
+Keyframe reduction: Ratio: 12.248802%;
+Keyframe reduction: Ratio: 11.444264%;
+Keyframe reduction: Ratio: 13.604713%;
+ -> (artifact id: '4589cbf821482d42b31aca2d0188d936') in 88.02937470000001 seconds
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Asset Pipeline Refresh (id=19de1967d003a524aa6b7d0cc0ca51e2): Total: 88.211 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=24 ms, native=88164 ms
+		Asset DB Callback time: managed=10 ms, native=11 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2689, non-scripts=16461
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 5
+	InvokeCustomDependenciesCallbacks: 0.000ms
+	InvokePackagesCallback: 0.001ms
+	ApplyChangesToAssetFolders: 0.147ms
+	Scan: 18.289ms
+	OnSourceAssetsModified: 0.001ms
+	CategorizeAssetsWithTransientArtifact: 0.019ms
+	ProcessAssetsWithTransientArtifactChanges: 0.112ms
+	CategorizeAssets: 101.801ms
+	ImportOutOfDateAssets: 88051.081ms (-0.591ms without children)
+		ImportManagerImport: 88047.055ms (4.250ms without children)
+			ImportInProcess: 88042.777ms
+			UpdateCategorizedAssets: 0.028ms
+		ReloadNativeAssets: 0.036ms
+		UnloadImportedAssets: 0.289ms
+		ReloadImportedAssets: 1.671ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.719ms
+		InitializingProgressBar: 0.006ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.896ms
+	PostProcessAllAssets: 18.181ms
+	Hotreload: 3.305ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.885ms
+	UnloadStreamsBegin: 1.174ms
+	PersistCurrentRevisions: 0.577ms
+	UnloadStreamsEnd: 0.001ms
+	Untracked: 15.184ms
+
+Opening scene 'Assets/_Scenes/GameScene.unity'
+[Licensing::Client] Successfully resolved entitlement details
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_Scenes/GameScene.unity'
+	Deserialize:            124.612 ms
+	Integration:            29214.303 ms
+	Integration of assets:  22.700 ms
+	Thread Wait Time:       -0.717 ms
+	Total Operation Time:   29360.896 ms
+Unloading 27 unused Assets / (1.8 KB). Loaded Objects now: 15808.
+Memory consumption went from 1.42 GB to 1.42 GB.
+Total: 16.536600 ms (FindLiveObjects: 0.772100 ms CreateObjectMapping: 0.318700 ms MarkObjects: 15.380700 ms  DeleteObjects: 0.063800 ms)
+
+Start importing ProjectSettings/EditorBuildSettings.asset using Guid(0000000000000000b000000000000000) (LibraryAssetImporter) -> (artifact id: 'a88a42dcc9342604ff7e1403c560378f') in 0.0073306 seconds
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Asset Pipeline Refresh (id=cc86ccc54bb43294cbf02ce942640832): Total: 0.055 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/_Scenes/GameScene.unity using Guid(99c9720ab356a0642a771bea13969a05) (DefaultImporter) -> (artifact id: '6151b90b96a16bfef2436e899f5d7d8c') in 0.0015765 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Asset Pipeline Refresh (id=3107efd828e52e4429822135b62e7fea): Total: 0.034 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Start importing Assets/KamenAsset/SourceMetadata/Kamen_v1_RootMotionSettingsReport.txt using Guid(1b91e64bc98dafc439c21fdb7227946b) (TextScriptImporter) -> (artifact id: 'd0e780df23e19e940bd5e9b7a68259c9') in 0.0032087 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Asset Pipeline Refresh (id=d0f2b4860d8414042bb38a093a78102c): Total: 0.086 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Kamen v1 Root Motion Settings Report
+FBX: Assets/KamenAsset/Models/v1/Kamen_v1.fbx
+Scene: Assets/_Scenes/GameScene.unity
+Previous hasTranslationDoF: True
+Previous motionNodeName: bip001
+Previous rootMotionBoneName: bip001
+Current hasTranslationDoF: True
+Current motionNodeName: bip001
+Current rootMotionBoneName: bip001
+Visual_v1 Animator.applyRootMotion: True
+Clip count: 492
+Clips with root curves: 492
+Clips with motion curves: 0
+Clips with generic root transform: 0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+KamenBossControllerAnimationSetup:ApplyRootMotionSettings () (at Assets/Editor/KamenBossControllerAnimationSetup.cs:192)
+
+(Filename: Assets/Editor/KamenBossControllerAnimationSetup.cs Line: 192)
+
+Batchmode quit successfully invoked - shutting down!
+Killing ADB server in 0.0907115 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-ydowo-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-ydowo channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+11:37:32.133 |V| RiderPlugin                    | :1                             | AppDomain.CurrentDomain.DomainUnload lifetimeDefinition.Terminate
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

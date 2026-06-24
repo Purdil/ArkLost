@@ -1,0 +1,8 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\BG_RAD_KAMEN_B\StaticMesh3\bg_rad_kamen_deco02_sm_kjs.gltf
+newmtl BG_RAD_KAMEN_B__bg_rad_kamen_deco02_mi_kjs
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_deco02_d_kjs.png
+map_Bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_deco02_na_kjs.png
+bump ../../Textures/BG_RAD_KAMEN_B/bg_rad_kamen_deco02_na_kjs.png
+

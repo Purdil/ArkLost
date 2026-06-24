@@ -1,0 +1,9 @@
+Diffuse=crystal_bluegray
+Normal=bg_shs_stone_icebarrier04a_n_ksr
+Specular=ambientreflection_08
+Other[0]=lv_ocn_icefireis_crack01_d_cwk
+Other[1]=bg_rad_valtan_crystal01_em_pcs
+Other[2]=normal
+Other[3]=fx_c_ice_003
+Other[4]=t_envmap_02
+Other[5]=diffuse

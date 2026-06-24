@@ -1,0 +1,4 @@
+Diffuse=bg_fat_etc_cargobox01_d_khg
+Normal=bg_fat_etc_cargobox01_n_khg
+Other[0]=diffuse
+Other[1]=orm

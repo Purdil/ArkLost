@@ -1,0 +1,6 @@
+Diffuse=bg_fat_stone_suburbrock01_a_d_artree
+Normal=bg_fat_stone_suburbrock01_a_n_artree
+Other[0]=lv_common_ground_102_n
+Other[1]=lv_common_ground_103_d
+Other[2]=normal
+Other[3]=diffuse

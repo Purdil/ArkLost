@@ -1,0 +1,3 @@
+Diffuse=lv_common_mix_55_d
+Normal=lv_common_mix_55_n
+Opacity=bg_lut_common_decal02_d_kss

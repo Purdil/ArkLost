@@ -1,0 +1,4 @@
+Diffuse=bg_low_common_house02d_da_cwk
+Normal=bg_low_common_house02d_n_cwk
+Specular=bg_low_common_house02d_s_cwk
+Other[0]=diffuse

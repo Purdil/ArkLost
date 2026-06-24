@@ -1,0 +1,5 @@
+Diffuse=bg_rad_biackiss_tile_wall02_d_ksr
+Normal=bg_rad_biackiss_tile_wall02_n_ksr
+Cube=lightbox_cube3
+Other[0]=diffuse
+Other[1]=orm

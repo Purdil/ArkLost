@@ -1,0 +1,4 @@
+Diffuse=bg_shs_common_cargo01_d_old
+Normal=bg_shs_common_cargo01_n_old
+Other[0]=diffuse
+Other[1]=orm

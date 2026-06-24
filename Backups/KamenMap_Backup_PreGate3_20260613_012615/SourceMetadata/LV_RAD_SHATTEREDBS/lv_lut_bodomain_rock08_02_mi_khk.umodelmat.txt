@@ -1,0 +1,5 @@
+Diffuse=bg_shs_stone_rock03_d_ksh
+Normal=bg_shs_stone_rock03_n_ksh
+Other[0]=kamen_test_05
+Other[1]=kamen_test_n_05
+Other[2]=diffuse

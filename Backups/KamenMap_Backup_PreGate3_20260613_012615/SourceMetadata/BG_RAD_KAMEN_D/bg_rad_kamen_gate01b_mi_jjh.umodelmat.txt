@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_gate01b_d_jjh
+Normal=bg_rad_kamen_gate01b_n_jjh
+Specular=bg_rad_kamen_gate01b_s_jjh
+Other[0]=diffuse

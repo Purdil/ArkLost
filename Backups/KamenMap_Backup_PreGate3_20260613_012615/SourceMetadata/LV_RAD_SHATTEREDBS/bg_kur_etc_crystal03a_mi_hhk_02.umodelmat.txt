@@ -1,0 +1,10 @@
+Diffuse=bg_kur_etc_crystal03_d_hhk
+Normal=bg_kur_etc_crystal03_n_hhk
+Specular=ambientreflection_13
+Emissive=bg_kur_etc_crystal04_d_ksr
+Cube=ambientreflection_11
+Other[0]=bg_kur_etc_crystal04a_n_ksr
+Other[1]=lv_common_rock_21_d
+Other[2]=normal
+Other[3]=diffuse
+Other[4]=ambientreflection_02

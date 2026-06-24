@@ -1,0 +1,6 @@
+Diffuse=bg_fat_karlajavil_woodbridge01_d_lsj
+Normal=bg_fat_karlajavil_woodbridge01_n_lsj
+Specular=bg_fat_karlajavil_woodbridge01_s_lsj
+Other[0]=lv_common_rock_18_d
+Other[1]=lv_common_rock_23_n
+Other[2]=diffuse

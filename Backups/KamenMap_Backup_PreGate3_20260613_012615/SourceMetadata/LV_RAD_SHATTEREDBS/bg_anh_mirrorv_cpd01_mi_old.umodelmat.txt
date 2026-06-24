@@ -1,0 +1,4 @@
+Diffuse=bg_anh_mirrorv_cdp01_d_old
+Normal=bg_anh_mirrorv_cdp01_n_old
+Emissive=bg_anh_mirrorv_cdp01_em_old
+Other[0]=diffuse

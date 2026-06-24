@@ -1,0 +1,7 @@
+Diffuse=bg_rad_kamen_rockfloor03_d_ksr
+Normal=bg_rad_kamen_rockfloor03_n_ksr
+Other[0]=bg_rad_drlands_tile_floor01_n_ksr
+Other[1]=lv_common_grass_39_d
+Other[2]=normal
+Other[3]=orm
+Other[4]=diffuse

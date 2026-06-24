@@ -1,0 +1,3 @@
+Diffuse=bg_shs_etc_ladder02_d_old
+Normal=bg_shs_etc_ladder02_n_old
+Other[0]=diffuse

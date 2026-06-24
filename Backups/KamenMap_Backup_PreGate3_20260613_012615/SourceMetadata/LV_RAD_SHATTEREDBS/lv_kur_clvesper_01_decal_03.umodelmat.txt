@@ -1,0 +1,2 @@
+Diffuse=lv_common_decal_39_d
+Normal=lv_common_decal_39_n

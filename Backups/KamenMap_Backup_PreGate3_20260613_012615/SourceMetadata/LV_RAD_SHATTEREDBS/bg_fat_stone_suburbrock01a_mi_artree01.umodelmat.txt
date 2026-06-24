@@ -1,0 +1,4 @@
+Diffuse=bg_fat_stone_suburbrock01_a_d_artree
+Normal=bg_fat_stone_suburbrock01_a_n_artree
+Other[0]=bg_pap_tile_stonewall01b_d
+Other[1]=diffuse

@@ -1,0 +1,5 @@
+Diffuse=bg_rad_kamen_rock02_d_ksr
+Normal=bg_rad_kamen_rock02_n_ksr
+Other[0]=bg_kur_tile_lava04_d_ksr
+Other[1]=orm
+Other[2]=diffuse

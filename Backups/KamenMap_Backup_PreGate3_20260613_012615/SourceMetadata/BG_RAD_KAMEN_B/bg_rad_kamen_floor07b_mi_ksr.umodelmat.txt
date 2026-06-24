@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_floor07_d_ksr
+Normal=bg_rad_kamen_floor07_n_ksr
+Opacity=bg_rad_kamen_floor07_msk_ksr
+Other[0]=diffuse

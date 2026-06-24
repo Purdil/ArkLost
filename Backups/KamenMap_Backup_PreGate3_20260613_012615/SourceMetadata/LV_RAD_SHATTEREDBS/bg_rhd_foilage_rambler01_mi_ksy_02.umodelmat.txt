@@ -1,0 +1,4 @@
+Diffuse=bg_rhd_foilage_rambler01_da_ksy
+Normal=bg_rhd_foilage_rambler01_n_ksy
+Other[0]=lv_common_ground_100_d
+Other[1]=diffuse

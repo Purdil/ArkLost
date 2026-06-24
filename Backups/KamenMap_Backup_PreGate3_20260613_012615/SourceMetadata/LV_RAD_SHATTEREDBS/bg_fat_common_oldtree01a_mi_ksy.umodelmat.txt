@@ -1,0 +1,4 @@
+Diffuse=bg_fat_common_oldtree01_da_ksy
+Normal=bg_fat_common_oldtree01_n_ksy
+Other[0]=diffuse
+Other[1]=orm

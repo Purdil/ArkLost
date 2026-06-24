@@ -1,0 +1,2 @@
+Diffuse=bg_shs_foliage_drybush01_da_ysi
+Other[0]=diffuse

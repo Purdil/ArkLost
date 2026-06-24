@@ -1,0 +1,5 @@
+Diffuse=bg_kur_stone_floorcrater01_d_hhk
+Normal=bg_kur_stone_floorcrater01_n_hhk
+Other[0]=lv_common_ground_103_d
+Other[1]=normal
+Other[2]=diffuse

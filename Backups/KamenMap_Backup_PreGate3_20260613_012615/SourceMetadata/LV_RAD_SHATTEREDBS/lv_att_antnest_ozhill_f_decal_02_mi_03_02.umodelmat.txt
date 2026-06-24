@@ -1,0 +1,2 @@
+Diffuse=bg_rad_illiakan_floor07d_da_ksr
+Normal=bg_rad_illiakan_floor07d_n_ksr

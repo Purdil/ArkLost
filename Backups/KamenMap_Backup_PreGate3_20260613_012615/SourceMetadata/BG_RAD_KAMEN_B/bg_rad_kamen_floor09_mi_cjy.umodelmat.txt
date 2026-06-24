@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_floor09_d_cjy
+Normal=bg_rad_kamen_floor09_n_cjy
+Specular=bg_rad_kamen_floor09_s_cjy
+Other[0]=diffuse

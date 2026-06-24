@@ -1,0 +1,2 @@
+Diffuse=sky_01
+Other[0]=cube

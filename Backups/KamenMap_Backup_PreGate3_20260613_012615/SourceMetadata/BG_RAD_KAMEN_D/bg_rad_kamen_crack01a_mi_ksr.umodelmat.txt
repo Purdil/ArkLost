@@ -1,0 +1,2 @@
+Diffuse=bg_rad_kamen_crack01a_da_ksr
+Normal=bg_rad_kamen_crack01_n_ksr

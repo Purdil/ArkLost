@@ -1,0 +1,7 @@
+Diffuse=crystal_bluegray
+Normal=bg_shs_stone_icebarrier04a_n_ksr
+Specular=ambientreflection_08
+Other[0]=bg_kur_etc_crystal04a_n_ksr
+Other[1]=diffuse
+Other[2]=normal
+Other[3]=ambientreflection_02

@@ -1,0 +1,4 @@
+Diffuse=bg_ple_pletze_floor02b_da_ksr
+Normal=bg_ple_pletze_floor02b_n_ksr
+Specular=bg_ple_pletze_floor02b_s_ksr
+Other[0]=diffuse

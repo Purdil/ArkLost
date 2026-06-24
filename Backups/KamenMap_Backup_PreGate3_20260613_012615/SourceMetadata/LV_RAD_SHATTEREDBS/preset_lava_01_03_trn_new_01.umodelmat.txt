@@ -1,0 +1,10 @@
+Normal=bg_rad_drlands_tile_floor03_n_ksr
+Emissive=lv_common_rock_28_d
+Other[0]=bg_rad_drlands_tile_floor03a_d_ksr
+Other[1]=fx_j_risingforce_01
+Other[2]=fx_d_noise_040
+Other[3]=fx_d_normal_083
+Other[4]=fx_d_normal_081
+Other[5]=fx_d_normal_081_2
+Other[6]=fx_d_normal_081_1
+Other[7]=fx_d_decal_081

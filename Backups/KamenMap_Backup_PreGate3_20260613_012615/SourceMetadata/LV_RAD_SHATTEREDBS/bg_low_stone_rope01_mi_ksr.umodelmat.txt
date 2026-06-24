@@ -1,0 +1,5 @@
+Diffuse=bg_low_stone_rope01_d_ksr
+Normal=bg_low_stone_rope01_n_ksr
+Other[0]=lv_common_rock_18_d
+Other[1]=lv_common_rock_23_n
+Other[2]=diffuse

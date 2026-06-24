@@ -1,0 +1,6 @@
+Diffuse=bg_kur_stone_crater03a_d_ksr
+Normal=bg_kur_stone_crater03_n_ksr
+Emissive=bg_kur_abydospl_crater03a_em_ksr
+Other[0]=lv_common_ground_100_d
+Other[1]=lv_common_ground_100_n
+Other[2]=diffuse

@@ -1,0 +1,4 @@
+Diffuse=bg_low_etc_box01_da_khb
+Normal=bg_low_etc_box01_n_khb
+Other[0]=diffuse
+Other[1]=orm

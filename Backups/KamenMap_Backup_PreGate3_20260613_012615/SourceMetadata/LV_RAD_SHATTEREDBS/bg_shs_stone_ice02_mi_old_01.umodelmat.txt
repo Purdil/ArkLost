@@ -1,0 +1,6 @@
+Diffuse=bg_atm_stone_dun09_d_msj
+Normal=bg_shs_stone_ice02_n_old
+Other[0]=lv_common_ground_02a_n
+Other[1]=bg_shs_rcarena_snow01_da_psr
+Other[2]=diffuse
+Other[3]=orm

@@ -1,0 +1,6 @@
+Diffuse=bg_kur_stone_floor01_d_ksr
+Normal=bg_kur_stone_floor01_n_ksr
+Emissive=bg_kur_stone_floor01_em_ksr
+Other[0]=bg_kurzan_common_tile_floor03_n_ksr
+Other[1]=orm
+Other[2]=diffuse

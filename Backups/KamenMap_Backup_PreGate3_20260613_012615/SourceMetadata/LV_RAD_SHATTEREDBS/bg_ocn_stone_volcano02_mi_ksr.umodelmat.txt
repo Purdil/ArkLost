@@ -1,0 +1,5 @@
+Diffuse=bg_ocn_stone_volcano01a_d_ksr
+Normal=bg_ocn_stone_volcano01a_n_ksr
+Other[0]=bg_pap_stone_monsterrock01a_02_da_ksr
+Other[1]=bg_pap_stone_monsterrock01a_02_n_ksr
+Other[2]=diffuse

@@ -1,0 +1,5 @@
+Diffuse=bg_kurzan_common_tile_miasma02_da_ksr
+Normal=bg_kurzan_common_tile_miasma02_n_ksr
+Cube=cloud_nomip
+Other[0]=diffuse
+Other[1]=orm

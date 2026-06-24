@@ -1,0 +1,7 @@
+Diffuse=bg_kur_stone_lava01_d_kjs
+Normal=bg_kur_stone_lava01_n_kjs
+Specular=bg_kur_stone_lava01_s_kjs
+Emissive=bg_kur_stone_lava01_em_kjs
+Other[0]=bg_kur_tile_lava02_d_ksr
+Other[1]=bg_kur_tile_lava02_n_ksr
+Other[2]=diffuse

@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_window01b_da_psy
+Normal=bg_rad_kamen_window01b_na_psy
+Cube=ambientreflection_09
+Other[0]=diffuse

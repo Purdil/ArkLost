@@ -1,0 +1,13 @@
+Diffuse=floorcloud_01_d
+Normal=t_snow_normal
+Specular=water_specular
+Cube=space_da
+Other[0]=foam_02
+Other[1]=base_normal_01
+Other[2]=reflection_anihc
+Other[3]=crystal_bluegray_blur
+Other[4]=waterbump_tex
+Other[5]=reflection_forest01
+Other[6]=ambientreflection_10
+Other[7]=cloud
+Other[8]=watercaustic

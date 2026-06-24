@@ -1,0 +1,7 @@
+Normal=fx_d_normal_009
+Other[0]=fx_a_fluid_019_n
+Other[1]=fx_d_environ_035
+Other[2]=fx_e_fire_005_1
+Other[3]=fx_d_atypical_101_cl
+Other[4]=fx_d_environ_001
+Other[5]=fx_d_decal_023

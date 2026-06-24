@@ -1,0 +1,36 @@
+# Converted from D:\Dwonloads\umodel_lostark_v7\extracted\KamenMap_Unity_20260612_172048\RawUModel\GltfMeshes_PngTextures\SK_FIF_HDR_00\SkeletalMesh3\sk_fif_hdr_00_sk.gltf
+newmtl SK_FIF_HDR_00__sk_fif_hdr_00_01_mi_dead
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_01_d.png
+map_Bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_01_n.png
+bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_01_n.png
+
+newmtl SK_FIF_HDR_00__sk_fif_hdr_00_02_mi_dead
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_02_d.png
+map_Bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_02_n.png
+bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_02_n.png
+
+newmtl SK_FIF_HDR_00__sk_fif_hdr_00_03_mi_dead
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_03_d.png
+map_Bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_03_n.png
+bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_03_n.png
+
+newmtl SK_FIF_HDR_00__sk_fif_hdr_00_04_mi_dead
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_04_d.png
+map_Bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_04_n.png
+bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_04_n.png
+
+newmtl SK_FIF_HDR_00__sk_fif_hdr_00_05_mi_dead
+Kd 0.8 0.8 0.8
+Ks 0.2 0.2 0.2
+map_Kd ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_05_d.png
+map_Bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_05_n.png
+bump ../../Textures/SK_FIF_HDR_00/sk_fif_hdr_00_05_n.png
+

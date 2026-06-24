@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_wall01_d_alchemy
+Normal=bg_rad_kamen_wall01_n_alchemy
+Specular=bg_rad_kamen_wall01_s_alchemy
+Other[0]=diffuse

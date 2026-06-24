@@ -1,0 +1,8 @@
+Diffuse=sk_fif_hdr_00_05_d
+Normal=sk_fif_hdr_00_05_n
+Other[0]=sk_fif_hdr_00_05_s
+Other[1]=normal
+Other[2]=diffuse
+Other[3]=flat_gray
+Other[4]=flat_black
+Other[5]=statefx_default

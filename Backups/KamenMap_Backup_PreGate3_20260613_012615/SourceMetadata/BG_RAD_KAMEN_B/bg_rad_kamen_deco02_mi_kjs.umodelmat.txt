@@ -1,0 +1,5 @@
+Diffuse=bg_rad_kamen_deco02_d_kjs
+Normal=bg_rad_kamen_deco02_na_kjs
+Specular=bg_rad_kamen_deco02_s_kjs
+Cube=ambientreflection_14
+Other[0]=diffuse

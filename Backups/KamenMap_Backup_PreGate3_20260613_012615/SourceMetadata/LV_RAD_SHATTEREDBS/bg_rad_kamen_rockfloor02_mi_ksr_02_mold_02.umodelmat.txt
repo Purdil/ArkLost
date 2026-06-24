@@ -1,0 +1,4 @@
+Diffuse=kamen_test_02
+Normal=kamen_test_n_02
+Other[0]=diffuse
+Other[1]=masktex

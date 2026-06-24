@@ -1,0 +1,6 @@
+Diffuse=bg_shs_common_barrel01_d_old
+Normal=bg_shs_common_barrel01_n_old
+Other[0]=lv_common_ground_110_d
+Other[1]=lv_common_ground_110_n
+Other[2]=diffuse
+Other[3]=orm

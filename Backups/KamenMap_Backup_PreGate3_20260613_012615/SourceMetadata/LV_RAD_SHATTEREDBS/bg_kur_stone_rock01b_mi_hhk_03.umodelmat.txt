@@ -1,0 +1,6 @@
+Diffuse=bg_kur_stone_rock01b_d_hhk
+Normal=bg_kur_stone_rock01b_n_hhk
+Emissive=bg_kur_stone_floor01_em_ksr_01
+Other[0]=lv_common_ground_100_d
+Other[1]=lv_common_ground_100_n
+Other[2]=diffuse

@@ -1,0 +1,9 @@
+Diffuse=bg_rad_kamen_rockfloor01a_d_ksr
+Normal=bg_rad_kamen_rockfloor01a_n_ksr
+Emissive=bg_rad_kamen_rockfloor01a_em_ksr
+Other[0]=bg_rad_kamen_rockfloor01_d_ksr
+Other[1]=bg_rad_kamen_rockfloor01_em_ksr
+Other[2]=bg_rad_kamen_rockfloor01_n_ksr
+Other[3]=bg_chs_madnesss_tile05_d_lkj
+Other[4]=normal
+Other[5]=diffuse

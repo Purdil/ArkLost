@@ -1,0 +1,4 @@
+Diffuse=bg_rad_kamen_pillar03_d_csw
+Normal=bg_rad_kamen_pillar03_n_csw
+Specular=bg_rad_kamen_pillar03_s_csw
+Other[0]=diffuse

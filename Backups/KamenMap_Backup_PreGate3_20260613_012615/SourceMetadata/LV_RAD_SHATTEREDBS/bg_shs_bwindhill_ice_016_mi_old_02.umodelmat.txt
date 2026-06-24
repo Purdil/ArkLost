@@ -1,0 +1,13 @@
+Diffuse=lv_rad_haofcold_reflection01_d
+Normal=bg_kur_stone_rock03c_n_ksr
+Specular=ambientreflection_08
+Other[0]=bg_kur_etc_crystal04a_n_ksr
+Other[1]=bg_kur_stone_rock03b_n_ksr
+Other[2]=lv_common_rock_23_n
+Other[3]=lv_common_rock_18_d
+Other[4]=bg_shs_stone_icebarrier05a_env_ksr
+Other[5]=bg_shs_mazeoi_floor01b_env_ksr
+Other[6]=normal
+Other[7]=fx_c_ice_003
+Other[8]=t_envmap_02
+Other[9]=diffuse

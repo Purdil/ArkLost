@@ -1,0 +1,6 @@
+Diffuse=bg_lut_stone_rock_d_sup
+Normal=bg_lut_stone_rock_n_sup
+Other[0]=lv_common_rock_18_d
+Other[1]=lv_common_rock_23_n
+Other[2]=diffuse
+Other[3]=orm

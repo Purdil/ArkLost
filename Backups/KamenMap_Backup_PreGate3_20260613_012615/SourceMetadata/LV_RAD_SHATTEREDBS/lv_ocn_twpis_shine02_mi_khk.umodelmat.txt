@@ -1,0 +1,2 @@
+Other[0]=fx_d_atypical_027
+Other[1]=fx_d_atypical_008

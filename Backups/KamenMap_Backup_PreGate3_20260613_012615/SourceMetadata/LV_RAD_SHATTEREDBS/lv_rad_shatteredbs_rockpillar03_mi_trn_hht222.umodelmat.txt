@@ -1,0 +1,4 @@
+Diffuse=bg_rad_drlands_tile_floor03a_d_ksr
+Normal=bg_rad_drlands_tile_floor03_n_ksr
+Other[0]=diffuse
+Other[1]=masktex

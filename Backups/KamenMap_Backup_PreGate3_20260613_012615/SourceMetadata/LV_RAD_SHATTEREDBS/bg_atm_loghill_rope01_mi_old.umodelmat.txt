@@ -1,0 +1,4 @@
+Diffuse=bg_atm_loghill_rope01_d_old
+Normal=bg_atm_loghill_rope01_n_old
+Other[0]=diffuse
+Other[1]=orm

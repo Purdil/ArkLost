@@ -1,0 +1,2 @@
+Diffuse=puddle_decal_a_d_ksr
+Normal=puddle_decal_a_n_ksr

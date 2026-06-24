@@ -1,0 +1,4 @@
+Diffuse=bg_kur_tree_dry01_d_ksy
+Normal=bg_kur_tree_dry01_n_ksy
+Other[0]=bg_low_common_tile_tree01_n_ksr
+Other[1]=diffuse

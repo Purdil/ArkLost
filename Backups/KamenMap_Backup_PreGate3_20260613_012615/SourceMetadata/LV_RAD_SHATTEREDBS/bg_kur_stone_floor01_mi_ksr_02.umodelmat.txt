@@ -1,0 +1,6 @@
+Diffuse=bg_kur_stone_floor01_d_ksr
+Normal=bg_kur_stone_floor01_n_ksr
+Other[0]=lv_common_ground_110_d
+Other[1]=lv_common_ground_110_n
+Other[2]=orm
+Other[3]=diffuse

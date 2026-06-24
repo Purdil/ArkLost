@@ -1,0 +1,6 @@
+Diffuse=bg_kur_tile_lava05_d_ksr
+Normal=bg_kur_tile_lava05_n_ksr
+Emissive=bg_kur_tile_lava05_em_ksr
+Other[0]=lv_common_ground_104_d
+Other[1]=lv_common_ground_104_n
+Other[2]=diffuse

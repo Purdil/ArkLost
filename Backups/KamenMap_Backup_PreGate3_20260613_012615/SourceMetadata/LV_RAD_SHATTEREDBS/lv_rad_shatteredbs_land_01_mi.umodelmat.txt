@@ -1,0 +1,12 @@
+Diffuse=lv_common_ground_97_d
+Normal=kamen_test_n_02
+Other[0]=kamen_test_02
+Other[1]=lv_common_ground_110_d
+Other[2]=lv_common_ground_110_n
+Other[3]=lv_common_decal_50c_d
+Other[4]=lv_common_ground_100_d
+Other[5]=lv_common_ground_100_n
+Other[6]=bg_kur_tile_lava02_em_ksr
+Other[7]=bg_kur_tile_lava02_n_ksr
+Other[8]=lv_common_ground_11_d
+Other[9]=diffuse

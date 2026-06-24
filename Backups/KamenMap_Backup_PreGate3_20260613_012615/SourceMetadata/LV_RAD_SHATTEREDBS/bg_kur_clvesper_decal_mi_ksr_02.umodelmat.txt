@@ -1,0 +1,3 @@
+Diffuse=kamen_test_05
+Normal=kamen_test_n_05
+Opacity=bg_lut_common_decal02_d_kss

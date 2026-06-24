@@ -1,0 +1,2 @@
+Diffuse=cloud_01_m
+Normal=cloud_01_n

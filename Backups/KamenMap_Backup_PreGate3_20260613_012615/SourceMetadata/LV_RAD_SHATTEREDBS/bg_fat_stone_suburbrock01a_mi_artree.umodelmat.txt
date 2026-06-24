@@ -1,0 +1,3 @@
+Diffuse=bg_fat_stone_suburbrock01_a_d_artree
+Normal=bg_fat_stone_suburbrock01_a_n_artree
+Other[0]=diffuse

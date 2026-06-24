@@ -1,0 +1,10 @@
+Diffuse=bg_kur_etc_crystal04_d_ksr
+Normal=normal
+Other[0]=bg_kur_etc_crystal04a_n_ksr
+Other[1]=lv_common_rock_18_d
+Other[2]=lv_common_rock_23_n
+Other[3]=lv_ocn_icefireis_crack01_d_cwk
+Other[4]=bg_rad_valtan_crystal01_em_pcs
+Other[5]=fx_c_ice_003
+Other[6]=t_envmap_02
+Other[7]=diffuse

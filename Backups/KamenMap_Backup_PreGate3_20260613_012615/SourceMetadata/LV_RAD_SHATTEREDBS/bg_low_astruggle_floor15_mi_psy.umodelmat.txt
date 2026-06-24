@@ -1,0 +1,6 @@
+Diffuse=bg_low_astruggle_floor15_d_psy
+Normal=bg_low_astruggle_floor15_n_psy
+Specular=bg_low_astruggle_floor15_s_psy
+Other[0]=lv_common_rock_18_d
+Other[1]=lv_common_rock_23_n
+Other[2]=diffuse

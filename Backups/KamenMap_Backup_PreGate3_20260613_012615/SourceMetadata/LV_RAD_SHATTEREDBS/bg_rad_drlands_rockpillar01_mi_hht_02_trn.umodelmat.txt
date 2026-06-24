@@ -1,0 +1,3 @@
+Diffuse=diffuse
+Normal=bg_rad_drlands_rockpillar01_n_hht
+Other[0]=masktex

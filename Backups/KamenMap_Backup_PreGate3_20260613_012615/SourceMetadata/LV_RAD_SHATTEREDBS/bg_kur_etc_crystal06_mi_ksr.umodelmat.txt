@@ -1,0 +1,12 @@
+Diffuse=bg_kur_etc_crystal04_d_ksr
+Normal=bg_kur_etc_crystal05_n_ksr
+Specular=ambientreflection_08
+Other[0]=bg_kur_etc_crystal04a_n_ksr
+Other[1]=lv_common_rock_23_n
+Other[2]=snow_02_d
+Other[3]=bg_shs_stone_icebarrier05a_env_ksr
+Other[4]=bg_shs_mazeoi_floor01b_env_ksr
+Other[5]=normal
+Other[6]=fx_c_ice_003
+Other[7]=t_envmap_02
+Other[8]=diffuse

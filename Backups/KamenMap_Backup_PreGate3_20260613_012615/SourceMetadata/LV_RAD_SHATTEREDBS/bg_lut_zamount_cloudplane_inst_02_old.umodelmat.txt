@@ -1,0 +1,8 @@
+Diffuse=bg_lut_zamount_c_d3_old
+Normal=bg_lut_zamount_c_n3_old
+Specular=t_tds_specular04
+SpecPower=t_tds_specular04
+Other[0]=bg_lut_zamount_untitled-1_old
+Other[1]=floorsky_02
+Other[2]=floorsky_03_n
+Other[3]=plane_cloudtex_01_d
