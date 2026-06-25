@@ -1,5 +1,5 @@
 ﻿using _Scripts.Agents;
-using _Scripts.Agents.FSM.AgentTriggers;
+using _Scripts.Agents.AgentTriggers;
 using _Scripts.CombatSystem;
 using CoreSystem.Events;
 using GGMLib.AnimationSystem;

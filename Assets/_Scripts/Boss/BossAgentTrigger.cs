@@ -1,5 +1,5 @@
 ﻿using System;
-using _Scripts.Agents.FSM.AgentTriggers;
+using _Scripts.Agents.AgentTriggers;
 using _Scripts.CoreSystem.Effects;
 using CoreSystem;
 using CoreSystem.Events;

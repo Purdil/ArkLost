@@ -1,6 +1,6 @@
 using System;
 using _Scripts.Agents;
-using _Scripts.Agents.FSM.AgentTriggers;
+using _Scripts.Agents.AgentTriggers;
 using _Scripts.Enemies;
 using Agents;
 using Unity.Behavior;

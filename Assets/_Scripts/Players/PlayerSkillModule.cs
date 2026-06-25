@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using _Scripts.Agents;
+using _Scripts.Agents.AgentTriggers;
 using _Scripts.CombatSystem;
 using _Scripts.Enemies;
 using _Scripts.Players.FSM;

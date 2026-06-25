@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _Scripts.Agents.FSM.AgentTriggers
+namespace _Scripts.Agents.AgentTriggers
 {
     public interface IDamageCastAgentTrigger
     {
