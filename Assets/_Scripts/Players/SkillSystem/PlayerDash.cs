@@ -1,5 +1,6 @@
 using System.Collections;
 using _Scripts.Agents;
+using _Scripts.Agents.FSM.AgentTriggers;
 using _Scripts.CombatSystem;
 using _Scripts.Enemies;
 using GGMLib.AnimationSystem;

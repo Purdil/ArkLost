@@ -1,4 +1,5 @@
 using _Scripts.Agents;
+using _Scripts.Agents.FSM.AgentTriggers;
 using _Scripts.CombatSystem;
 using _Scripts.Enemies.BT;
 using _Scripts.Enemies.BT.Events;

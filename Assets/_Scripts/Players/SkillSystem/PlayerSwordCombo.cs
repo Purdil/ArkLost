@@ -1,5 +1,6 @@
 using System.Collections;
 using _Scripts.Agents;
+using _Scripts.Agents.FSM.AgentTriggers;
 using _Scripts.CombatSystem;
 using Agents;
 using CombatSystem;
@@ -24,7 +25,7 @@ namespace _Scripts.Players.SkillSystem
 
         [SerializeField] private float comboWindow = 0.4f; //콤보가 이어지는 시간
 
-        private AgentTrigger _agentTrigger;
+        private PlayerTrigger _agentTrigger;
         private AbstractDamageCaster _damageCaster;
         private INavAgentRenderer _navAgentRenderer;
         private CharacterMovementManager _movementManager;
@@ -37,7 +38,7 @@ namespace _Scripts.Players.SkillSystem
         public override void InitializeSkill(ISkillModule skillModule)
         {
             base.InitializeSkill(skillModule);
-            _agentTrigger = _player.GetModule<AgentTrigger>();
+            _agentTrigger = _player.GetModule<PlayerTrigger>();
             Debug.Assert(_agentTrigger != null, "Sword combo 공격은 애니메이션 트리거가 필요합니다.");
             _player.GetModule<VfxModule>();
             _navAgentRenderer = _player.GetModule<INavAgentRenderer>();

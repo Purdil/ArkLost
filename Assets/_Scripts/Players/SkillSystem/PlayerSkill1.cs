@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using _Scripts.Agents;
+using _Scripts.Agents.FSM.AgentTriggers;
 using _Scripts.CombatSystem;
 using CombatSystem;
 using CoreSystem.Events;
@@ -19,7 +20,7 @@ namespace _Scripts.Players.SkillSystem
         
         private AbstractDamageCaster _damageCaster;
         private CharacterMovementManager _movementManager;
-        private AgentTrigger _agentTrigger;
+        private PlayerTrigger _agentTrigger;
 
         public override void InitializeSkill(ISkillModule skillModule)
         {
@@ -27,7 +28,7 @@ namespace _Scripts.Players.SkillSystem
             _movementManager = skillModule.Owner.GetModule<CharacterMovementManager>();
             _damageCaster = GetComponentInChildren<AbstractDamageCaster>();
             _damageCaster.InitCaster(skillModule.Owner);
-            _agentTrigger = skillModule.Owner.GetModule<AgentTrigger>();
+            _agentTrigger = skillModule.Owner.GetModule<PlayerTrigger>();
             _lastUsingTime = 0;
         }
 
