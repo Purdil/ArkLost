@@ -21,7 +21,7 @@ namespace _Scripts.Players
         public PlayerController Player { get; private set; }
         private INavMovement _navMovement;
         private INavAgentRenderer _navAgentRenderer;
-        private AgentTrigger _agentTrigger;
+        private IVFXAgentTrigger _agentTrigger;
         public event Action OnCurrentSkillEnd;
 
         private Dictionary<int, ISkill> _skillDict;
@@ -35,7 +35,7 @@ namespace _Scripts.Players
             _navMovement = owner.GetModule<INavMovement>();
             _navAgentRenderer = owner.GetModule<INavAgentRenderer>();
             Debug.Assert(_navAgentRenderer != null, "PlayerSkillModule requires INavAgentRenderer.");
-            _agentTrigger =  Owner.GetModule<AgentTrigger>();
+            _agentTrigger =  Owner.GetModule<IVFXAgentTrigger>();
 
             _skillDict = GetComponentsInChildren<ISkill>()
                 .ToDictionary(skill => skill.SkillData.skillIndex);

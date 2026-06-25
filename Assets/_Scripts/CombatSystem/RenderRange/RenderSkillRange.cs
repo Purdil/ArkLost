@@ -1,4 +1,4 @@
-using _Scripts.Boss.BossSkills;
+using _Scripts.Boss.BossSkillSystem.BossSkills;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;

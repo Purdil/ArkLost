@@ -5,7 +5,7 @@ using _Scripts.Enemies;
 using GGMLib.ModuleSystem;
 using UnityEngine;
 
-namespace _Scripts.Boss
+namespace _Scripts.Boss.BossSkillSystem
 {
     public class BossSkillSelector : MonoBehaviour, IModule, IBossSkillSelector
     {

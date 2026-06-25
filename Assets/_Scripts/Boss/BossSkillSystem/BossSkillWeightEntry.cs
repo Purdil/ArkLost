@@ -2,7 +2,7 @@
 using _Scripts.CombatSystem;
 using UnityEngine;
 
-namespace _Scripts.Boss
+namespace _Scripts.Boss.BossSkillSystem
 {
     [Serializable]
     public class BossSkillWeightEntry

@@ -1,7 +1,7 @@
 using _Scripts.CombatSystem.RenderRange;
 using UnityEngine;
 
-namespace _Scripts.Boss.BossSkills
+namespace _Scripts.Boss.BossSkillSystem.BossSkills
 {
     [System.Serializable]
     public struct RangeRenderData

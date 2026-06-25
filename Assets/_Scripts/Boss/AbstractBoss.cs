@@ -4,6 +4,7 @@ using _Scripts.Enemies.BT;
 using _Scripts.Enemies.BT.Events;
 using Agents;
 using CombatSystem;
+using CoreSystem;
 using Enemies.BT;
 using Enemies.BT.Events;
 using Enemies.Nav;

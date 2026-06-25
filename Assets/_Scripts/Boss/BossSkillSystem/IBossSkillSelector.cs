@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace _Scripts.Boss
+namespace _Scripts.Boss.BossSkillSystem
 {
     public interface IBossSkillSelector
     {

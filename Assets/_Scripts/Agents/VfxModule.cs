@@ -11,13 +11,13 @@ namespace _Scripts.Agents
     {
         private ModuleOwner _owner;
         private Dictionary<int, IPlayableVFX> _playableDict;
-        private AgentTrigger _trigger;
+        private IVFXAgentTrigger _trigger;
         public void Initialize(ModuleOwner owner)
         {
             _owner = owner;
             _playableDict = GetComponentsInChildren<IPlayableVFX>()
                 .ToDictionary(vfx => vfx.VfxName.AssetHash);
-            _trigger = owner.GetModule<AgentTrigger>();
+            _trigger = owner.GetModule<IVFXAgentTrigger>();
         }
         
         public void AfterInit()

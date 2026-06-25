@@ -1,4 +1,5 @@
 using _Scripts.Boss;
+using _Scripts.Boss.BossSkillSystem;
 using UnityEngine;
 
 namespace _Scripts.CombatSystem
